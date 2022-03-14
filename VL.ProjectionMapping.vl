@@ -815,6 +815,7 @@
               <Pin Id="MJczALYWXpSOk4WXI6Vqa0" Name="Child 3" Kind="InputPin" />
               <Pin Id="C1H4P9MMf7DPtGbIWYL66x" Name="Child 4" Kind="InputPin" />
               <Pin Id="Sl3p90BMBeTNnYaPtpaq0v" Name="Child 5" Kind="InputPin" />
+              <Pin Id="ElTUOjBm5J6PoBEZVkoq8K" Name="Child 6" Kind="InputPin" />
               <Pin Id="PLwHcmcMJdEQRJ9F4pGQFk" Name="Enabled" Kind="InputPin" />
               <Pin Id="BwbDnF1ALdpPTP06fFXazL" Name="Output" Kind="OutputPin" />
             </Node>
@@ -897,11 +898,11 @@
                 <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                 <Choice Kind="ProcessAppFlag" Name="SceneWindow" />
               </p:NodeReference>
-              <Pin Id="OeaMucRhMIjMrjNKuevLj1" Name="Bounds" Kind="InputPin" DefaultValue="1061, 562, 786, 432" />
+              <Pin Id="OeaMucRhMIjMrjNKuevLj1" Name="Bounds" Kind="InputPin" DefaultValue="1059, 562, 786, 432" />
               <Pin Id="DQuMRrRfIyXNr4ACX6cXW4" Name="Input" Kind="InputPin" />
               <Pin Id="FMisvUlYMJUMSCbFuFebJk" Name="Camera" Kind="InputPin" />
               <Pin Id="AkytoCZT7NFLC4FnsdC66j" Name="Enable Default Camera" Kind="InputPin" />
-              <Pin Id="NLFtWbnllskN6isSaeh8jF" Name="Title" Kind="InputPin" DefaultValue="Fullscreen on Projector" />
+              <Pin Id="NLFtWbnllskN6isSaeh8jF" Name="Title" Kind="InputPin" DefaultValue="Mapping Window" />
               <Pin Id="QuqjSQpEdmvQDh0HXFInJm" Name="Clear Color" Kind="InputPin" />
               <Pin Id="VCo2X3p91gpNnrJKpLLX1c" Name="Clear" Kind="InputPin" />
               <Pin Id="TPrw4Y7ykrpOPXBu07OtOr" Name="Post Effects" Kind="InputPin" />
@@ -1014,6 +1015,63 @@
               <Pin Id="M9toSsSKRVXOVpXwJCRumS" Name="Unchanged" Kind="OutputPin" />
             </Node>
             <ControlPoint Id="Le3362VZwsfLyN1aO1aZ5U" Bounds="330,137" />
+            <Node Bounds="738,1601,107,19" Id="Onh9XViLFPiMUP2CPTmA3J">
+              <p:NodeReference LastCategoryFullName="Stride.Rendering" LastSymbolSource="VL.Stride.Rendering.vl">
+                <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+                <Choice Kind="ProcessAppFlag" Name="DebugTextRenderer" />
+              </p:NodeReference>
+              <Pin Id="HHl2o9tljCyN0WJ6SqxbR2" Name="Transformation" Kind="InputPin" />
+              <Pin Id="VqTv89wrvMgNxy069BzuOn" Name="Text" Kind="InputPin" DefaultValue="Make this window go fullscreen (Alt+Enter) on the projector output" />
+              <Pin Id="QhNp8OzUhiwPYwl7HQahLG" Name="Position" Kind="InputPin" />
+              <Pin Id="GsKei3vxB2uQMpVrjroLfy" Name="Color" Kind="InputPin" />
+              <Pin Id="D6t35YutOcSQaLwZSAjuAn" Name="Left Aligned" Kind="InputPin" DefaultValue="False" />
+              <Pin Id="IJe2OGTP1cvN8VtNqSg6qD" Name="Top Left" Kind="InputPin" DefaultValue="False" />
+              <Pin Id="TBWbSqX7KwsLdpQvwLiL8l" Name="Output" Kind="StateOutputPin" />
+              <Pin Id="Fe3atOQYzsQN5JaJS85uXp" Name="Success" Kind="OutputPin" />
+              <Pin Id="DwNdHVnN3X1PUlpLsaOzAN" Name="Error Message" Kind="OutputPin" />
+            </Node>
+            <Node Bounds="718,1632,165,19" Id="S23oDniptsuPMGwFCrs8X0">
+              <p:NodeReference LastCategoryFullName="Stride.Rendering" LastSymbolSource="VL.Stride.Engine.vl">
+                <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+                <Choice Kind="ProcessAppFlag" Name="RenderEntity" />
+              </p:NodeReference>
+              <Pin Id="GQyApvMQXunMKBQKDOYe27" Name="Transformation" Kind="InputPin" />
+              <Pin Id="AfTlerSldZtOT2GwMlIZd4" Name="Input" Kind="InputPin" />
+              <Pin Id="KJJF5GJgL8IN7nGmGgU4rY" Name="Render Stage" Kind="InputPin" />
+              <Pin Id="SqGWwrXYXfaQCshdKxh5yV" Name="Single Call Per Frame" Kind="InputPin" />
+              <Pin Id="TykVPgjJxeXQYUKLnkvDuc" Name="Render Group" Kind="InputPin" />
+              <Pin Id="UFk5lsi5fRRLBoqweWSN2W" Name="Components" Kind="InputPin" />
+              <Pin Id="VubMFh7aQQiLtmzNn4fdRn" Name="Children" Kind="InputPin" />
+              <Pin Id="IE47r7kkFl2P3GTvfl98vO" Name="Name" Kind="InputPin" />
+              <Pin Id="JtOioxozkMENcGpT6uCSYK" Name="Enabled" Kind="InputPin" />
+              <Pin Id="A1P7YXl6xWMLdEC9NIMWAL" Name="Output" Kind="OutputPin" />
+            </Node>
+            <Node Bounds="875,1586,37,19" Id="TYTStdwwo30MjYSrpKDd2K">
+              <p:NodeReference LastCategoryFullName="Primitive.Boolean" LastSymbolSource="CoreLibBasics.vl">
+                <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+                <Choice Kind="OperationCallFlag" Name="NOT" />
+              </p:NodeReference>
+              <Pin Id="BL9SJld2P7ELSle1DJNp5x" Name="Input" Kind="StateInputPin" />
+              <Pin Id="UycWhVDdFqbNT1VnzQcfAp" Name="Output" Kind="StateOutputPin" />
+            </Node>
+            <Node Bounds="539,1522" Id="MoBPvuFNK0fMnTrV47FLjT">
+              <p:NodeReference LastCategoryFullName="Stride.API.Games.GameWindow" LastSymbolSource="VL.Stride.Runtime.TypeForwards.vl">
+                <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+                <Choice Kind="OperationCallFlag" Name="IsFullscreen" />
+              </p:NodeReference>
+              <Pin Id="V2AVsnNikBaO5Sp80zQ2Kr" Name="Input" Kind="StateInputPin" />
+              <Pin Id="MokKG8dbGVdLiE2OsVgr6u" Name="Output" Kind="StateOutputPin" />
+              <Pin Id="G8RET6alSU3PXOfdT2h1wE" Name="Is Fullscreen" Kind="OutputPin" />
+            </Node>
+            <Node Bounds="703,1544" Id="ID7t8dErbx9P0JEj8EjZ68">
+              <p:NodeReference LastCategoryFullName="Control" LastSymbolSource="CoreLibBasics.vl">
+                <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+                <Choice Kind="ProcessAppFlag" Name="FrameDelay" />
+                <CategoryReference Kind="Category" Name="Control" NeedsToBeDirectParent="true" />
+              </p:NodeReference>
+              <Pin Id="OSMQV6UduVaOI2xDXzpIBr" Name="Value" Kind="InputPin" />
+              <Pin Id="Qm8o184BYwOPZzYKaIbE6j" Name="Value" Kind="OutputPin" />
+            </Node>
           </Canvas>
           <ProcessDefinition Id="JXZtssGCs7EPVyfQ6Dmbl7">
             <Fragment Id="JU1Q3dHKsy7PkwjaQjPsyF" Patch="QEDYgtIGvgWM0Bd70Gxd4P" Enabled="true" />
@@ -1147,6 +1205,12 @@
             <Pin Id="O80adG6rw80LLJwmPZlKnQ" Name="Reprojection Error" Kind="OutputPin" Bounds="1405,1399" />
           </Patch>
           <Link Id="S4nCugsWaBNLhMH9aeBpL0" Ids="Le3362VZwsfLyN1aO1aZ5U,CqPQbsdCTxcMA29U3QOuOO" />
+          <Link Id="TXA7S2sfnbhPB4LZzwMQ0t" Ids="TBWbSqX7KwsLdpQvwLiL8l,AfTlerSldZtOT2GwMlIZd4" />
+          <Link Id="BewUPu08nBVNI1lPATojMK" Ids="UycWhVDdFqbNT1VnzQcfAp,JtOioxozkMENcGpT6uCSYK" />
+          <Link Id="Cu2jCfPK6n0L7eENhjjbHp" Ids="KCw2Szz84QYOzZADHncy0v,V2AVsnNikBaO5Sp80zQ2Kr" />
+          <Link Id="QHgQfSm2cXSPsWDHyl1ptb" Ids="G8RET6alSU3PXOfdT2h1wE,OSMQV6UduVaOI2xDXzpIBr" />
+          <Link Id="VHg8K7g2PwANhnEbpLmxLO" Ids="Qm8o184BYwOPZzYKaIbE6j,BL9SJld2P7ELSle1DJNp5x" />
+          <Link Id="PZ1EPsrxWGYOojrHSWXg6d" Ids="A1P7YXl6xWMLdEC9NIMWAL,ElTUOjBm5J6PoBEZVkoq8K" />
         </Patch>
       </Node>
       <Canvas Id="BloGsYsJqRNOv1NGb2JE7u" Name="Internal" Position="533,39">
