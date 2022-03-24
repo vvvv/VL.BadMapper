@@ -220,10 +220,11 @@
             <Pin Id="Hb7fyj9670gP83wkBD3Dq7" Name="Test Mapping" Kind="InputPin" DefaultValue="False" />
             <Pin Id="E7PN9aOOUZBLEqNU0eZad2" Name="File Path" Kind="InputPin" />
             <Pin Id="FoRxubEbFuLOTsJbTiDfpl" Name="Write" Kind="InputPin" />
+            <Pin Id="S0bqIW7WAAEOuMhrNO3tbR" Name="Read" Kind="InputPin" />
             <Pin Id="Cc8X9WmIUPxQZEhVhwkNkK" Name="Output" Kind="OutputPin" />
             <Pin Id="QQNIUcRs8ZfO9yg2StImK7" Name="Reprojection Error" Kind="OutputPin" />
           </Node>
-          <Pad Id="MxWtVGkaHbtLDGHBEhzfnk" Comment="Write" Bounds="483,513,35,35" ShowValueBox="true" isIOBox="true" Value="False">
+          <Pad Id="MxWtVGkaHbtLDGHBEhzfnk" Comment="Write" Bounds="502,508,35,35" ShowValueBox="true" isIOBox="true" Value="False">
             <p:TypeAnnotation>
               <Choice Kind="ImmutableTypeFlag" Name="Boolean" />
               <FullNameCategoryReference ID="Primitive" />
@@ -250,9 +251,18 @@
             </p:NodeReference>
             <Pin Id="TARqTE6IgdbP6F3NozJwXA" Name="Directory" Kind="InputPin" />
             <Pin Id="JEecgRulc6zNIke3OTqCSk" Name="Filename" Kind="InputPin" DefaultValue="ViewProjection" />
-            <Pin Id="ICGg5xnExtrQBelCy7Ty2A" Name="Extension" Kind="InputPin" DefaultValue="txt" />
+            <Pin Id="ICGg5xnExtrQBelCy7Ty2A" Name="Extension" Kind="InputPin" DefaultValue="pcb" />
             <Pin Id="AzSPnk7cM8EQHdOW9VAQJc" Name="Result" Kind="OutputPin" />
           </Node>
+          <Pad Id="JsC7ASvlUclPjyYmpKPSGO" Comment="Read" Bounds="585,509,35,35" ShowValueBox="true" isIOBox="true" Value="False">
+            <p:TypeAnnotation>
+              <Choice Kind="ImmutableTypeFlag" Name="Boolean" />
+              <FullNameCategoryReference ID="Primitive" />
+            </p:TypeAnnotation>
+            <p:ValueBoxSettings>
+              <p:buttonmode p:Assembly="VL.UI.Forms" p:Type="VL.HDE.PatchEditor.Editors.ButtonModeEnum">Bang</p:buttonmode>
+            </p:ValueBoxSettings>
+          </Pad>
         </Canvas>
         <Patch Id="RRtXKEw9n6GNK4KyzQwFEp" Name="Create" />
         <Patch Id="T9hMpobOwQkNUuYh7y7Kcm" Name="Update" />
@@ -279,6 +289,8 @@
         <Link Id="MiPNHGIGrsjMS56p8Oj2Vw" Ids="ACCzaTpuLWJPsWc2HR6sB1,R4TzQGVwHS9OQQxtJfGtv2" />
         <Link Id="AQnRPv3oVBnPzts9uP6CT3" Ids="OgbBXwgzbNIQX4AqK31KpC,TARqTE6IgdbP6F3NozJwXA" />
         <Link Id="AnxS72t2MgyMqTX8otGCZ6" Ids="AzSPnk7cM8EQHdOW9VAQJc,E7PN9aOOUZBLEqNU0eZad2" />
+        <Link Id="OqmhIx6mSZdMciTAId7vOt" Ids="RdEldkOQGz0PWv3w7aHs8v,JEecgRulc6zNIke3OTqCSk" />
+        <Link Id="T6UXK4PAAR3QBdMcy2ch2P" Ids="JsC7ASvlUclPjyYmpKPSGO,S0bqIW7WAAEOuMhrNO3tbR" />
       </Patch>
     </Node>
   </Patch>

@@ -260,7 +260,7 @@
             </p:NodeReference>
             <Pin Id="M5sidyfRKTkLhEpGUDMQJU" Name="Directory" Kind="InputPin" />
             <Pin Id="PHE1ujUNvAbPJVzgWdoFu7" Name="Filename" Kind="InputPin" DefaultValue="ViewProjection" />
-            <Pin Id="Kv9aFnw4zHtLTrtfYdTspm" Name="Extension" Kind="InputPin" DefaultValue="txt" />
+            <Pin Id="Kv9aFnw4zHtLTrtfYdTspm" Name="Extension" Kind="InputPin" DefaultValue="pcb" />
             <Pin Id="LCq6JOH9kn2NxgIyiYanui" Name="Result" Kind="OutputPin" />
           </Node>
         </Canvas>
@@ -289,6 +289,7 @@
         <Link Id="Azh76nqjU7FMHGx8GCEKyE" Ids="SiqZSwV8CLgP3HHbArRcXy,Bnij7udzuw3N3cWMa1qc1n" />
         <Link Id="NOMh055oIF6PaljyGKE97H" Ids="Mu42YCye2rbOVPAHoY1b7x,M5sidyfRKTkLhEpGUDMQJU" />
         <Link Id="CuAXocf2B52N1mgQPCeqkG" Ids="LCq6JOH9kn2NxgIyiYanui,PDQJ0FouyGVOZq4tn7f88i" />
+        <Link Id="AD1unNX0rn0PJGWs1wfybS" Ids="N7JI9lz3hTTQLRkNiumAiN,PHE1ujUNvAbPJVzgWdoFu7" />
       </Patch>
     </Node>
   </Patch>

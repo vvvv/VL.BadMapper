@@ -786,11 +786,6 @@
             </p:NodeReference>
             <Pin Id="QUJjf8gDwYNNnsilwj8QUM" Name="Output" Kind="OutputPin" />
           </Node>
-          <Pad Id="VIz6uqSSL66OmJqD0VAWJ2" Comment="File Path" Bounds="59,733,155,15" ShowValueBox="true" isIOBox="true" Value="ViewProjection.txt">
-            <p:TypeAnnotation LastCategoryFullName="IO" LastSymbolSource="CoreLibBasics.vl">
-              <Choice Kind="TypeFlag" Name="Path" />
-            </p:TypeAnnotation>
-          </Pad>
           <Pad Id="VBjhGETc7z3L1OgppwAUMt" Comment="" Bounds="807,480,193,15" ShowValueBox="true" isIOBox="true" Value="Content from spectator's view">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
               <Choice Kind="TypeFlag" Name="String" />
@@ -1002,7 +997,7 @@
             </p:NodeReference>
             <Pin Id="V7qpNYQ3acULNaBJ0ilDY6" Name="Directory" Kind="InputPin" />
             <Pin Id="CGmlqqBOylrLACE0E2GDIJ" Name="Filename" Kind="InputPin" DefaultValue="ViewProjection" />
-            <Pin Id="I6xTi9Do5ANNJR8IVUQfLG" Name="Extension" Kind="InputPin" DefaultValue="txt" />
+            <Pin Id="I6xTi9Do5ANNJR8IVUQfLG" Name="Extension" Kind="InputPin" DefaultValue="pcb" />
             <Pin Id="GDbzgl5Qy39LMfcXRoK3Fd" Name="Result" Kind="OutputPin" />
           </Node>
         </Canvas>
@@ -1041,6 +1036,7 @@
         <Link Id="LNmO7QOo4xwN1wJ4zKwC1L" Ids="LO5xdeDpW15MR2jWAKijjY,EaahnKLJ9gyPnSb8EXypt0" />
         <Link Id="FeIwqXXXG9KLGwKzd7mOA0" Ids="LO5xdeDpW15MR2jWAKijjY,Mttk0ZHm6d1LGQyJlCp4Qo" />
         <Link Id="O0GXdjsoYteOCAosiTGnOM" Ids="GDbzgl5Qy39LMfcXRoK3Fd,PDQJ0FouyGVOZq4tn7f88i" />
+        <Link Id="U8NPK4GmK1cOZgvgCIWWej" Ids="PlxnLSBOPvML3L9shlgBnq,CGmlqqBOylrLACE0E2GDIJ" />
       </Patch>
     </Node>
   </Patch>

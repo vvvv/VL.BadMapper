@@ -116,13 +116,13 @@
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="CircleMapping (Interactive)" />
             </p:NodeReference>
-            <Pin Id="RXXKLHzg3ecQXszrtVI88E" Name="Initial Crop" Kind="InputPin" DefaultValue="0.02028978, -0.2000002, 1.257972, 1.113044" />
+            <Pin Id="RXXKLHzg3ecQXszrtVI88E" Name="Initial Crop" Kind="InputPin" DefaultValue="-0.368116, -0.3217392, 0.7130435, 0.6782609" />
             <Pin Id="MRhy20l7Vi4QdosTKc72aA" Name="Initial Screen Points" Kind="InputPin">
               <p:DefaultValue>
-                <Item>-1.708716, -0.9357799</Item>
-                <Item>-0.6857796, -0.9357799</Item>
-                <Item>-0.6811924, -0.01834875</Item>
-                <Item>-1.65367, -0.06422031</Item>
+                <Item>-1.350918, -0.848624</Item>
+                <Item>-0.3279813, -0.848624</Item>
+                <Item>-0.3233941, 0.06880718</Item>
+                <Item>-1.295872, 0.02293563</Item>
               </p:DefaultValue>
             </Pin>
             <Pin Id="F9RDB3wAQI2M9RTQWNcY3Q" Name="Texture" Kind="InputPin" />

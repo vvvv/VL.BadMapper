@@ -5016,7 +5016,7 @@
     ************************ Mask (Interactive) ************************
 
 -->
-      <Node Name="Mask (Interactive)" Bounds="682,453" Id="LDEhiELSHKYMT6rA376dAB">
+      <Node Name="Mask (Interactive)" Aspects="Internal" Bounds="682,453" Id="LDEhiELSHKYMT6rA376dAB">
         <p:NodeReference>
           <Choice Kind="ClassDefinition" Name="Class" />
           <FullNameCategoryReference ID="Primitive" />
