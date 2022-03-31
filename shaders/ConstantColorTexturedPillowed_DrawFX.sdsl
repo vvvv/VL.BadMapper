@@ -8,14 +8,8 @@
         float2 c = float2(0.5f, 0.5f);
         float2 uv = streams.TexCoord;
         float d = distance(uv, c);
-        //uv.x *= Pillow;
         float4 color = Texture0.Sample(LinearSampler, uv) * ColorInput;
-        float halo = clamp(d-(0.5-Pillow), 0, Pillow);
-        float f = halo/Pillow;
-        float g = Gamma/(1.00001-Gamma);
-        f = smoothstep(0,1,f);
-        f = pow(f, g);
-        color.a = lerp(1, 0, f);
+        color.a = smoothstep(1, 1-Pillow, d*2);
         streams.ColorTarget = color;
     }
 };
