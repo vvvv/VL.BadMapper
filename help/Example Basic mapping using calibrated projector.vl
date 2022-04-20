@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Document xmlns:p="property" Id="CUIzzMtXbMXL1PSyxhqGoY" LanguageVersion="2021.4.7.906" Version="0.128">
-  <NugetDependency Id="Rq1hxtGm4prLgcbPnzpr1q" Location="VL.CoreLib" Version="2021.4.7" />
+<Document xmlns:p="property" Id="CUIzzMtXbMXL1PSyxhqGoY" LanguageVersion="2022.5.0.40" Version="0.128">
+  <NugetDependency Id="Rq1hxtGm4prLgcbPnzpr1q" Location="VL.CoreLib" Version="2022.5.0-0040-ga26979bfc2" />
   <Patch Id="EflKC5Ddi2BN1mZWLv60qK">
     <Canvas Id="NBB3K3ClmntMsyQxzUGU5L" DefaultCategory="Main" CanvasType="FullCategory" />
     <!--
@@ -15,7 +15,7 @@
       </p:NodeReference>
       <Patch Id="Vj25sLBZxhZPwNAg67Fwvh">
         <Canvas Id="NWbLQWqcfy2P7zZPeYFfDI" CanvasType="Group">
-          <Pad Id="MyKGDXXNk07PcRaejNOgPT" Comment="Read" Bounds="385,664,47,48" ShowValueBox="true" isIOBox="true" Value="False">
+          <Pad Id="MyKGDXXNk07PcRaejNOgPT" Comment="Read" Bounds="385,604,47,48" ShowValueBox="true" isIOBox="true" Value="False">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
               <Choice Kind="TypeFlag" Name="Boolean" />
             </p:TypeAnnotation>
@@ -28,7 +28,7 @@
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="SceneWindow" />
             </p:NodeReference>
-            <Pin Id="CllYewhIZCaOGiWbSqbbtF" Name="Bounds" Kind="InputPin" DefaultValue="1033, 85, 786, 432">
+            <Pin Id="CllYewhIZCaOGiWbSqbbtF" Name="Bounds" Kind="InputPin" DefaultValue="1100, 562, 786, 432">
               <p:TypeAnnotation LastCategoryFullName="2D" LastSymbolSource="CoreLibBasics.vl">
                 <Choice Kind="TypeFlag" Name="Rectangle" />
               </p:TypeAnnotation>
@@ -62,7 +62,7 @@
             <Pin Id="GiznP5NPBLaM7ioTMCYCNH" Name="Back Buffer" Kind="OutputPin" />
             <Pin Id="Rdc6V31wNgiMSeY1rocf7I" Name="Depth Buffer" Kind="OutputPin" />
           </Node>
-          <Node Bounds="215,575,85,19" Id="Jq7cC97kcBvLbnbkJYt6j8">
+          <Node Bounds="215,695,85,19" Id="Jq7cC97kcBvLbnbkJYt6j8">
             <p:NodeReference LastCategoryFullName="Stride" LastSymbolSource="VL.Stride.Engine.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <CategoryReference Kind="Category" Name="Stride" NeedsToBeDirectParent="true" />
@@ -107,7 +107,7 @@
             <Pin Id="NdB7HBGOBuJPMwnbGzLZI0" Name="Enabled" Kind="InputPin" />
             <Pin Id="B2h5H8JV8beM4riR0p9TYA" Name="Entity" Kind="OutputPin" />
           </Node>
-          <Node Bounds="235,714,78,19" Id="V5KNSdhCcaxMnMCeqOoKgz">
+          <Node Bounds="235,654,78,19" Id="V5KNSdhCcaxMnMCeqOoKgz">
             <p:NodeReference>
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessNode" Name="ProjectorView" />
@@ -230,7 +230,7 @@
             <Pin Id="AXfhZSvOkoCLzyAhO40ZVb" Name="Enabled" Kind="InputPin" />
             <Pin Id="HptsJzEgvWfPZJLiywIjZ5" Name="Output" Kind="OutputPin" />
           </Node>
-          <Node Bounds="308,676,54,19" Id="ShjMza6bRPfPCCdsvZQuhN">
+          <Node Bounds="308,616,54,19" Id="ShjMza6bRPfPCCdsvZQuhN">
             <p:NodeReference LastCategoryFullName="Control" LastSymbolSource="CoreLibBasics.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="OnOpen" />
@@ -290,10 +290,11 @@
         <Link Id="NOMh055oIF6PaljyGKE97H" Ids="Mu42YCye2rbOVPAHoY1b7x,M5sidyfRKTkLhEpGUDMQJU" />
         <Link Id="CuAXocf2B52N1mgQPCeqkG" Ids="LCq6JOH9kn2NxgIyiYanui,PDQJ0FouyGVOZq4tn7f88i" />
         <Link Id="AD1unNX0rn0PJGWs1wfybS" Ids="N7JI9lz3hTTQLRkNiumAiN,PHE1ujUNvAbPJVzgWdoFu7" />
+        <Link Id="MiVIZCbYb1QMUbshcRpoZZ" Ids="HDeuVbmhvaMP3PseLblWuo,Et2wJMiB2bVQOdiF7sjwuK" />
       </Patch>
     </Node>
   </Patch>
-  <NugetDependency Id="O4cakjMGDhTLmzD7Q9aWkK" Location="VL.Stride" Version="2021.4.7" />
-  <NugetDependency Id="QVX8J73UwogLed0cE5PoDh" Location="VL.Skia" Version="2021.4.7" />
+  <NugetDependency Id="O4cakjMGDhTLmzD7Q9aWkK" Location="VL.Stride" Version="2022.5.0-0040-ga26979bfc2" />
+  <NugetDependency Id="QVX8J73UwogLed0cE5PoDh" Location="VL.Skia" Version="2022.5.0-0040-ga26979bfc2" />
   <NugetDependency Id="B7kLvTz2LTdQY43ieN6aRP" Location="VL.BadMapper" Version="0.0.0.0" />
 </Document>

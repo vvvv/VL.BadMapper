@@ -1,0 +1,40 @@
+[Summary("Draws the content without softedges onto a mesh.")]
+shader Mapping_DrawFX : VS_PS_Base, Texturing, Camera
+{
+    float4x4 TextureTransformation;
+    stream float4 TransformedTextureCoord;
+    float2 ViewportSize = ViewSize;
+    
+    float Gamma = 1;
+    
+    bool CompensateLightFalloff;
+    float GlobalLightCompensation = 1.0f;
+    float GlobalAlpha = 1.0f;
+
+    override stage void VSMain()
+    {
+        streams.ShadingPosition = mul(streams.Position, WorldViewProjection);
+        streams.TransformedTextureCoord = mul(float4(streams.TexCoord.xy, 0, 1.0f), TextureTransformation);
+    }
+
+    override stage void PSMain()     
+    {           
+        float alpha = 1.0f;
+       
+        if (CompensateLightFalloff)
+        {
+            float2 texel = streams.TexCoord.xy * ViewportSize.xy;
+            float2 texelU = ddx(texel);
+            float2 texelV = ddy(texel);
+            float size = length(texelU) * length(texelV);
+            alpha *= size * GlobalLightCompensation;
+        }
+       
+        alpha = pow(alpha, Gamma);
+
+        streams.TransformedTextureCoord /= streams.TransformedTextureCoord.w;
+        float4 content = Texture0.Sample(LinearSampler, streams.TransformedTextureCoord);
+        streams.ColorTarget = float4(content.rgb*alpha*GlobalAlpha,1);
+        streams.Depth = 1;
+    }
+};

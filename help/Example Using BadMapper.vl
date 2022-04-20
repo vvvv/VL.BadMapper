@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Document xmlns:p="property" Id="C6PwghiFZtsMGBfNc3AKun" LanguageVersion="2021.4.8.947" Version="0.128">
-  <NugetDependency Id="GzbYazjJ5WNMiNJES4peBP" Location="VL.CoreLib" Version="2021.4.8" />
+<Document xmlns:p="property" Id="C6PwghiFZtsMGBfNc3AKun" LanguageVersion="2021.4.9.951" Version="0.128">
+  <NugetDependency Id="GzbYazjJ5WNMiNJES4peBP" Location="VL.CoreLib" Version="2021.4.9-0951-gadd98db1ec" />
   <Patch Id="GwoJFsZ1pWmMtcj5qIbVPp">
     <Canvas Id="EYBdsYtxsX8MqjOqPOi7Uy" DefaultCategory="Main" CanvasType="FullCategory" />
     <!--
@@ -30,7 +30,7 @@
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="SceneWindow" />
             </p:NodeReference>
-            <Pin Id="HLvHxWm8MXMOn8EAatLpnT" Name="Bounds" Kind="InputPin" DefaultValue="1039, 449, 871, 422" />
+            <Pin Id="HLvHxWm8MXMOn8EAatLpnT" Name="Bounds" Kind="InputPin" DefaultValue="1039, 449, 852, 422" />
             <Pin Id="Ajpz3Vk5OpKMBHWJebxHEH" Name="Input" Kind="InputPin" />
             <Pin Id="GwyAWjrFw1ENg0SqHMXT3k" Name="Camera" Kind="InputPin" />
             <Pin Id="RS8dsY5pTl8OijX9UIFjtH" Name="Enable Default Camera" Kind="InputPin" />
@@ -94,13 +94,13 @@
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="CircleMapping (Interactive)" />
             </p:NodeReference>
-            <Pin Id="CRg7jPFTSxGLsnCcbxiIAv" Name="Initial Crop" Kind="InputPin" DefaultValue="-0.6291611, -0.6363636, 1.346333, 1.328005" />
+            <Pin Id="CRg7jPFTSxGLsnCcbxiIAv" Name="Initial Crop" Kind="InputPin" DefaultValue="-0.6228958, -0.5084174, 1.151515, 1.117845" />
             <Pin Id="STlKot0rVG1NBoytuNar6x" Name="Initial Screen Points" Kind="InputPin">
               <p:DefaultValue>
-                <Item>-0.7648482, -0.4685441</Item>
-                <Item>0.04976285, -0.4715637</Item>
-                <Item>-0.1173517, 0.3336321</Item>
-                <Item>-0.7478721, 0.2768262</Item>
+                <Item>-1.967187, -0.5019858</Item>
+                <Item>-0.5122116, -0.421417</Item>
+                <Item>-0.7586569, 0.4221852</Item>
+                <Item>-1.938751, 0.4837965</Item>
               </p:DefaultValue>
             </Pin>
             <Pin Id="QpOeZshgKJiM6lPAxUmESZ" Name="Texture" Kind="InputPin" />
@@ -182,16 +182,34 @@
             <Pin Id="NOdwnfGXK4POTePv5TcJJl" Name="Initial Crop" Kind="InputPin" />
             <Pin Id="LNxK9dM9zQcOjBDXuYbF3W" Name="Initial Screen Points" Kind="InputPin">
               <p:DefaultValue>
-                <Item>0.1018958, -0.3388627</Item>
-                <Item>1.101896, -0.3388627</Item>
-                <Item>0.9549764, 0.3696682</Item>
-                <Item>0.2298579, 0.3744075</Item>
+                <Item>-0.2610268, -0.3692843</Item>
+                <Item>0.6066351, -0.2180096</Item>
+                <Item>0.6587679, 0.4597157</Item>
+                <Item>-0.2039405, 0.2304342</Item>
               </p:DefaultValue>
             </Pin>
             <Pin Id="VfVD0C5ii5sOjTfCEaojGm" Name="Texture" Kind="InputPin" />
             <Pin Id="DEmUNxCpmC2PNS46ZeLXg7" Name="Pillow" Kind="InputPin" DefaultValue="0" />
             <Pin Id="BMvoWJrk3KJOQsoqblDUPv" Name="Enabled" Kind="InputPin" />
             <Pin Id="F4Zy4rQk1g1PMGoQEjLCHY" Name="Output" Kind="StateOutputPin" />
+          </Node>
+          <Node Bounds="264,265" Id="QsuYlZf6PocOD6foyRkOm3">
+            <p:NodeReference LastCategoryFullName="Stride.Textures.Source" LastSymbolSource="VL.Stride.Windows.vl">
+              <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+              <CategoryReference Kind="Category" Name="Source" />
+              <Choice Kind="ProcessAppFlag" Name="Circle" />
+            </p:NodeReference>
+            <Pin Id="BnrMGELeuLrOjzjqjGxMMJ" Name="Position" Kind="InputPin" />
+            <Pin Id="HeBHcnRMD5aMDBtOsESQZZ" Name="Radius" Kind="InputPin" DefaultValue="0.35" />
+            <Pin Id="OXp4dplzTZcM4FYy1XtJPT" Name="Background Color" Kind="InputPin" />
+            <Pin Id="Bq4Q0jrArVuMRm6EJZzYVo" Name="Fill Color" Kind="InputPin" />
+            <Pin Id="MxLqm2QobqxPCtM0jZvb8B" Name="Fill Enabled" Kind="InputPin" />
+            <Pin Id="F7reVth8rDOPffoXLD9En1" Name="Stroke Color" Kind="InputPin" />
+            <Pin Id="M0ew0IrfqDyPuxwkpZY7bh" Name="Stroke Width" Kind="InputPin" />
+            <Pin Id="Q0gaw6roa4ePaUbUIDDWeb" Name="Stroke Offset" Kind="InputPin" />
+            <Pin Id="OIyWJJ0kie3M41Fh9zOhMY" Name="Stroke Enabled" Kind="InputPin" />
+            <Pin Id="AEGyTmBdg8aPzaWIL6HCZK" Name="Output Size" Kind="InputPin" />
+            <Pin Id="I0JRl75RP4QLyH8FVriple" Name="Output" Kind="OutputPin" />
           </Node>
         </Canvas>
         <Patch Id="JGk4J3vPMufM6HKm7vUCVd" Name="Create" />
@@ -211,16 +229,16 @@
         <Link Id="Ih9GVMIawQwPjrmNjBK4nD" Ids="ETBXUQ2VwFfLRFBcKdLwPK,R0ZXFrizacvLzdF69Nn4B3" />
         <Link Id="V5hOsDRkhuUL23QqpoV63U" Ids="ETBXUQ2VwFfLRFBcKdLwPK,PwUQzUROQNBLygbbv5mjhJ" />
         <Link Id="GJpaRDENs1NPPpoDPEZlvy" Ids="LKOEb7GtIDUPdbEnn5vUYK,G81n7ZWfInzLhX8xtDHLPy" />
-        <Link Id="KPooRQqpupMPPvHXvHQhYZ" Ids="LKOEb7GtIDUPdbEnn5vUYK,QpOeZshgKJiM6lPAxUmESZ" />
         <Link Id="KXVCuRP8lJPMPIfBx0clGJ" Ids="R2euREtwtCOQCMGUQFHQX5,Rd43avrQ81wNJlykyDOhos" />
         <Link Id="VbktYv38fnmLitSoees3j8" Ids="U4UZ5epUHJNOkUsBwWQk5Z,B1ctsgHXpKGOw5YeGoa9Dk" />
         <Link Id="JtExcF4dqNAOaKTxgySEW4" Ids="F4Zy4rQk1g1PMGoQEjLCHY,SMb3ToW5bxnOVxh9f7uuCF" />
         <Link Id="EKmt6gYaa6kN7b2v8t8KAQ" Ids="LKOEb7GtIDUPdbEnn5vUYK,VfVD0C5ii5sOjTfCEaojGm" />
+        <Link Id="Lyy4xtmup17QICWw7b1rcB" Ids="I0JRl75RP4QLyH8FVriple,QpOeZshgKJiM6lPAxUmESZ" />
       </Patch>
     </Node>
   </Patch>
-  <NugetDependency Id="JKgSg3DJV5hOvXHrZ4IT63" Location="VL.CoreLib" Version="2021.4.8" />
-  <NugetDependency Id="C0BsGvMjxA4OMRkU585rmS" Location="VL.Stride" Version="2021.4.8" />
-  <NugetDependency Id="BQmMRJqWlnwQVVllVL0Iln" Location="VL.Video.MediaFoundation" Version="0.0.0.0" />
+  <NugetDependency Id="JKgSg3DJV5hOvXHrZ4IT63" Location="VL.CoreLib" Version="2021.4.9-0951-gadd98db1ec" />
+  <NugetDependency Id="C0BsGvMjxA4OMRkU585rmS" Location="VL.Stride" Version="2021.4.9-0951-gadd98db1ec" />
+  <NugetDependency Id="BQmMRJqWlnwQVVllVL0Iln" Location="VL.Video.MediaFoundation" Version="1.0.10" />
   <NugetDependency Id="MCAY2P47PHSOO0MidFd7pa" Location="VL.BadMapper" Version="0.0.0.0" />
 </Document>

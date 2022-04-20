@@ -1,0 +1,28 @@
+<MappingParameters Overlaps="0.4, 0.4, 0.4, 0.4">
+  <Per_Projection>
+    <Item Color_Transformation="1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1" Compensate_For_Light_Falloff="-0.55" Rotation="0" Screen_ID="0">
+      <Points>
+        <Item>-0.858, 0.768</Item>
+        <Item>0.839, 0.739</Item>
+        <Item>0.883, -0.997</Item>
+        <Item>-0.964, -0.984</Item>
+      </Points>
+    </Item>
+    <Item Color_Transformation="1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1" Compensate_For_Light_Falloff="-0.32" Rotation="0" Screen_ID="1">
+      <Points>
+        <Item>-0.886, 0.909</Item>
+        <Item>0.555, 0.739</Item>
+        <Item>0.92, -0.555</Item>
+        <Item>-0.9620001, -0.496</Item>
+      </Points>
+    </Item>
+    <Item Color_Transformation="1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1" Compensate_For_Light_Falloff="0.28" Rotation="0" Screen_ID="2">
+      <Points>
+        <Item>-0.74, 0.9400001</Item>
+        <Item>0.516, 0.493</Item>
+        <Item>0.766, -0.987</Item>
+        <Item>-0.799, -0.477</Item>
+      </Points>
+    </Item>
+  </Per_Projection>
+</MappingParameters>
