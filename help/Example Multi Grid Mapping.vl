@@ -34,9 +34,9 @@
             <Pin Id="PS1HsMKyui9M18ew8l3Xlw" Name="Output" Kind="StateOutputPin" />
           </Node>
           <Node Bounds="451,581,145,19" Id="KThtB9VpYkOLtKxXfJuEbH">
-            <p:NodeReference>
+            <p:NodeReference LastCategoryFullName="Mapping" LastSymbolSource="VL.BadMapper.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
-              <Choice Kind="ProcessAppFlag" Name="CropAndMap" />
+              <Choice Kind="ProcessAppFlag" Name="CropAndMap (Raw)" />
             </p:NodeReference>
             <Pin Id="Rorgb8WNPHdOH4DLAId33Y" Name="Content Texture" Kind="InputPin" />
             <Pin Id="KceKWPEuvppMLHMuJtVOVh" Name="Mapping Cells" Kind="InputPin" />
@@ -49,9 +49,9 @@
             <Pin Id="Aiw3b54PaLULPx99EZvavZ" Name="Mapping Cells" Kind="OutputPin" />
           </Node>
           <Node Bounds="359,307,185,19" Id="PeLywblbjGyNQvu5AQUJSl">
-            <p:NodeReference LastCategoryFullName="Mapping" LastSymbolSource="VL.WarpingAndMapping.vl">
+            <p:NodeReference LastCategoryFullName="Mapping" LastSymbolSource="VL.BadMapper.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
-              <Choice Kind="ProcessAppFlag" Name="GridMapping" />
+              <Choice Kind="ProcessAppFlag" Name="GridMapping (Raw)" />
             </p:NodeReference>
             <Pin Id="BcaUS7SdNwXL3FhHfak3tk" Name="Screen Count" Kind="InputPin" DefaultValue="2, 1" />
             <Pin Id="Fw2XzjgdpbiOnl1QhEoSHo" Name="Names" Kind="InputPin">
@@ -199,9 +199,9 @@
             <Pin Id="NP00LSP54gBQWjfksWoOmh" Name="Viewport Settings" Kind="OutputPin" />
           </Node>
           <Node Bounds="652,353,185,19" Id="Q3TAsMe90IPOsGlzd3K0VD">
-            <p:NodeReference LastCategoryFullName="Mapping" LastSymbolSource="VL.WarpingAndMapping.vl">
+            <p:NodeReference LastCategoryFullName="Mapping" LastSymbolSource="VL.BadMapper.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
-              <Choice Kind="ProcessAppFlag" Name="GridMapping" />
+              <Choice Kind="ProcessAppFlag" Name="GridMapping (Raw)" />
             </p:NodeReference>
             <Pin Id="Ry2JUMP5xedPqIa81A1ILm" Name="Screen Count" Kind="InputPin" DefaultValue="2, 2" />
             <Pin Id="L6yYxklwt58Ogb83vKpy5a" Name="Names" Kind="InputPin">
@@ -362,8 +362,8 @@
     </Node>
   </Patch>
   <NugetDependency Id="VZi3c0ShNtTOpaJ5Ysdd7W" Location="VL.CoreLib" Version="2021.4.9-0951-gadd98db1ec" />
-  <NugetDependency Id="SCfP3Ik6YJKL4sexgGVJgA" Location="VL.WarpingAndMapping" Version="0.0.0.0" />
   <NugetDependency Id="UtqabdEzFm0QMbOw8kyAgV" Location="VL.Skia" Version="2021.4.9-0951-gadd98db1ec" />
   <NugetDependency Id="Qj390DY9cdeMezAh0oNlDV" Location="VL.Stride" Version="2021.4.9-0951-gadd98db1ec" />
   <DocumentDependency Id="Iko9yNJyOoHOUEIa2fv7fb" Location="../B-Spline.vl" />
+  <NugetDependency Id="OYnppXMNpamNhyClHKpbds" Location="VL.BadMapper" Version="0.0.0.0" />
 </Document>

@@ -34,9 +34,9 @@
             <Pin Id="PS1HsMKyui9M18ew8l3Xlw" Name="Output" Kind="StateOutputPin" />
           </Node>
           <Node Bounds="426,526,145,19" Id="KThtB9VpYkOLtKxXfJuEbH">
-            <p:NodeReference>
+            <p:NodeReference LastCategoryFullName="Mapping" LastSymbolSource="VL.BadMapper.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
-              <Choice Kind="ProcessAppFlag" Name="CropAndMap" />
+              <Choice Kind="ProcessAppFlag" Name="CropAndMap (Raw)" />
             </p:NodeReference>
             <Pin Id="Rorgb8WNPHdOH4DLAId33Y" Name="Content Texture" Kind="InputPin" />
             <Pin Id="KceKWPEuvppMLHMuJtVOVh" Name="Mapping Cells" Kind="InputPin" />
@@ -49,9 +49,9 @@
             <Pin Id="Aiw3b54PaLULPx99EZvavZ" Name="Mapping Cells" Kind="OutputPin" />
           </Node>
           <Node Bounds="359,307,185,19" Id="PeLywblbjGyNQvu5AQUJSl">
-            <p:NodeReference LastCategoryFullName="Mapping" LastSymbolSource="VL.WarpingAndMapping.vl">
+            <p:NodeReference LastCategoryFullName="Mapping" LastSymbolSource="VL.BadMapper.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
-              <Choice Kind="ProcessAppFlag" Name="GridMapping" />
+              <Choice Kind="ProcessAppFlag" Name="GridMapping (Raw)" />
             </p:NodeReference>
             <Pin Id="BcaUS7SdNwXL3FhHfak3tk" Name="Screen Count" Kind="InputPin" DefaultValue="3, 1" />
             <Pin Id="Fw2XzjgdpbiOnl1QhEoSHo" Name="Names" Kind="InputPin">
@@ -189,18 +189,18 @@
             <Pin Id="PoqtiCK9eusL7z88vWiskd" Name="Input 4" Kind="InputPin" DefaultValue="-0.89, -0.63" />
           </Node>
           <Node Bounds="809,393,145,19" Id="A9jOHdgTeZ8NnkRqhwbjzB">
-            <p:NodeReference LastCategoryFullName="Mapping" LastSymbolSource="VL.WarpingAndMapping.vl">
+            <p:NodeReference LastCategoryFullName="Mapping" LastSymbolSource="VL.BadMapper.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
-              <Choice Kind="ProcessAppFlag" Name="QuadMapping" />
+              <Choice Kind="ProcessAppFlag" Name="QuadMapping (Raw)" />
             </p:NodeReference>
             <Pin Id="TqMmlQFTB3BP7qIbl5rl4Z" Name="Screen Space Points" Kind="InputPin" />
-            <Pin Id="NwoPFncykjrNiFTTmWZkEh" Name="Rotate by 90 Degree" Kind="InputPin" />
-            <Pin Id="Hc1noAcxuogNCdjyPWz0wL" Name="Enable Homography" Kind="InputPin" />
+            <Pin Id="Ot3FqNP5fFTNwBLfBt23rN" Name="Rotate by 90 Degree" Kind="InputPin" />
+            <Pin Id="NmJwlogbKThNhHDBNECYUV" Name="Enable Homography" Kind="InputPin" />
             <Pin Id="Bya4FFuCR4ELzl2Fxq7hpn" Name="Cropping" Kind="InputPin" />
             <Pin Id="UFecw0KY9QYL01iTpWcntl" Name="Debug Enabled" Kind="InputPin" DefaultValue="True" />
             <Pin Id="Poilswft63EPpRW1XrmNsv" Name="Color" Kind="InputPin" DefaultValue="0.08400011, 0.1355993, 0.6000001, 1" />
             <Pin Id="OIGTGDBkGTCLCPk58PH7N1" Name="Name" Kind="InputPin" DefaultValue="Name" />
-            <Pin Id="KWWq7OgVTjpQM3tDHpv8M6" Name="Mesh" Kind="InputPin" />
+            <Pin Id="LG8GMZcLyygOYBk1HoHrMO" Name="Mesh" Kind="InputPin" />
             <Pin Id="Ke0yaJ4PgSDLBY21JYBPrb" Name="Output" Kind="StateOutputPin" />
           </Node>
           <Pad Id="KAVBEDp7yjqM7Dl1hRVfDZ" Comment="" Bounds="782,240,69,80" ShowValueBox="true" isIOBox="true">
@@ -248,9 +248,9 @@
             <Pin Id="NmpjMumu4LIMXDZNiYfNtC" Name="Viewport Settings" Kind="OutputPin" />
           </Node>
           <Node Bounds="706,523,145,19" Id="CuVDufZ79rTNttO9o2MrIY">
-            <p:NodeReference>
+            <p:NodeReference LastCategoryFullName="Mapping" LastSymbolSource="VL.BadMapper.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
-              <Choice Kind="ProcessAppFlag" Name="CropAndMap" />
+              <Choice Kind="ProcessAppFlag" Name="CropAndMap (Raw)" />
             </p:NodeReference>
             <Pin Id="STrpC2Jl5kCQUZgTQXxgXY" Name="Content Texture" Kind="InputPin" />
             <Pin Id="Ot0Wt9yFF4QPgs5UBaT1hB" Name="Mapping Cells" Kind="InputPin" />
@@ -339,8 +339,8 @@
     </Node>
   </Patch>
   <NugetDependency Id="VZi3c0ShNtTOpaJ5Ysdd7W" Location="VL.CoreLib" Version="2021.4.9-0951-gadd98db1ec" />
-  <NugetDependency Id="SCfP3Ik6YJKL4sexgGVJgA" Location="VL.WarpingAndMapping" Version="0.0.0.0" />
   <NugetDependency Id="UtqabdEzFm0QMbOw8kyAgV" Location="VL.Skia" Version="2021.4.9-0951-gadd98db1ec" />
   <NugetDependency Id="Qj390DY9cdeMezAh0oNlDV" Location="VL.Stride" Version="2021.4.9-0951-gadd98db1ec" />
   <DocumentDependency Id="Iko9yNJyOoHOUEIa2fv7fb" Location="../B-Spline.vl" />
+  <NugetDependency Id="Vja1LfxtXchO0fVpSDiixr" Location="VL.BadMapper" Version="0.0.0.0" />
 </Document>
