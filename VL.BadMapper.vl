@@ -12030,7 +12030,7 @@
                   <Pin Id="UNnkYzMWzskOELaSGOVkue" Name="Enabled" Kind="InputPin" />
                   <Pin Id="BkHbPZCoCJSO3DSllAIMMY" Name="Output" Kind="OutputPin" />
                 </Node>
-                <Node Bounds="313,301,130,96" Id="Q1yD4kDAcGuPPJ0mxc3U69">
+                <Node Bounds="313,298,133,104" Id="Q1yD4kDAcGuPPJ0mxc3U69">
                   <p:NodeReference LastCategoryFullName="Primitive" LastSymbolSource="VL.CoreLib.dll">
                     <Choice Kind="StatefulRegion" Name="Region (Stateful)" Fixed="true" />
                     <Choice Kind="ApplicationStatefulRegion" Name="If" />
@@ -12040,7 +12040,7 @@
                   <Patch Id="UOwnSN9e8xzNiHMvVqmVkg" ManuallySortedPins="true">
                     <Patch Id="S1FgIjDo4LyMSZkPOP2bNr" Name="Create" ManuallySortedPins="true" />
                     <Patch Id="KDfiYjwaI3IOck67HA3sZX" Name="Then" ManuallySortedPins="true" />
-                    <Node Bounds="326,350,105,19" Id="KmjDQr6TvBfMRhWy0lbRWQ">
+                    <Node Bounds="326,363,105,19" Id="KmjDQr6TvBfMRhWy0lbRWQ">
                       <p:NodeReference LastCategoryFullName="Stride.Textures.Source" LastSymbolSource="VL.Stride.Rendering.EffectShaderNodes">
                         <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                         <CategoryReference Kind="Category" Name="Textures" />
@@ -12054,6 +12054,18 @@
                       <Pin Id="BGc6QIeMzQiLnnbCUWmb1D" Name="Output Size" Kind="InputPin" />
                       <Pin Id="JEMl4MFo7BJProvsMCT0ST" Name="Enabled" Kind="InputPin" />
                       <Pin Id="PNEO0xK1bISQP9ET3oOKfx" Name="Output" Kind="OutputPin" />
+                    </Node>
+                    <Node Bounds="369,321,65,19" Id="SPA0ZxGBluUOt5XbKZ85Ln">
+                      <p:NodeReference LastCategoryFullName="Stride.API.Graphics.Texture" LastSymbolSource="VL.Stride.Runtime.TypeForwards.vl">
+                        <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+                        <CategoryReference Kind="Category" Name="Texture" />
+                        <Choice Kind="OperationCallFlag" Name="ViewSize" />
+                      </p:NodeReference>
+                      <Pin Id="NL5JdHBSP0POH35RNIYQAA" Name="Input" Kind="StateInputPin" />
+                      <Pin Id="KFuyrTTGIcCM5tbUrAFWmo" Name="Output" Kind="StateOutputPin" />
+                      <Pin Id="QBCZfP6Zcr1NkLV8Mi7R4k" Name="View Size" Kind="OutputPin" />
+                      <Pin Id="SlKS88euKZiOfogpnR0m14" Name="View Format" Kind="OutputPin" />
+                      <Pin Id="DDUEqeDHhMfMTLqeAe5wVb" Name="Exists" Kind="OutputPin" />
                     </Node>
                   </Patch>
                   <ControlPoint Id="LwXaXkfatmDNHVN7853TnD" Bounds="327,307" Alignment="Top" />
@@ -12408,15 +12420,15 @@
           <Patch Id="Jj946rNK0gXM4huflAl4Nd" Name="Update" ManuallySortedPins="true">
             <Pin Id="TsVPrLs5gYjN2cVG4YJ11r" MergeId="322000" Name="Content Texture" Kind="InputPin" Bounds="776,312" />
             <Pin Id="UhjdPoRti9VLUsqtJKlIdh" MergeId="322023" Name="Content Dimensions" Kind="InputPin" Bounds="762,230" DefaultValue="10, 10" />
-            <Pin Id="B7x1P1ZLi9eM8OrN6oRCs3" MergeId="322020" Name="Use Debug Backdrop" Kind="InputPin" Bounds="545,241" />
             <Pin Id="PXoEYoCUIsGN853LFTzZ2L" MergeId="322026" Name="Show Cropping" Kind="InputPin" Bounds="995,699" DefaultValue="True">
               <p:TypeAnnotation>
                 <Choice Kind="TypeFlag" Name="Boolean" />
               </p:TypeAnnotation>
             </Pin>
-            <Pin Id="GABJkX9xGBGLbxfSp1Quoo" MergeId="322027" Name="Bounds" Kind="InputPin" />
-            <Pin Id="GvgPaZHrqXRN3yf52EgYNh" MergeId="322028" Name="Masks" Kind="InputPin" />
             <Pin Id="Hg0qNyXbALIQE4ehgTGx58" Name="Show Calibration" Kind="InputPin" Bounds="1644,593" />
+            <Pin Id="B7x1P1ZLi9eM8OrN6oRCs3" MergeId="322020" Name="Use Debug Backdrop" Kind="InputPin" Bounds="545,241" />
+            <Pin Id="GvgPaZHrqXRN3yf52EgYNh" MergeId="322028" Name="Masks" Kind="InputPin" />
+            <Pin Id="GABJkX9xGBGLbxfSp1Quoo" MergeId="322027" Name="Bounds" Kind="InputPin" />
           </Patch>
           <Link Id="KYqWZuJNjU1Mf3JbPbT9la" Ids="SkBg3GbGNbRQccHCf4X8d1,Kttn6thVxPUP9qz7L2jRmQ" />
           <Link Id="G4waufU5RtBNgzmgwlmr8f" Ids="Tzw56o38FsBNt5g8rcz8k7,T73lcLgL9vxMqjsDiUVGhk" />
@@ -12514,6 +12526,8 @@
           <Link Id="O2XHvSj5XvmLTK6VGAIvrj" Ids="NksXEU4uvWnNCyrBLJ9lVv,A9mYACtbO7NMqkN0PdkFTf" />
           <Link Id="BLGvl0yPnseMaKqrNz1sCn" Ids="UZi7AEENPdvPzx3Ilk4LYz,AoJxWZrpW8dOaDy6N07qEk" />
           <Link Id="NbMGZDNsGP3OIosIkpqlop" Ids="BrReeC9uY65Oig6EH5IvVd,RqKXfYUsVDSQAgh5ppR7Fr" />
+          <Link Id="F4Ctl7aJu9WOhOo1MnQnwA" Ids="LwXaXkfatmDNHVN7853TnD,NL5JdHBSP0POH35RNIYQAA" />
+          <Link Id="Fsxpf4D0lcUMoHVJNh1g6X" Ids="QBCZfP6Zcr1NkLV8Mi7R4k,BGc6QIeMzQiLnnbCUWmb1D" />
         </Patch>
       </Node>
       <!--
