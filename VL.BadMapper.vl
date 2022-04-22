@@ -12545,12 +12545,42 @@
             <ControlPoint Id="FUDYyT5zxm5PfskgDMz837" Bounds="483,372" />
             <ControlPoint Id="ReIvtP0vGncL0StsIS7wdE" Bounds="364,467" />
             <ControlPoint Id="TpxhrsVW6EMLNc4k8Exxtk" Bounds="514,467" />
+            <!--
+
+    ************************ CreateDefault ************************
+
+-->
+            <Node Name="CreateDefault" Bounds="716,275,127,94" Id="TAjNAOrwKqHMxy7F2hc4us">
+              <p:NodeReference LastCategoryFullName="Primitive" LastSymbolSource="builtin">
+                <Choice Kind="OperationDefinition" Name="Operation" />
+                <CategoryReference Kind="Category" Name="Primitive" NeedsToBeDirectParent="true" />
+              </p:NodeReference>
+              <Patch Id="KJ9o6Hn9PUFORcrLYKd7vK">
+                <Pin Id="UcgplO3IIcxMLALZ45Pqmu" Name="Output" Kind="OutputPin">
+                  <p:TypeAnnotation>
+                    <Choice Kind="TypeFlag" Name="IProjectionSource" />
+                  </p:TypeAnnotation>
+                </Pin>
+                <ControlPoint Id="KyNZmFQun0dNne56ZjzDdh" Bounds="730,352" />
+                <Link Id="IYE7GDbvnYHNayoFtzjoha" Ids="KyNZmFQun0dNne56ZjzDdh,UcgplO3IIcxMLALZ45Pqmu" IsHidden="true" />
+                <Node Bounds="728,298,103,26" Id="DughUSxNXEOPsKn1U2Mddt">
+                  <p:NodeReference LastCategoryFullName="Mapping.DummyProjectionSource" LastSymbolSource="VL.BadMapper.vl">
+                    <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+                    <Choice Kind="OperationCallFlag" Name="Create" />
+                    <CategoryReference Kind="ClassType" Name="DummyProjectionSource" NeedsToBeDirectParent="true" />
+                  </p:NodeReference>
+                  <Pin Id="SeVM7StejNxNFx3hKARTSk" Name="Output" Kind="StateOutputPin" />
+                </Node>
+                <Link Id="EX7yR44IRWuOpEPoPzXa2d" Ids="SeVM7StejNxNFx3hKARTSk,KyNZmFQun0dNne56ZjzDdh" />
+              </Patch>
+            </Node>
           </Canvas>
           <ProcessDefinition Id="IORL1IGIdtJQUBoPPTEXc8" IsHidden="true">
-            <Fragment Id="KZJ26FlGmLFP6iq7CwTCUW" Patch="BbZmR870g9wOpaWKsgA310" />
+            <Fragment Id="DXWytIgaWKSMDSbFc4h2hK" Patch="TAjNAOrwKqHMxy7F2hc4us" Enabled="true" />
             <Fragment Id="BEbzoENQpNoNhwKp1Q613i" Patch="D5J4MI2CBpMQRFA3JYrSbb" />
             <Fragment Id="JzUQKpBECIFLnMUmqxHi5T" Patch="JynWRNLkcsFMUbWMRquTNL" />
             <Fragment Id="SJon6Zk6BtPQWC6As2rYIm" Patch="D5f8horAFiIK9VR1otj8fx" />
+            <Fragment Id="KZJ26FlGmLFP6iq7CwTCUW" Patch="BbZmR870g9wOpaWKsgA310" />
           </ProcessDefinition>
           <Patch Id="BbZmR870g9wOpaWKsgA310" Name="Content">
             <Pin Id="EYhb5jLVTGhOcVwY66HJgC" Name="Content" Kind="OutputPin">
@@ -12608,8 +12638,61 @@
         <Patch Id="CBayCcBpfQjMdNyVjWAeM2">
           <Canvas Id="OMDtYacKdp7MKYVfceyOVq" CanvasType="Group">
             <ControlPoint Id="NgVRKIAHNRtM43vmJhPZjA" Bounds="492,475" />
+            <!--
+
+    ************************ DummyMappings ************************
+
+-->
+            <Node Name="DummyMappings" Bounds="583,278" Id="QL0Ph1PeO1YOvfhwnTVm2W">
+              <p:NodeReference LastCategoryFullName="Primitive" LastSymbolSource="builtin">
+                <Choice Kind="ClassDefinition" Name="Class" />
+              </p:NodeReference>
+              <p:Interfaces>
+                <TypeReference LastCategoryFullName="Mapping" LastSymbolSource="VL.BadMapper.vl">
+                  <Choice Kind="InterfaceTypeFlag" Name="IMappings" />
+                </TypeReference>
+              </p:Interfaces>
+              <Patch Id="UfkCwWVGgq5L2RPDDMSePw">
+                <Canvas Id="AA28lIWMpBrPmUFOX8PKvX" CanvasType="Group" />
+                <Patch Id="Kvol8yBv1z7PNIeXvUwXky" Name="Create" />
+                <!--
+
+    ************************  ************************
+
+-->
+                <ProcessDefinition Id="UrNRWM8ajiSQWuVPtyjNU4" IsHidden="true">
+                  <Fragment Id="M632mRl63W6NOxg6cW5yEX" Patch="Kvol8yBv1z7PNIeXvUwXky" Enabled="true" />
+                </ProcessDefinition>
+              </Patch>
+            </Node>
+            <!--
+
+    ************************ CreateDefault ************************
+
+-->
+            <Node Name="CreateDefault" Bounds="601,330,105,91" Id="Mq9ljUIvlUXOoPr6rrkiwv">
+              <p:NodeReference LastCategoryFullName="Primitive" LastSymbolSource="builtin">
+                <Choice Kind="OperationDefinition" Name="Operation" />
+                <CategoryReference Kind="Category" Name="Primitive" NeedsToBeDirectParent="true" />
+              </p:NodeReference>
+              <Patch Id="Cb3vugIQekZLlpvuCTtxTy">
+                <Pin Id="RWBHHtpt7fVQP77As0nq4C" Name="Output" Kind="OutputPin" />
+                <ControlPoint Id="Knv89fxcgFHPcC7DuGBkPL" Bounds="615,404" />
+                <Link Id="DqWGaHEuCLpPv2OXby8ANk" Ids="Knv89fxcgFHPcC7DuGBkPL,RWBHHtpt7fVQP77As0nq4C" IsHidden="true" />
+                <Node Bounds="615,353,79,26" Id="ODcm4PFV9WzQVekiYs97C9">
+                  <p:NodeReference LastCategoryFullName="Mapping.IMappings.DummyMappings" LastSymbolSource="VL.BadMapper.vl">
+                    <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+                    <Choice Kind="OperationCallFlag" Name="Create" />
+                    <CategoryReference Kind="ClassType" Name="DummyMappings" NeedsToBeDirectParent="true" />
+                  </p:NodeReference>
+                  <Pin Id="GovjOjjuXfQQVMtDOydewY" Name="Output" Kind="StateOutputPin" />
+                </Node>
+                <Link Id="Li5VRieKANYLGAcSk5hL5P" Ids="GovjOjjuXfQQVMtDOydewY,Knv89fxcgFHPcC7DuGBkPL" />
+              </Patch>
+            </Node>
           </Canvas>
           <ProcessDefinition Id="S3Uk3F90ZGmP9odyZoJMdV" IsHidden="true">
+            <Fragment Id="OXZEdYuU6DtPky46bewKpQ" Patch="Mq9ljUIvlUXOoPr6rrkiwv" Enabled="true" />
             <Fragment Id="GPaGMlHjOihLWehT69AHdB" Patch="CxuyO4QKv3GQKUZJqtmUrx" />
           </ProcessDefinition>
           <Patch Id="CxuyO4QKv3GQKUZJqtmUrx" Name="Mappings">
@@ -12638,7 +12721,7 @@
         </p:NodeReference>
         <Patch Id="F2HDXvHQ9lKM6ulGBR7A68">
           <Canvas Id="MLcqAvkJBqDMP1PPSOjele" CanvasType="Group">
-            <ControlPoint Id="HvxdMbt7pzvLQLXkNnEg45" Bounds="441,285" />
+            <ControlPoint Id="HvxdMbt7pzvLQLXkNnEg45" Bounds="441,158" />
             <ControlPoint Id="FMDuaeLQ6SVPsGavkfWMMg" Bounds="609,796" />
             <Node Bounds="501,325,120,95" Id="GnKwFKw0avZMJOOqgfYLN9">
               <p:NodeReference LastCategoryFullName="Collections.Sequence" LastSymbolSource="VL.Collections.vl">
@@ -12748,6 +12831,34 @@
               <Pin Id="GZx4kqCPqNMM36V2drioFO" Name="Input" Kind="StateInputPin" />
               <Pin Id="C6gb5uA7fwBORrCbiUQBct" Name="Output" Kind="StateOutputPin" />
             </Node>
+            <Node Bounds="465,195,120,95" Id="BlcCYbw3Jd0Pc3jQOvm8Y2">
+              <p:NodeReference LastCategoryFullName="Collections.Spread" LastSymbolSource="VL.Collections.vl">
+                <Choice Kind="OperationCallFlag" Name="Where" />
+                <CategoryReference Kind="RecordType" Name="Spread" NeedsToBeDirectParent="true">
+                  <p:OuterCategoryReference Kind="Category" Name="Collections" NeedsToBeDirectParent="true" />
+                </CategoryReference>
+                <Choice Kind="RegionFlag" Name="Region (Stateless)" Fixed="true" />
+              </p:NodeReference>
+              <Pin Id="S4QnnfD6QiELDGNU1S2eMe" Name="Input" Kind="StateInputPin" />
+              <Pin Id="MIviFYufnKUQTzIBZCw1zR" Name="Output" Kind="StateOutputPin" />
+              <Patch Id="Fta2ljUBuvYOlAYjv6Mn4B" Name="Predicate" ManuallySortedPins="true">
+                <Pin Id="Bvj2sqetUPWNsYeE9IRHbd" Name="Input 1" Kind="InputPin" />
+                <Pin Id="CEicGXgy8RvOy4TmVM2j8s" Name="Input 2" Kind="InputPin" />
+                <Pin Id="RIEP0I3SMbzOuSs25RZCs2" Name="Result" Kind="OutputPin" />
+                <ControlPoint Id="IM7G4wJ4VheOc7HpTs3K2i" Bounds="469,203" />
+                <ControlPoint Id="GhXMzSg1TZdMEIwxrTNVbv" Bounds="529,203" />
+                <ControlPoint Id="Hts0mk3MS5oL6sKYt6yUPK" Bounds="469,283" />
+                <Node Bounds="478,235,65,19" Id="VbHpmr2tR3eOhovARlvLpL">
+                  <p:NodeReference LastCategoryFullName="Primitive.Object" LastSymbolSource="CoreLibBasics.vl">
+                    <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+                    <Choice Kind="OperationCallFlag" Name="IsAssigned" />
+                  </p:NodeReference>
+                  <Pin Id="Cr8f8HXVfzIMPJVGQIMNj4" Name="X" Kind="InputPin" />
+                  <Pin Id="E3mDUmJaY7hQIztFGWXhpP" Name="Result" Kind="OutputPin" />
+                  <Pin Id="FHZEHnMf0cBLnYEFJPcxIO" Name="Not Assigned" Kind="OutputPin" />
+                </Node>
+              </Patch>
+            </Node>
           </Canvas>
           <Patch Id="FFOk0YOgRI0QYu36bBZz6M" Name="Create" />
           <Patch Id="OZmp6IYIVsNPqibeJ4fVWJ" Name="Update">
@@ -12772,7 +12883,7 @@
           <Link Id="FyX95P5mDYkO4wPR2wx4Bb" Ids="Jt2ZXbBfufYPE69eQFwr4O,EROt8YyztGcOT6UQZX4wRM" IsHidden="true" />
           <Link Id="IHAseRMCxi7Mhm65g2OqPH" Ids="CPu1UhxT7rUMJy64JbAzDD,IkUqp7FFYL1N8HiVhL5b0K" IsHidden="true" />
           <Link Id="MhYEMEB9DnlM2WxXdzw3iT" Ids="VlmSaNU069ZNBnp3uLhLVF,HBmeXeEyTBSO7YxavstpJR" IsHidden="true" />
-          <Link Id="G9YEZizwHWqQDSf8bjcGaE" Ids="HvxdMbt7pzvLQLXkNnEg45,IRdslFrfbvcNDFvMvnN7W8" />
+          <Link Id="G9YEZizwHWqQDSf8bjcGaE" Ids="HvxdMbt7pzvLQLXkNnEg45,S4QnnfD6QiELDGNU1S2eMe" />
           <Link Id="J1P2ZySr1XUO38vhIGu2Wn" Ids="EROt8YyztGcOT6UQZX4wRM,BfBYkkUPSwWLUBFF5O9txU" />
           <Link Id="NQTGeCcuJ8INjSldHqXNsM" Ids="ORsk4FFwx25MD3l246uq5Y,VlmSaNU069ZNBnp3uLhLVF" />
           <Link Id="Qd0g1t176eDM0Ryz34sdj3" Ids="HkYYuY6DW5TNhxThfYiLHW,GHK46AXcTktMuq9gk4kqcB" IsHidden="true" />
@@ -12788,6 +12899,85 @@
           <Link Id="OnJFjMfFEfsPOj1QpMlZB6" Ids="UBDXat9vpgzQIXzaN1v9q3,DKtnKTTWrWpNuuiJdGp6L8" />
           <Link Id="E55YTJQVdYPPlfYNwvU3sN" Ids="GHK46AXcTktMuq9gk4kqcB,A6RiOIiILC9MqiQ34HS6y9" />
           <Link Id="FRGF87hHgLgNty5OsixZnU" Ids="TCJlRCKI5CLQVheIlrYpHG,JyTgj0wLStyQWzP4mS3V8u" />
+          <Link Id="B2lrDdBDGfbPo5knMAf0So" Ids="Bvj2sqetUPWNsYeE9IRHbd,IM7G4wJ4VheOc7HpTs3K2i" IsHidden="true" />
+          <Link Id="HF3Z6qKVXI8MY8xJYBqqOb" Ids="CEicGXgy8RvOy4TmVM2j8s,GhXMzSg1TZdMEIwxrTNVbv" IsHidden="true" />
+          <Link Id="IBrpo2E6RP0OEdBuhBttX3" Ids="Hts0mk3MS5oL6sKYt6yUPK,RIEP0I3SMbzOuSs25RZCs2" IsHidden="true" />
+          <Link Id="TSQtewBllgMM4GTaET00ou" Ids="MIviFYufnKUQTzIBZCw1zR,IRdslFrfbvcNDFvMvnN7W8" />
+          <Link Id="JNrmw2SiczvNilteHUcuyI" Ids="IM7G4wJ4VheOc7HpTs3K2i,Cr8f8HXVfzIMPJVGQIMNj4" />
+          <Link Id="IRHyuPuYJadPE0vcJP8272" Ids="E3mDUmJaY7hQIztFGWXhpP,Hts0mk3MS5oL6sKYt6yUPK" />
+        </Patch>
+      </Node>
+      <!--
+
+    ************************ DummyProjectionSource ************************
+
+-->
+      <Node Name="DummyProjectionSource" Bounds="334,241" Id="OyGdt6zbRVbPAQZKuCiQww">
+        <p:NodeReference LastCategoryFullName="Primitive" LastSymbolSource="builtin">
+          <Choice Kind="ClassDefinition" Name="Class" />
+        </p:NodeReference>
+        <p:Interfaces>
+          <TypeReference>
+            <Choice Kind="InterfaceTypeFlag" Name="IProjectionSource" />
+          </TypeReference>
+        </p:Interfaces>
+        <Patch Id="TQduCEcnCsOOqv9GjnfDeZ">
+          <Canvas Id="D43S5zKzuGsLQre0D2EOH7" CanvasType="Group">
+            <ControlPoint Id="EvMS0Q5VswVQXufbMCiKMV" Bounds="377,211" />
+            <ControlPoint Id="AbzILkR4LGdN2lyF7BvXov" Bounds="501,209" />
+            <ControlPoint Id="HWStY3bD6ZYNmrsj3r5BGa" Bounds="382,304" />
+            <ControlPoint Id="PTUAgwHU14SLAug8kSHi9d" Bounds="532,304" />
+          </Canvas>
+          <Patch Id="AVWla5k4thvNu0LT5L67xB" Name="Create" />
+          <ProcessDefinition Id="EYFgL8avNLFPC6W3aboc54" IsHidden="true">
+            <Fragment Id="UNAyO3iPnSBNvJlFLaVFth" Patch="AVWla5k4thvNu0LT5L67xB" Enabled="true" />
+            <Fragment Id="DFGTmIm0UuQPvyWV8147nZ" Patch="GPbsbJCOg7sNVw8o0foV48" />
+            <Fragment Id="CIhtt59USdjN2sb4TCZjZJ" Patch="U0mRuu3uA6BPbHOfRBW5lT" />
+            <Fragment Id="UuK05ABQhUbPWjrw66wm5N" Patch="V8XgL74RJshLOJUCm8y8Wx" />
+            <Fragment Id="LvrbmjXqEOMNj0wUWd626U" Patch="JIzyKgO8HbcO9Y4GWSO7pY" />
+          </ProcessDefinition>
+          <Patch Id="GPbsbJCOg7sNVw8o0foV48" Name="Content">
+            <Pin Id="OfSDyWIFWu2OwmBS3dgYJN" MergeId="461834" Name="Content" Kind="OutputPin">
+              <p:TypeAnnotation>
+                <Choice Kind="TypeFlag" Name="Texture" />
+              </p:TypeAnnotation>
+            </Pin>
+          </Patch>
+          <Patch Id="U0mRuu3uA6BPbHOfRBW5lT" Name="DebugTexture">
+            <Pin Id="PsM8mEplt6nOxysAZVwEmn" MergeId="461837" Name="Debug Texture" Kind="OutputPin">
+              <p:TypeAnnotation>
+                <Choice Kind="TypeFlag" Name="Texture" />
+              </p:TypeAnnotation>
+            </Pin>
+          </Patch>
+          <Patch Id="V8XgL74RJshLOJUCm8y8Wx" Name="SetMappings">
+            <Pin Id="UNvmRNgNc8cMKGAZokbt84" MergeId="461838" Name="Mapping Cells" Kind="InputPin">
+              <p:TypeAnnotation>
+                <Choice Kind="TypeFlag" Name="Sequence" />
+                <p:TypeArguments>
+                  <TypeReference>
+                    <Choice Kind="TypeFlag" Name="IManualMapping" />
+                  </TypeReference>
+                </p:TypeArguments>
+              </p:TypeAnnotation>
+            </Pin>
+          </Patch>
+          <Patch Id="JIzyKgO8HbcO9Y4GWSO7pY" Name="ProcessSource">
+            <Pin Id="StZM7PqymXxLc1zCxDjH9t" MergeId="461840" Name="Mapping Cells" Kind="OutputPin">
+              <p:TypeAnnotation>
+                <Choice Kind="TypeFlag" Name="Spread" />
+                <p:TypeArguments>
+                  <TypeReference>
+                    <Choice Kind="TypeFlag" Name="IRenderer" />
+                  </TypeReference>
+                </p:TypeArguments>
+              </p:TypeAnnotation>
+            </Pin>
+          </Patch>
+          <Link Id="TL2ykcOY9LPMyS8lg1AKK5" Ids="EvMS0Q5VswVQXufbMCiKMV,OfSDyWIFWu2OwmBS3dgYJN" IsHidden="true" />
+          <Link Id="MygwVsmoZIbNJL61FTjhfc" Ids="AbzILkR4LGdN2lyF7BvXov,PsM8mEplt6nOxysAZVwEmn" IsHidden="true" />
+          <Link Id="F5Kbt4qtDukM7B4nz39k8T" Ids="UNvmRNgNc8cMKGAZokbt84,HWStY3bD6ZYNmrsj3r5BGa" IsHidden="true" />
+          <Link Id="DtJdc6MvBbrNxBMnW8zsDz" Ids="PTUAgwHU14SLAug8kSHi9d,StZM7PqymXxLc1zCxDjH9t" IsHidden="true" />
         </Patch>
       </Node>
     </Canvas>
