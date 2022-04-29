@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Document xmlns:p="property" Id="PtU8FCupLa8L8ImdAYenqF" LanguageVersion="2021.4.9.951" Version="0.128">
+<Document xmlns:p="property" Id="PtU8FCupLa8L8ImdAYenqF" LanguageVersion="2021.4.9.952" Version="0.128">
   <Patch Id="GUSIUYpgQaoPWjVwEkT0LM">
     <Canvas Id="J2Nx3Ec4ixiOZVxU4xEbAe" DefaultCategory="Main" CanvasType="FullCategory" />
     <!--
@@ -44,7 +44,7 @@
             <Pin Id="CYKLwgR32GjPVhTZn4ca0G" Name="Show Calibration" Kind="InputPin" DefaultValue="True" />
             <Pin Id="IGtL4IEesHdMiJS2Y2Iwu8" Name="Use Debug Backdrop" Kind="InputPin" DefaultValue="False" />
             <Pin Id="SJZEVbj7cwBP3PGIejODvE" Name="Masks" Kind="InputPin" />
-            <Pin Id="KW4eaCQ7OTONm1YIOV3Hhb" Name="Bounds" Kind="InputPin" DefaultValue="1193, 89, 228, 671" />
+            <Pin Id="KW4eaCQ7OTONm1YIOV3Hhb" Name="Bounds" Kind="InputPin" DefaultValue="1192.571, 88.57143, 228, 670.8571" />
             <Pin Id="Pk0bAh2Sc0LQKBwRzORTqq" Name="Output" Kind="OutputPin" />
           </Node>
           <Node Bounds="381,559,205,19" Id="PeLywblbjGyNQvu5AQUJSl">
@@ -86,7 +86,7 @@
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="SceneWindow" />
             </p:NodeReference>
-            <Pin Id="NBntzMgO2p2OWwz3nm30nd" Name="Bounds" Kind="InputPin" DefaultValue="1467, 154, 381, 286">
+            <Pin Id="NBntzMgO2p2OWwz3nm30nd" Name="Bounds" Kind="InputPin" DefaultValue="1440.571, 158.8571, 380.5714, 285.7143">
               <p:TypeAnnotation LastCategoryFullName="2D" LastSymbolSource="CoreLibBasics.vl">
                 <Choice Kind="TypeFlag" Name="Rectangle" />
               </p:TypeAnnotation>
@@ -324,9 +324,10 @@
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="ProjectionMapping" />
             </p:NodeReference>
-            <Pin Id="CTmt5yGgsC5NLN1AfcWSI7" Name="Mapping Cells" Kind="OutputPin" />
             <Pin Id="VtRkzM6UElEOQfftHBZzkd" Name="Input" Kind="InputPin" />
             <Pin Id="OQonTx9g93RNixRRg4FUMM" Name="Input 2" Kind="InputPin" />
+            <Pin Id="CTmt5yGgsC5NLN1AfcWSI7" Name="Mapping Cells" Kind="OutputPin" />
+            <Pin Id="KSMhPtj2xBfPOWeCdBazc3" Name="Cameras" Kind="OutputPin" />
           </Node>
         </Canvas>
         <ProcessDefinition Id="F9ruwS6h1t7L1BMykV7oEU">
@@ -357,12 +358,13 @@
         <Link Id="V7pe1PQM8u0OGQS5fiDe95" Ids="CTmt5yGgsC5NLN1AfcWSI7,VC161tXUC9LO5LZE6XfyyC" />
         <Link Id="S7ODv4FuLQePsTWDMQEqVf" Ids="J5N7fwJUaj8MpxgV90DXch,VtRkzM6UElEOQfftHBZzkd" />
         <Link Id="GGxosHtqLapQIMKRMswbi7" Ids="IjiqZRvig9APPaYf24xgzg,OQonTx9g93RNixRRg4FUMM" />
+        <Link Id="Rn3vCyG9HtINlHDlVnOqGS" Ids="KSMhPtj2xBfPOWeCdBazc3,TWwFzO9rlgANTNfrHR1FOg" />
       </Patch>
     </Node>
   </Patch>
-  <NugetDependency Id="VZi3c0ShNtTOpaJ5Ysdd7W" Location="VL.CoreLib" Version="2021.4.9-0951-gadd98db1ec" />
-  <NugetDependency Id="UtqabdEzFm0QMbOw8kyAgV" Location="VL.Skia" Version="2021.4.9-0951-gadd98db1ec" />
-  <NugetDependency Id="Qj390DY9cdeMezAh0oNlDV" Location="VL.Stride" Version="2021.4.9-0951-gadd98db1ec" />
+  <NugetDependency Id="VZi3c0ShNtTOpaJ5Ysdd7W" Location="VL.CoreLib" Version="2021.4.9-0952-gfd919faf6e" />
+  <NugetDependency Id="UtqabdEzFm0QMbOw8kyAgV" Location="VL.Skia" Version="2021.4.9-0952-gfd919faf6e" />
+  <NugetDependency Id="Qj390DY9cdeMezAh0oNlDV" Location="VL.Stride" Version="2021.4.9-0952-gfd919faf6e" />
   <DocumentDependency Id="Iko9yNJyOoHOUEIa2fv7fb" Location="../B-Spline.vl" />
   <NugetDependency Id="OYnppXMNpamNhyClHKpbds" Location="VL.BadMapper" Version="0.0.0.0" />
 </Document>
