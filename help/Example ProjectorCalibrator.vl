@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Document xmlns:p="property" Id="TJ3BbFC3s8BMmHZp7IeXqb" LanguageVersion="2021.4.7.906" Version="0.128">
+<Document xmlns:p="property" Id="TJ3BbFC3s8BMmHZp7IeXqb" LanguageVersion="2021.4.8.947" Version="0.128">
   <Patch Id="Sp9wMupIiAyNrGOkvW82qn">
     <Canvas Id="Bicwc4WclA7L7xjnmceex5" DefaultCategory="Main" CanvasType="FullCategory" />
     <!--
@@ -107,6 +107,8 @@
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="OrbitCamera" />
             </p:NodeReference>
+            <Pin Id="QIsqr3uxzJaLGRt3INhzqy" Name="Components" Kind="InputPin" />
+            <Pin Id="AiFFe8JO30zMfuHJCNqcBN" Name="Children" Kind="InputPin" />
             <Pin Id="POsgWXuFWGrPFywR5MKlQl" Name="Initial Interest" Kind="InputPin" />
             <Pin Id="MppdHv7OipxQcXejLNz2vf" Name="Initial Yaw" Kind="InputPin" />
             <Pin Id="O8QuXdIrJDfNOLzTMDzoXN" Name="Initial Pitch" Kind="InputPin" />
@@ -210,7 +212,7 @@
             <Pin Id="NMEpEtTtQWELeFMu48N3Bh" Name="Output" Kind="OutputPin" />
           </Node>
           <Node Bounds="380,552,105,19" Id="N3KXc5mOPDAMB634QGAYt8">
-            <p:NodeReference LastCategoryFullName="Main" LastSymbolSource="VL.ProjectionMapping.vl">
+            <p:NodeReference>
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessNode" Name="ProjectorCalibrator" />
             </p:NodeReference>
@@ -294,9 +296,9 @@
       </Patch>
     </Node>
   </Patch>
-  <NugetDependency Id="DWPq1bk0WBsPLrcU3k4Y3g" Location="VL.CoreLib" Version="2021.4.7" />
-  <NugetDependency Id="QYxmmnzLol5OUuS105F8Sq" Location="VL.Stride" Version="2021.4.7" />
-  <NugetDependency Id="SZpgMXg40ZKNmyHPmOFl5q" Location="VL.Skia" Version="2021.4.7" />
+  <NugetDependency Id="DWPq1bk0WBsPLrcU3k4Y3g" Location="VL.CoreLib" Version="2021.4.8" />
+  <NugetDependency Id="QYxmmnzLol5OUuS105F8Sq" Location="VL.Stride" Version="2021.4.8" />
+  <NugetDependency Id="SZpgMXg40ZKNmyHPmOFl5q" Location="VL.Skia" Version="2021.4.8" />
   <NugetDependency Id="S5T3tFSvLBUOMdgCtmmAy9" Location="VL.BadMapper" Version="0.0.0.0" />
   <NugetDependency Id="SS6M3yu0lD7L4nQZiRf7GC" Location="VL.OpenCV" Version="0.0.0.0" />
 </Document>

@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Document xmlns:p="property" Id="BH5cr6azPGONp30zsQnZuw" LanguageVersion="2021.4.9.952" Version="0.128">
-  <NugetDependency Id="GzbYazjJ5WNMiNJES4peBP" Location="VL.CoreLib" Version="2021.4.9-0952-gfd919faf6e" />
+  <NugetDependency Id="GzbYazjJ5WNMiNJES4peBP" Location="VL.CoreLib" Version="2021.4.8" />
   <Patch Id="GwoJFsZ1pWmMtcj5qIbVPp">
     <Canvas Id="EYBdsYtxsX8MqjOqPOi7Uy" DefaultCategory="Mapping" CanvasType="FullCategory">
       <!--
@@ -13264,12 +13264,12 @@
       </Patch>
     </Node>
   </Patch>
-  <NugetDependency Id="JKgSg3DJV5hOvXHrZ4IT63" Location="VL.CoreLib" Version="2021.4.9-0952-gfd919faf6e" />
-  <NugetDependency Id="C0BsGvMjxA4OMRkU585rmS" Location="VL.Stride" Version="2021.4.9-0952-gfd919faf6e" />
+  <NugetDependency Id="JKgSg3DJV5hOvXHrZ4IT63" Location="VL.CoreLib" Version="2021.4.8" />
+  <NugetDependency Id="C0BsGvMjxA4OMRkU585rmS" Location="VL.Stride" Version="2021.4.8" />
   <NugetDependency Id="BQmMRJqWlnwQVVllVL0Iln" Location="VL.Video.MediaFoundation" Version="1.0.10" />
-  <NugetDependency Id="Hi5ZFVmd9HCLEmIm6PNxAs" Location="VL.Lang" Version="2021.4.9-0952-gfd919faf6e" />
-  <NugetDependency Id="U3CnvNhJ211Pd3iN8u3U5Z" Location="VL.Skia" Version="2021.4.9-0952-gfd919faf6e" />
-  <DocumentDependency Id="MVRNWXCFPQMOP2kYh4N2JS" Location="./VL.ProjectionMapping.vl" IsForward="true" />
-  <NugetDependency Id="Ks7POTSIUi4L0amwaOMBJP" Location="VL.EditingFramework" Version="2021.4.9-0952-gfd919faf6e" />
+  <NugetDependency Id="Hi5ZFVmd9HCLEmIm6PNxAs" Location="VL.Lang" Version="2021.4.8" />
+  <NugetDependency Id="U3CnvNhJ211Pd3iN8u3U5Z" Location="VL.Skia" Version="2021.4.8" />
+  <NugetDependency Id="Ks7POTSIUi4L0amwaOMBJP" Location="VL.EditingFramework" Version="2021.4.8" />
   <DocumentDependency Id="PfNLP4DnzypNjnx0lrIb4A" Location="./B-Spline.vl" />
+  <DocumentDependency Id="Ns5Kks2Ma3PLMQTH1kUpZC" Location="./VL.ProjectorCalibrator.vl" IsForward="true" />
 </Document>
