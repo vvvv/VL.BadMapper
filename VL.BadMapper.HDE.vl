@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Document xmlns:p="property" Id="Oi5Uanl64FQP7D2bx2UVlQ" LanguageVersion="2021.4.7.906" Version="0.128">
-  <NugetDependency Id="M5KjIwXBlsjPW0u3Lyubp6" Location="VL.CoreLib" Version="2021.4.7" />
+<Document xmlns:p="property" Id="Oi5Uanl64FQP7D2bx2UVlQ" LanguageVersion="2021.4.8.947" Version="0.128">
+  <NugetDependency Id="M5KjIwXBlsjPW0u3Lyubp6" Location="VL.CoreLib" Version="2021.4.8" />
   <Patch Id="F7bnzPLW06JPZzJNwudf2b">
     <Canvas Id="Bir0z0GB6wqMBKzMwb1Y5m" DefaultCategory="HDE" CanvasType="FullCategory">
       <!--
@@ -67,6 +67,8 @@
                 <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                 <Choice Kind="ProcessAppFlag" Name="OrbitCamera" />
               </p:NodeReference>
+              <Pin Id="HlA3zAQSTJgNyNTOmYM5Tv" Name="Components" Kind="InputPin" />
+              <Pin Id="EMIyMxxHbp7O5Fkfcvx1vS" Name="Children" Kind="InputPin" />
               <Pin Id="LM9iqtZQPx5NNIaWQNAUTE" Name="Initial Interest" Kind="InputPin" />
               <Pin Id="Q7QRdv7YGN3OMvHG30d8Qh" Name="Initial Yaw" Kind="InputPin" />
               <Pin Id="PACFAuQdIiVQEX3vjMFQkZ" Name="Initial Pitch" Kind="InputPin" />
@@ -403,6 +405,11 @@
               <Pin Id="L0tTlYlvxH1PjE0XySsHz3" Name="Up Edge" Kind="OutputPin" />
               <Pin Id="QS2E5xgjgHSM0B89KFheib" Name="Down Edge" Kind="OutputPin" />
             </Node>
+            <Pad Id="Kzx1leiF0e5PMlYF4OO4y3" Comment="Selection Sphere Radius" Bounds="635,418,35,15" ShowValueBox="true" isIOBox="true" Value="0.03">
+              <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
+                <Choice Kind="TypeFlag" Name="Float32" />
+              </p:TypeAnnotation>
+            </Pad>
           </Canvas>
           <Patch Id="LSXlmaRqaN1PpB7ttIupaH" Name="Create" />
           <Patch Id="GeZG8FmB4wKQaQWzmPbGcf" Name="Update">
@@ -465,6 +472,7 @@
           <Link Id="So2HpwESK8uLqi6pZmFkto" Ids="QS2E5xgjgHSM0B89KFheib,FMcP4RxYZE7PuEs5DVglf7" />
           <Link Id="VWPy1OO3fVJNk6htQJLTiH" Ids="QFmV23w6vmONZ4i8AHHXJI,REunmSoJjkPMtRdpUFwoit" />
           <Link Id="SSgQsUgQSQbLe0NzfvmUJS" Ids="GzNZl0LRb3aLbjHfJ2RfES,SsNwcDl2oKAO5Sx1NYW82k" />
+          <Link Id="AX0boVJD5IbPgptQEACxQE" Ids="Kzx1leiF0e5PMlYF4OO4y3,PweJySxvcvXQDs3Pize9K7" />
         </Patch>
       </Node>
     </Canvas>
@@ -577,7 +585,7 @@
                   <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                   <Choice Kind="ProcessAppFlag" Name="SceneWindow" />
                 </p:NodeReference>
-                <Pin Id="U9WmRUWMoYfNFqwLFlYddj" Name="Bounds" Kind="InputPin" DefaultValue="1061, 87, 786, 432" />
+                <Pin Id="U9WmRUWMoYfNFqwLFlYddj" Name="Bounds" Kind="InputPin" DefaultValue="1042, 94, 786, 432" />
                 <Pin Id="NNgfUix1Xd2LChulVrJByy" Name="Input" Kind="InputPin" />
                 <Pin Id="TupHeCGOwT7PSobtApSn3J" Name="Camera" Kind="InputPin" />
                 <Pin Id="Jk8zp9jonfeMTNuHrxZqTI" Name="Enable Default Camera" Kind="InputPin" DefaultValue="True" />
@@ -647,10 +655,9 @@
       </Patch>
     </Node>
   </Patch>
-  <NugetDependency Id="FO9enYrb55ALrJP0Rg2ljI" Location="VL.Lang" Version="2021.4.7" />
-  <NugetDependency Id="RZ1cz496dpgNj0r1GJdwKs" Location="VL.HDE" Version="2021.4.7" />
-  <NugetDependency Id="IdDPloCqQavPJlhM5jY3Lb" Location="VL.Skia" Version="2021.4.7" />
-  <NugetDependency Id="U4rnJ58Je0dMe7sTAiWUhv" Location="VL.CoreLib.Windows" Version="2021.4.7" />
-  <NugetDependency Id="VQbKDWLEz1POibb4ngPQ8w" Location="VL.BadMapper" Version="0.0.0.0" />
-  <NugetDependency Id="Na0W7gPmOW9NxMLAmmssN0" Location="VL.Stride" Version="2021.4.7" />
+  <NugetDependency Id="FO9enYrb55ALrJP0Rg2ljI" Location="VL.Lang" Version="2021.4.8" />
+  <NugetDependency Id="RZ1cz496dpgNj0r1GJdwKs" Location="VL.HDE" Version="2021.4.8" />
+  <NugetDependency Id="IdDPloCqQavPJlhM5jY3Lb" Location="VL.Skia" Version="2021.4.8" />
+  <NugetDependency Id="Na0W7gPmOW9NxMLAmmssN0" Location="VL.Stride" Version="2021.4.8" />
+  <DocumentDependency Id="MlakILV7N5qL7G9UF7mlQn" Location="./VL.ProjectorCalibrator.vl" />
 </Document>

@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Document xmlns:p="property" Id="CUIzzMtXbMXL1PSyxhqGoY" LanguageVersion="2021.4.7.906" Version="0.128">
-  <NugetDependency Id="Rq1hxtGm4prLgcbPnzpr1q" Location="VL.CoreLib" Version="2021.4.7" />
+<Document xmlns:p="property" Id="CUIzzMtXbMXL1PSyxhqGoY" LanguageVersion="2021.4.8.947" Version="0.128">
+  <NugetDependency Id="Rq1hxtGm4prLgcbPnzpr1q" Location="VL.CoreLib" Version="2021.4.8" />
   <Patch Id="EflKC5Ddi2BN1mZWLv60qK">
     <Canvas Id="NBB3K3ClmntMsyQxzUGU5L" DefaultCategory="Main" CanvasType="FullCategory">
       <!--
@@ -110,14 +110,14 @@
                 <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                 <Choice Kind="ProcessAppFlag" Name="CircleSpread" />
               </p:NodeReference>
-              <Pin Id="SDV8ayNLfZEOtwG9jbm5NN" Name="Center" Kind="InputPin" />
+              <Pin Id="SDV8ayNLfZEOtwG9jbm5NN" Name="Center" Kind="InputPin" DefaultValue="-2.35, 2.06" />
               <Pin Id="UEuOv9GJFISOkvmFwPGm8R" Name="Width" Kind="InputPin" />
               <Pin Id="TVzQJlamZgaP7E8QuOQSH4" Name="Factor" Kind="InputPin" />
               <Pin Id="AErFJTwj6IhNHz9DzrnhYY" Name="Phase" Kind="InputPin" DefaultValue="1.02" />
               <Pin Id="Ji8cXUCO3zjNTJYQ73sgrg" Name="Count" Kind="InputPin" />
               <Pin Id="PUPYX9JYAqxMlTkTwlzIi3" Name="Output" Kind="OutputPin" />
             </Node>
-            <Pad Id="LzthhZHiVgyMjcEPzy1D1S" Comment="Width" Bounds="90,455,35,28" ShowValueBox="true" isIOBox="true" Value="2.5, 2.5">
+            <Pad Id="LzthhZHiVgyMjcEPzy1D1S" Comment="Width" Bounds="90,455,35,28" ShowValueBox="true" isIOBox="true" Value="2.31, 2.31">
               <p:TypeAnnotation LastCategoryFullName="2D" LastSymbolSource="CoreLibBasics.vl">
                 <Choice Kind="TypeFlag" Name="Vector2" />
               </p:TypeAnnotation>
@@ -716,7 +716,7 @@
             <Pin Id="JeIdS2VzpwEOeU0sHBTJN5" Name="Back Buffer" Kind="OutputPin" />
             <Pin Id="VXv2SFfcEFKO47dkDyVFzu" Name="Depth Buffer" Kind="OutputPin" />
           </Node>
-          <Pad Id="MyKGDXXNk07PcRaejNOgPT" Comment="Read" Bounds="157,770,47,48" ShowValueBox="true" isIOBox="true" Value="False">
+          <Pad Id="MyKGDXXNk07PcRaejNOgPT" Comment="Read" Bounds="167,650,47,48" ShowValueBox="true" isIOBox="true" Value="False">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
               <Choice Kind="TypeFlag" Name="Boolean" />
             </p:TypeAnnotation>
@@ -729,7 +729,7 @@
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="SceneWindow" />
             </p:NodeReference>
-            <Pin Id="CllYewhIZCaOGiWbSqbbtF" Name="Bounds" Kind="InputPin" DefaultValue="1033, 418, 547, 345">
+            <Pin Id="CllYewhIZCaOGiWbSqbbtF" Name="Bounds" Kind="InputPin" DefaultValue="1092, 536, 547, 345">
               <p:TypeAnnotation LastCategoryFullName="2D" LastSymbolSource="CoreLibBasics.vl">
                 <Choice Kind="TypeFlag" Name="Rectangle" />
               </p:TypeAnnotation>
@@ -763,7 +763,7 @@
             <Pin Id="GiznP5NPBLaM7ioTMCYCNH" Name="Back Buffer" Kind="OutputPin" />
             <Pin Id="Rdc6V31wNgiMSeY1rocf7I" Name="Depth Buffer" Kind="OutputPin" />
           </Node>
-          <Node Bounds="37,661,85,19" Id="Jq7cC97kcBvLbnbkJYt6j8">
+          <Node Bounds="38,724,85,19" Id="Jq7cC97kcBvLbnbkJYt6j8">
             <p:NodeReference LastCategoryFullName="Stride" LastSymbolSource="VL.Stride.Engine.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <CategoryReference Kind="Category" Name="Stride" NeedsToBeDirectParent="true" />
@@ -791,7 +791,7 @@
               <Choice Kind="TypeFlag" Name="String" />
             </p:TypeAnnotation>
           </Pad>
-          <Pad Id="KsDLozMkic4PgY9Y3pPsAq" Comment="Spectator Eye Position" Bounds="319,84,35,43" ShowValueBox="true" isIOBox="true" Value="0.84, 1.05, -0.63">
+          <Pad Id="KsDLozMkic4PgY9Y3pPsAq" Comment="Spectator Eye Position" Bounds="318,73,35,43" ShowValueBox="true" isIOBox="true" Value="-1.18, 1.25, 0.61">
             <p:TypeAnnotation LastCategoryFullName="3D" LastSymbolSource="CoreLibBasics.vl">
               <Choice Kind="TypeFlag" Name="Vector3" />
             </p:TypeAnnotation>
@@ -834,16 +834,8 @@
             <Pin Id="IjPErF9DNVkPhIYZpCVPPx" Name="Position" Kind="InputPin" />
             <Pin Id="K3IBpOqPkjcMSJVkJSw3Wu" Name="Target" Kind="InputPin" />
             <Pin Id="O24GZwC631IMksdu7MDyxn" Name="Color" Kind="InputPin" />
-            <Pin Id="T8ugzMnrGwzLKEcAyc3yDF" Name="Intensity" Kind="InputPin" DefaultValue="1">
-              <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
-                <Choice Kind="TypeFlag" Name="Float32" />
-              </p:TypeAnnotation>
-            </Pin>
-            <Pin Id="ER5EghajpRWNpncIsVt3BI" Name="Range" Kind="InputPin" DefaultValue="10">
-              <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
-                <Choice Kind="TypeFlag" Name="Float32" />
-              </p:TypeAnnotation>
-            </Pin>
+            <Pin Id="T8ugzMnrGwzLKEcAyc3yDF" Name="Intensity" Kind="InputPin" />
+            <Pin Id="ER5EghajpRWNpncIsVt3BI" Name="Range" Kind="InputPin" DefaultValue="10" />
             <Pin Id="TdZHwFh5BpvNONV2ax0gUO" Name="Angle" Kind="InputPin" />
             <Pin Id="S4FGGg5hZDeLMsN9dZEVzV" Name="Softness" Kind="InputPin" DefaultValue="0">
               <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
@@ -943,7 +935,7 @@
               <p:buttonmode p:Assembly="VL.UI.Forms" p:Type="VL.HDE.PatchEditor.Editors.ButtonModeEnum">Toggle</p:buttonmode>
             </p:ValueBoxSettings>
           </Pad>
-          <Node Bounds="57,800,78,19" Id="V5KNSdhCcaxMnMCeqOoKgz">
+          <Node Bounds="67,680,78,19" Id="V5KNSdhCcaxMnMCeqOoKgz">
             <p:NodeReference>
               <Choice Kind="ProcessNode" Name="ProjectorView" />
             </p:NodeReference>
@@ -1037,9 +1029,10 @@
         <Link Id="FeIwqXXXG9KLGwKzd7mOA0" Ids="LO5xdeDpW15MR2jWAKijjY,Mttk0ZHm6d1LGQyJlCp4Qo" />
         <Link Id="O0GXdjsoYteOCAosiTGnOM" Ids="GDbzgl5Qy39LMfcXRoK3Fd,PDQJ0FouyGVOZq4tn7f88i" />
         <Link Id="U8NPK4GmK1cOZgvgCIWWej" Ids="PlxnLSBOPvML3L9shlgBnq,CGmlqqBOylrLACE0E2GDIJ" />
+        <Link Id="Tb1MKA9Qk1LNPkrjMYKgIZ" Ids="HDeuVbmhvaMP3PseLblWuo,Et2wJMiB2bVQOdiF7sjwuK" />
       </Patch>
     </Node>
   </Patch>
-  <NugetDependency Id="O4cakjMGDhTLmzD7Q9aWkK" Location="VL.Stride" Version="2021.4.7" />
+  <NugetDependency Id="O4cakjMGDhTLmzD7Q9aWkK" Location="VL.Stride" Version="2021.4.8" />
   <NugetDependency Id="JAZARdmakraNwOvliUUur7" Location="VL.BadMapper" Version="0.0.0.0" />
 </Document>
