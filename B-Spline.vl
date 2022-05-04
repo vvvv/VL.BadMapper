@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Document xmlns:p="property" Id="MaDxqKNuJY7PUY24zBBmLL" LanguageVersion="2021.4.8.947" Version="0.128">
-  <NugetDependency Id="QA4D2lN3F0qNBt27TlhCHZ" Location="VL.CoreLib" Version="2021.4.8" />
+<Document xmlns:p="property" Id="MaDxqKNuJY7PUY24zBBmLL" LanguageVersion="2021.4.9.952" Version="0.128">
+  <NugetDependency Id="QA4D2lN3F0qNBt27TlhCHZ" Location="VL.CoreLib" Version="2021.4.9-0952-gfd919faf6e" />
   <Patch Id="ShiRHUke2zAPjodcew5xFS">
     <Canvas Id="VxZyHDAjNDOLMxSgu7qBrT" CanvasType="FullCategory">
       <Canvas Id="Ua5miBhO3F4ND5DhBD2qXr" Name="B-Spline" Position="285,250">
@@ -3740,7 +3740,6 @@
                     </p:NodeReference>
                     <Pin Id="RZcbk0dll1zNEtcpzdWdZF" Name="Count" Kind="InputPin" />
                     <Pin Id="URTw720OcY1N5qUeo6bJIr" Name="Output" Kind="OutputPin" />
-                    <Pin Id="QEsmyjhk7FUNBfM2Oz0MIj" Name="Point Coint" Kind="InputPin" />
                   </Node>
                   <Node Bounds="820,525,92,19" Id="U2v2833vKpXNKNd26wivRQ">
                     <p:NodeReference LastCategoryFullName="Stride.API.Graphics.VertexDeclaration" LastSymbolSource="VL.Stride.Runtime.TypeForwards.vl">
@@ -3776,7 +3775,6 @@
                 </p:NodeReference>
                 <Pin Id="VWnEr5hqKHOPgNbtv3YHul" Name="Count" Kind="InputPin" />
                 <Pin Id="NcQnhdDxJeaMKsaRwV8gUX" Name="Output" Kind="OutputPin" />
-                <Pin Id="Vh3JXgXdTRQL7M7fEk7c5E" Name="Point Coint" Kind="InputPin" />
               </Node>
               <Node Bounds="91,108,228,336" Id="DJnh4kK4jomPonFL7EGXCg">
                 <p:NodeReference LastCategoryFullName="Primitive" LastSymbolSource="VL.CoreLib.dll">
@@ -4345,7 +4343,6 @@
             <Link Id="Hmlpi6OTqz3P6lmKTC5gGv" Ids="C9Jwz2ly9rkPPeQRGjHUjm,GRz9jUBmI36ORDTkMe0jED" IsHidden="true" />
             <Link Id="RwLBUCQ1CCvLxztBcReOtb" Ids="MMEn9rLPdqUPGhhyJpshm6,GeKebyqTcJhP8OzC1w9CYX" />
             <Link Id="MWrX00cvim8OZ8CrCgCjk6" Ids="URTw720OcY1N5qUeo6bJIr,PLat3rZSfUUNEkThrdnlV5" />
-            <Link Id="O4eymgZWsybLQdUpb1JpUu" Ids="Q0XX7Pg360fPOIlcDjMlyG,Vh3JXgXdTRQL7M7fEk7c5E" />
             <Link Id="SEg625fyx84MyZzf3CIL3d" Ids="NcQnhdDxJeaMKsaRwV8gUX,GSpk9thSjO8PX59jExMA36" />
             <Link Id="BWqMjAky4MIPfNN6xNYvS0" Ids="MrQfPvL0PKyMv7JP5iGHMZ,JMJ0XtUQk1DNPPffoTuoNT" />
             <Link Id="Lj5l5S8FPUiPfkt2jcEGnu" Ids="PNVNZ16SLMLQZqQvTbYpGy,Qp9MkejBZvUMMA5GaEHBk9" />
@@ -4371,7 +4368,6 @@
             <Link Id="AlfuUDK1TqxLERjoAqMzRb" Ids="FlgiUPdkNZxQT5rDa3Aikv,AWuKUuCJGdNPUBTE9FYnly" />
             <Link Id="Rg19hd2qsSLLHh21njph2L" Ids="GBL39SB4axwOM7SE7r9xRU,T5VIs3PqaZVOiVbaHrGXIL" />
             <Link Id="TIXrwGZXE8RMLWV1EXuF2d" Ids="RN7fzaKWegjNf51h85MSZL,CiAEBpZuP0zLfpCioVQSAB" />
-            <Link Id="HPxRr0oIYs4PTgDvnFoHrP" Ids="QJ1YI2cs11DNasbpLYRJcC,QEsmyjhk7FUNBfM2Oz0MIj" />
             <Link Id="Pp66FjcsYG4LU1tUNALbCs" Ids="BIwjpsBDTkJLecTOAja56r,VKrnhEkehdqMXtdWV8xLyI" IsHidden="true" />
             <Link Id="Me5YbiPS1KtPaQECn2Tbps" Ids="RtRgiJxp5uSLagXf0E4IlP,HoZ3Ef4SSWbLPzQmWRLe1P" />
             <Link Id="Ii7fO1mzkfOQPfA1jA2pWc" Ids="U0JAEIRYqFfPUo2HNthURW,EVA4BUjJbZsQGWzDabF79t" IsHidden="true" />
@@ -4482,6 +4478,8 @@
             <Link Id="NElXk7AZC1NPqN6nEzGdzQ" Ids="RIgIq39SC7bOn6R6LLx8xY,UmVMhFwz9V7O1JsmSJvc1M" />
             <Link Id="Q0OFK92j6oBNfVfUAbtuLY" Ids="RJUtgvFcCl4NFmlL5lHxd5,Njbq87uw9eOM7NuvNnULQk" />
             <Link Id="KmKqjc1e0xAP0VXr8toKRS" Ids="Njbq87uw9eOM7NuvNnULQk,C1Gq3i0HDwQPEXlPeraWn9" />
+            <Link Id="C4WQTIzrRioO813H9hpXPV" Ids="QJ1YI2cs11DNasbpLYRJcC,RZcbk0dll1zNEtcpzdWdZF" />
+            <Link Id="LqfXwKoSracQF88hdLzySH" Ids="Q0XX7Pg360fPOIlcDjMlyG,VWnEr5hqKHOPgNbtv3YHul" />
           </Patch>
         </Node>
         <!--
@@ -5253,8 +5251,8 @@
       </Patch>
     </Node>
   </Patch>
-  <NugetDependency Id="MSpkhwKpNSeMDipsFtiVmC" Location="VL.CoreLib" Version="2021.4.8" />
-  <NugetDependency Id="Hw5dYDCsRZXPKSE4rA4rrN" Location="VL.Stride" Version="2021.4.8" />
-  <NugetDependency Id="S0CQWN9Xya9OGeZq3rRk21" Location="VL.Skia" Version="2021.4.8" />
-  <NugetDependency Id="LNZWDoxfiUUNKpbrI6uofo" Location="VL.EditingFramework" Version="2021.4.8" />
+  <NugetDependency Id="MSpkhwKpNSeMDipsFtiVmC" Location="VL.CoreLib" Version="2021.4.9-0952-gfd919faf6e" />
+  <NugetDependency Id="Hw5dYDCsRZXPKSE4rA4rrN" Location="VL.Stride" Version="2021.4.9-0952-gfd919faf6e" />
+  <NugetDependency Id="S0CQWN9Xya9OGeZq3rRk21" Location="VL.Skia" Version="2021.4.9-0952-gfd919faf6e" />
+  <NugetDependency Id="LNZWDoxfiUUNKpbrI6uofo" Location="VL.EditingFramework" Version="2021.4.9-0952-gfd919faf6e" />
 </Document>
