@@ -35,6 +35,5 @@ shader Mapping_DrawFX : VS_PS_Base, Texturing, Camera
         streams.TransformedTextureCoord /= streams.TransformedTextureCoord.w;
         float4 content = Texture0.Sample(LinearSampler, streams.TransformedTextureCoord);
         streams.ColorTarget = float4(content.rgb*alpha*GlobalAlpha,1);
-        //streams.Depth = 1;
     }
 };

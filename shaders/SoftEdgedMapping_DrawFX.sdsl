@@ -82,6 +82,5 @@ shader SoftEdgedMapping_DrawFX : VS_PS_Base, Texturing, TextureUtils, Camera
         }
        
         streams.ColorTarget = float4(content.rgb*alpha*GlobalAlpha,1);
-        streams.Depth = 1;
     }
 };

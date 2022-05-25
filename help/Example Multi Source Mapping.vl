@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Document xmlns:p="property" Id="BzdAU5f4gTZPjBW6gaaBZu" LanguageVersion="2021.4.9.952" Version="0.128">
+<Document xmlns:p="property" Id="BzdAU5f4gTZPjBW6gaaBZu" LanguageVersion="2021.4.8.947" Version="0.128">
   <Patch Id="GUSIUYpgQaoPWjVwEkT0LM">
     <Canvas Id="J2Nx3Ec4ixiOZVxU4xEbAe" DefaultCategory="Main" CanvasType="FullCategory" />
     <!--
@@ -45,13 +45,13 @@
             <Pin Id="CYKLwgR32GjPVhTZn4ca0G" Name="Show Calibration" Kind="InputPin" DefaultValue="True" />
             <Pin Id="IGtL4IEesHdMiJS2Y2Iwu8" Name="Use Debug Backdrop" Kind="InputPin" DefaultValue="False" />
             <Pin Id="SJZEVbj7cwBP3PGIejODvE" Name="Masks" Kind="InputPin" />
-            <Pin Id="KW4eaCQ7OTONm1YIOV3Hhb" Name="Bounds" Kind="InputPin" DefaultValue="1058.286, 41.71429, 689.7143, 196" />
+            <Pin Id="KW4eaCQ7OTONm1YIOV3Hhb" Name="Bounds" Kind="InputPin" DefaultValue="1058, 41, 689, 196" />
             <Pin Id="AycA2FgJ6DGLwMFQpnklwI" Name="Output" Kind="OutputPin" />
           </Node>
           <Node Bounds="71,670,225,19" Id="PeLywblbjGyNQvu5AQUJSl">
             <p:NodeReference LastCategoryFullName="Mapping" LastSymbolSource="VL.BadMapper.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
-              <Choice Kind="ProcessAppFlag" Name="GridMapping (Raw)" />
+              <Choice Kind="ProcessAppFlag" Name="GridMapping" />
             </p:NodeReference>
             <Pin Id="SwmY3OY5at8OQBD84TBhad" Name="Source" Kind="InputPin" />
             <Pin Id="BcaUS7SdNwXL3FhHfak3tk" Name="Screen Count" Kind="InputPin" DefaultValue="3, 1" />
@@ -65,6 +65,7 @@
             <Pin Id="Ajhf9GDJD7POBCA2Mh1zPi" Name="Global Light Compensation" Kind="InputPin" />
             <Pin Id="MflHWiqzUyOPjBNp7QU3FY" Name="Content Cropping" Kind="InputPin" />
             <Pin Id="RCwGT9ivq5MN8wMtGgc0jt" Name="Cameras" Kind="InputPin" />
+            <Pin Id="TFW5XRi3jyeQFI8hl6jbRh" Name="Meshes" Kind="InputPin" />
             <Pin Id="T9cEoy4sC7WNsajpqxfbOl" Name="Output" Kind="OutputPin" />
           </Node>
           <Pad Id="JvPfpcNxNvrM9D4Y4EOE30" Comment="Names" Bounds="96,429,35,65" ShowValueBox="true" isIOBox="true">
@@ -87,7 +88,7 @@
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="SceneWindow" />
             </p:NodeReference>
-            <Pin Id="NBntzMgO2p2OWwz3nm30nd" Name="Bounds" Kind="InputPin" DefaultValue="1016, 520.5714, 737.7143, 186.2857">
+            <Pin Id="NBntzMgO2p2OWwz3nm30nd" Name="Bounds" Kind="InputPin" DefaultValue="1016, 520, 737, 186">
               <p:TypeAnnotation LastCategoryFullName="2D" LastSymbolSource="CoreLibBasics.vl">
                 <Choice Kind="TypeFlag" Name="Rectangle" />
               </p:TypeAnnotation>
@@ -170,7 +171,7 @@
           <Node Bounds="571,615,165,19" Id="A9jOHdgTeZ8NnkRqhwbjzB">
             <p:NodeReference LastCategoryFullName="Mapping" LastSymbolSource="VL.BadMapper.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
-              <Choice Kind="ProcessAppFlag" Name="QuadMapping (Raw)" />
+              <Choice Kind="ProcessAppFlag" Name="QuadMapping" />
             </p:NodeReference>
             <Pin Id="CZ1DdtYcX2SMhm22sj3R89" Name="Source" Kind="InputPin" />
             <Pin Id="Bya4FFuCR4ELzl2Fxq7hpn" Name="Cropping" Kind="InputPin" />
@@ -237,7 +238,7 @@
             <Pin Id="N3EHeA9yULGPswnUt7UQ5N" Name="Show Calibration" Kind="InputPin" DefaultValue="True" />
             <Pin Id="MTOj5fyE8B1MHCuZJrRjV1" Name="Use Debug Backdrop" Kind="InputPin" DefaultValue="False" />
             <Pin Id="Q4gdTVNcuMVN0BEIDEjhma" Name="Masks" Kind="InputPin" />
-            <Pin Id="KTZ3vbHGJEEOBivsbjTOSn" Name="Bounds" Kind="InputPin" DefaultValue="1352, 282.2857, 310.2857, 196" />
+            <Pin Id="KTZ3vbHGJEEOBivsbjTOSn" Name="Bounds" Kind="InputPin" DefaultValue="1352, 282, 310, 196" />
             <Pin Id="SiaE9thOLcTQbw5d5jlTvt" Name="Output" Kind="OutputPin" />
           </Node>
           <Node Bounds="567,184,125,19" Id="QdKHSlqMQmwPq7lG5tTxoX">
@@ -262,8 +263,9 @@
             </p:NodeReference>
             <Pin Id="Jogg5SOqtY2MXSZwytsUKA" Name="Input" Kind="InputPin" />
             <Pin Id="Oz19ENM1UMUK9uwl67l14p" Name="Input 2" Kind="InputPin" />
-            <Pin Id="Oy1Wvu4g2QVPeuHwtLJgXg" Name="Mapping Cells" Kind="OutputPin" />
+            <Pin Id="N4MY1sg4V5tLiNrI88774R" Name="Outputs" Kind="OutputPin" />
             <Pin Id="KFGrUqeEBVsLvGS66rHBqb" Name="Cameras" Kind="OutputPin" />
+            <Pin Id="AGupcl1O4foM9ALRyFAPrG" Name="Screen Helpers" Kind="OutputPin" />
           </Node>
           <Node Bounds="854,566,112,19" Id="FjNPhI5eDs6PGJuVLNwKgk">
             <p:NodeReference LastCategoryFullName="B-Spline" LastSymbolSource="B-Spline.vl">
@@ -441,7 +443,6 @@
         <Link Id="B0rOgUyiBHINtD4fsewcAm" Ids="AycA2FgJ6DGLwMFQpnklwI,SwmY3OY5at8OQBD84TBhad" />
         <Link Id="AWVUIKc4XhqNgSuYUTEP2e" Ids="Ke0yaJ4PgSDLBY21JYBPrb,Oz19ENM1UMUK9uwl67l14p" />
         <Link Id="SPyPkRdC17KQUYzJSmfT7m" Ids="SiaE9thOLcTQbw5d5jlTvt,CZ1DdtYcX2SMhm22sj3R89" />
-        <Link Id="CRT9IjZpmRpPRg3lkdmYhd" Ids="Oy1Wvu4g2QVPeuHwtLJgXg,Jxa3GbyO1yKLuKLJslfU7u" />
         <Link Id="Jo5lR6COYPUO8xJXVyX9YB" Ids="Up6q5J5ehhHPg1pYX77WTY,Bya4FFuCR4ELzl2Fxq7hpn" />
         <Link Id="AVGOPLII7TnOQL8fsA2Is1" Ids="Mzth8mDyO4gQVg2gzLPvjC,FFSrp4aahNVLJB2ETnclOH" />
         <Link Id="UVnS9fsrh94PJ6kUYOJSnq" Ids="QEfGQ1LurUkMf5mq6WhyTZ,AiaD0LLkyT0OF7krWmp3AP" />
@@ -460,12 +461,13 @@
         <Link Id="TFvavzd9cnjMks07MYA2k6" Ids="IP8yEqZsXIHNfwjTjeEN2I,RCwGT9ivq5MN8wMtGgc0jt" />
         <Link Id="D0u7oPcQwfoNmH5zXPGWCc" Ids="KAVBEDp7yjqM7Dl1hRVfDZ,E0l3BdZTYP1MZWC1iqCnq7" />
         <Link Id="KxV5EAeBp3BMiHm02463ig" Ids="C6EPY95NzWgLszJqc0PuEh,LAIRkcAPOWuP2AYz2c16ve" />
+        <Link Id="IDidkzNQGkGPP7g4eByZEv" Ids="N4MY1sg4V5tLiNrI88774R,Jxa3GbyO1yKLuKLJslfU7u" />
       </Patch>
     </Node>
   </Patch>
-  <NugetDependency Id="VZi3c0ShNtTOpaJ5Ysdd7W" Location="VL.CoreLib" Version="2021.4.9-0952-gfd919faf6e" />
-  <NugetDependency Id="UtqabdEzFm0QMbOw8kyAgV" Location="VL.Skia" Version="2021.4.9-0952-gfd919faf6e" />
-  <NugetDependency Id="Qj390DY9cdeMezAh0oNlDV" Location="VL.Stride" Version="2021.4.9-0952-gfd919faf6e" />
+  <NugetDependency Id="VZi3c0ShNtTOpaJ5Ysdd7W" Location="VL.CoreLib" Version="2021.4.8" />
+  <NugetDependency Id="UtqabdEzFm0QMbOw8kyAgV" Location="VL.Skia" Version="2021.4.8" />
+  <NugetDependency Id="Qj390DY9cdeMezAh0oNlDV" Location="VL.Stride" Version="2021.4.8" />
   <DocumentDependency Id="Iko9yNJyOoHOUEIa2fv7fb" Location="../B-Spline.vl" />
   <NugetDependency Id="Vja1LfxtXchO0fVpSDiixr" Location="VL.BadMapper" Version="0.0.0.0" />
 </Document>
