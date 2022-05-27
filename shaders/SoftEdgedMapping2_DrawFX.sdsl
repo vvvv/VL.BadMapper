@@ -1,0 +1,89 @@
+[Summary("Draws the content with softedges onto a mesh.")]
+shader SoftEdgedMapping2_DrawFX : VS_PS_Base, Texturing, TextureUtils, Camera
+{
+    float4x4 TextureTransformation;
+    float4x4 SoftEdgeTransformation;
+
+    float LeftSoftSize = 0.1f;
+    float RightSoftSize = 0.1f;
+    float TopSoftSize = 0.1f;
+    float BottomSoftSize = 0.1f;
+
+    float LeftSoftStart = 0.0f;
+    float RightSoftStart = 0.0f;
+    float TopSoftStart = 0.0f;
+    float BottomSoftStart = 0.0f;
+
+    float Gamma = 1;
+    SamplerState CustomSampler;
+    
+    [EnumType("VL.Stride.Shaders.ShaderFX.SampleMode")]
+    uint InterpolationMode = 0;
+
+    stream float4 TransformedTextureCoord;
+    stream float4 TransformedSoftEdgeTextureCoord;
+
+    float2 ViewportSize = ViewSize;
+    bool CompensateLightFalloff;
+    float GlobalLightCompensation = 1.0f;
+    float GlobalAlpha = 1.0f;
+    
+    override stage void VSMain()
+    {
+        streams.ShadingPosition = mul(streams.Position, WorldViewProjection);
+        streams.TransformedTextureCoord = mul(float4(streams.TexCoord.xy, 0, 1.0f), TextureTransformation);        
+        streams.TransformedSoftEdgeTextureCoord = mul(float4(streams.TexCoord.xy, 0, 1.0f), SoftEdgeTransformation);
+    }
+
+    override stage void PSMain() 
+    {   
+        float alpha = 1.0f;
+       
+        if (LeftSoftSize > 0.0f)
+        {
+            float u = saturate((streams.TransformedSoftEdgeTextureCoord.x - LeftSoftStart) / LeftSoftSize); 
+            alpha *= u;        
+        }
+
+        if (RightSoftSize > 0.0f)
+        {
+            float u = saturate((1.0f - streams.TransformedSoftEdgeTextureCoord.x - RightSoftStart) / RightSoftSize); 
+            alpha *= u;        
+        }
+
+        if (TopSoftSize > 0.0f)
+        {
+            float v = saturate((streams.TransformedSoftEdgeTextureCoord.y - TopSoftStart) / TopSoftSize);  
+            alpha *= v;        
+        }
+
+        if (BottomSoftSize > 0.0f)
+        {
+            float v = saturate((1.0f - streams.TransformedSoftEdgeTextureCoord.y - BottomSoftStart) / BottomSoftSize);  
+            alpha *= v;        
+        }
+
+        if (CompensateLightFalloff)
+        {
+            float2 texel = streams.TexCoord.xy * ViewportSize.xy;
+            float2 texelU = ddx(texel);
+            float2 texelV = ddy(texel);
+            float size = length(texelU) * length(texelV);
+            alpha *= size * GlobalLightCompensation;
+        }
+          
+        alpha = pow(alpha, Gamma);
+        
+        float4 content;
+        streams.TransformedTextureCoord /= streams.TransformedTextureCoord.w;
+
+        switch (InterpolationMode)
+        {
+            case 0: content = Texture0.Sample(CustomSampler, streams.TransformedTextureCoord); break;
+            case 1: content = SampleCubicBSpline(Texture0, CustomSampler, streams.TransformedTextureCoord); break;
+            case 2: content = SampleCubicCatmullRom(Texture0, CustomSampler, streams.TransformedTextureCoord); break;
+        }
+       
+        streams.ColorTarget = float4(content.rgb*alpha*GlobalAlpha,1);
+    }
+};
