@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Document xmlns:p="property" Id="MaDxqKNuJY7PUY24zBBmLL" LanguageVersion="2021.4.9.952" Version="0.128">
-  <NugetDependency Id="QA4D2lN3F0qNBt27TlhCHZ" Location="VL.CoreLib" Version="2021.4.9-0952-gfd919faf6e" />
+<Document xmlns:p="property" Id="MaDxqKNuJY7PUY24zBBmLL" LanguageVersion="2021.4.10.1043" Version="0.128">
+  <NugetDependency Id="QA4D2lN3F0qNBt27TlhCHZ" Location="VL.CoreLib" Version="2021.4.10" />
   <Patch Id="ShiRHUke2zAPjodcew5xFS">
-    <Canvas Id="VxZyHDAjNDOLMxSgu7qBrT" CanvasType="FullCategory">
+    <Canvas Id="VxZyHDAjNDOLMxSgu7qBrT" DefaultCategory="Mapping" CanvasType="FullCategory">
       <Canvas Id="Ua5miBhO3F4ND5DhBD2qXr" Name="B-Spline" Position="285,250">
         <!--
 
@@ -225,8 +225,7 @@
                   <Node Bounds="713,162,36,26" Id="JTwTMF11baNLtOqablfaRf">
                     <p:NodeReference LastCategoryFullName="Primitive.Int2" LastSymbolSource="CoreLibBasics.vl">
                       <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
-                      <CategoryReference Kind="RecordType" Name="Int2" />
-                      <Choice Kind="OperationCallFlag" Name="Split" />
+                      <Choice Kind="OperationCallFlag" Name="Int2 (Split)" />
                     </p:NodeReference>
                     <Pin Id="InuHqUa1qp4NiPK74Ln26y" Name="Input" Kind="StateInputPin" />
                     <Pin Id="CKFE0EdHNYkMiO8jlp5b8t" Name="X" Kind="OutputPin" />
@@ -401,7 +400,7 @@
               <ControlPoint Id="CtWcCzSHNxtMzgtGWPHZI2" Bounds="443,845" />
               <ControlPoint Id="EmRvIfYsSiCNKb1orToJlP" Bounds="694,78" />
               <ControlPoint Id="PQOm8jMCIcTOvgZLh5ue0q" Bounds="153,683" />
-              <Pad Id="LtnqE9Ra2DWPUiSswTXRQ0" Bounds="906,268,147,172" ShowValueBox="true" isIOBox="true" Value="it is important to also do B-Spline Texture Coordinates, that cancel out the default dirstortion that is happening in clamped mode">
+              <Pad Id="LtnqE9Ra2DWPUiSswTXRQ0" Bounds="906,268,147,172" ShowValueBox="true" isIOBox="true" Value="it is important to also do B-Spline Texture Coordinates, that cancel out the default distortion that is happening in clamped mode">
                 <p:TypeAnnotation>
                   <Choice Kind="TypeFlag" Name="String" />
                 </p:TypeAnnotation>
@@ -5003,10 +5002,9 @@
               <Link Id="CPnjdBlpMB3L0NW93acSXG" Ids="BHiDhXduDxWMXyaSXYizlh,JlJXRGAgn0NOWe3ernOBKu" IsHidden="true" />
               <Link Id="TaPtWQGPHBEQBZ1KPQAN9D" Ids="Pi9N7VBbTt9MIEcB5tGa9i,MQP5vjYdT8DQVXZrr3MiKr" />
               <Node Bounds="543,211,36,26" Id="UAUNiaisTCEN0j9LforRs1">
-                <p:NodeReference LastCategoryFullName="Stride.API.Core.Mathematics.Int2" LastSymbolSource="VL.Stride.Core.vl">
+                <p:NodeReference LastCategoryFullName="Primitive.Int2" LastSymbolSource="CoreLibBasics.vl">
                   <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
-                  <CategoryReference Kind="RecordType" Name="Int2" />
-                  <Choice Kind="OperationCallFlag" Name="Split" />
+                  <Choice Kind="OperationCallFlag" Name="Int2 (Split)" />
                 </p:NodeReference>
                 <Pin Id="VOyA7L28FR4OOJzIUZc1E9" Name="Input" Kind="StateInputPin" />
                 <Pin Id="SKr0gUe2cyQQSYJ13NgQiq" Name="X" Kind="OutputPin" />
@@ -5166,69 +5164,6 @@
           </Patch>
         </Node>
       </Canvas>
-      <Canvas Id="E8FD9ON4LhHLW475pDb6Tl" Name="Spread" Position="480,280">
-        <!--
-
-    ************************ * (Scale) ************************
-
--->
-        <Node Name="* (Scale)" Bounds="514,336,202,185" Id="LaIS5F7shomPZOvkE7G423">
-          <p:NodeReference LastCategoryFullName="Primitive" LastSymbolSource="builtin">
-            <Choice Kind="OperationDefinition" Name="Operation" />
-          </p:NodeReference>
-          <Patch Id="SPM08xYYMzYLNbAiveugbr" IsGeneric="true">
-            <ControlPoint Id="FyvhqV8cvyrMHkM2hDwufU" Bounds="584,354" />
-            <Link Id="J1ok7V35AOXNwrUx98WjNx" Ids="QFVcbQRkbyVMCj5nZ4JQod,FyvhqV8cvyrMHkM2hDwufU" IsHidden="true" />
-            <Node Bounds="594,387,80,80" Id="KGEYb8yavpHLG1nUO8tBDf">
-              <p:NodeReference LastCategoryFullName="Primitive" LastSymbolSource="VL.CoreLib.dll">
-                <Choice Kind="StatefulRegion" Name="Region (Stateful)" Fixed="true" />
-                <Choice Kind="ApplicationStatefulRegion" Name="ForEach (Max)" />
-                <CategoryReference Kind="Category" Name="Primitive" />
-              </p:NodeReference>
-              <Pin Id="R43IXGpLwJpQJmtoMVKARE" Name="Break" Kind="OutputPin" />
-              <Patch Id="PgZjUDQ0HjxOXdwP5e41af" ManuallySortedPins="true">
-                <Patch Id="StAjqdCFTfiM3Tl6sDyoia" Name="Create" ManuallySortedPins="true" />
-                <Patch Id="U4wQbqyNueRNDcyA0akuQF" Name="Update" ManuallySortedPins="true" />
-                <Patch Id="C0QlQmGgvvLPxd9hVRSUzw" Name="Dispose" ManuallySortedPins="true" />
-                <Node Bounds="623,427" Id="LdH3ByH3FQjMhIjLHoPvHT">
-                  <p:NodeReference LastCategoryFullName="Math" LastSymbolSource="CoreLibBasics.vl">
-                    <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
-                    <Choice Kind="OperationCallFlag" Name="* (Scale)" />
-                  </p:NodeReference>
-                  <Pin Id="QYOO5JoQ2upOWoyrSNks5V" Name="Input" Kind="InputPin" />
-                  <Pin Id="K1tKVh93AplLMWaMbR6n0c" Name="Scalar" Kind="InputPin" />
-                  <Pin Id="Aj1ej9Cy10oNNwkx6ckkCn" Name="Output" Kind="OutputPin" />
-                </Node>
-              </Patch>
-              <ControlPoint Id="K8dFKDc4C8RQYKlaSSXoRS" Bounds="614,394" Alignment="Top" />
-              <ControlPoint Id="KL3fhlpqc3sO4Z1jz2wxQa" Bounds="624,468" Alignment="Bottom" />
-              <ControlPoint Id="O1Y39Gt1irtPxBPojpKtyx" Bounds="658,394" Alignment="Top" />
-            </Node>
-            <Link Id="PrzgVKXBM0VPY4ECAsvFFn" Ids="FyvhqV8cvyrMHkM2hDwufU,K8dFKDc4C8RQYKlaSSXoRS" />
-            <Link Id="U1UAu6vTUu5NXuG4gYILSz" Ids="K8dFKDc4C8RQYKlaSSXoRS,QYOO5JoQ2upOWoyrSNks5V" />
-            <Link Id="HVEjv6jh3ufMHyYQ9Ke5eZ" Ids="Aj1ej9Cy10oNNwkx6ckkCn,KL3fhlpqc3sO4Z1jz2wxQa" />
-            <ControlPoint Id="AtAFPsvx4ueNJwdUl9QG7r" Bounds="626,504" />
-            <Link Id="SUCUmCz04XKOn2Q4fTbhus" Ids="KL3fhlpqc3sO4Z1jz2wxQa,AtAFPsvx4ueNJwdUl9QG7r" />
-            <Link Id="TUvoVwsmDBsLzQGz1LUbGB" Ids="AtAFPsvx4ueNJwdUl9QG7r,VxajER71vIyOFB1X0F5EyR" IsHidden="true" />
-            <ControlPoint Id="NvWQvRdWQqbLdFxELjSXkD" Bounds="666,354" />
-            <Link Id="UEEeOGpEWsbMu5VNXdxwZA" Ids="IfzZqEYPT7lNeaPiundNzs,NvWQvRdWQqbLdFxELjSXkD" IsHidden="true" />
-            <Link Id="SLpNPTVhOo3OZnembv9eIE" Ids="O1Y39Gt1irtPxBPojpKtyx,K1tKVh93AplLMWaMbR6n0c" />
-            <Link Id="FDHTuWvUe61QclQI6rcvSD" Ids="NvWQvRdWQqbLdFxELjSXkD,O1Y39Gt1irtPxBPojpKtyx" />
-            <Pin Id="QFVcbQRkbyVMCj5nZ4JQod" Name="Input" Kind="InputPin" />
-            <Pin Id="VxajER71vIyOFB1X0F5EyR" Name="Output" Kind="OutputPin" Bounds="626,504" />
-            <Pin Id="IfzZqEYPT7lNeaPiundNzs" Name="Scalar" Kind="InputPin" Bounds="658,364" />
-          </Patch>
-        </Node>
-      </Canvas>
-      <Pad Id="LduZTHquOrdPiEay4P6F2r" Bounds="480,236,74,19" ShowValueBox="true" isIOBox="true" Value="not used">
-        <p:TypeAnnotation>
-          <Choice Kind="TypeFlag" Name="String" />
-        </p:TypeAnnotation>
-        <p:ValueBoxSettings>
-          <p:fontsize p:Type="Int32">9</p:fontsize>
-          <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
-        </p:ValueBoxSettings>
-      </Pad>
     </Canvas>
     <!--
 
@@ -5251,8 +5186,8 @@
       </Patch>
     </Node>
   </Patch>
-  <NugetDependency Id="MSpkhwKpNSeMDipsFtiVmC" Location="VL.CoreLib" Version="2021.4.9-0952-gfd919faf6e" />
-  <NugetDependency Id="Hw5dYDCsRZXPKSE4rA4rrN" Location="VL.Stride" Version="2021.4.9-0952-gfd919faf6e" />
-  <NugetDependency Id="S0CQWN9Xya9OGeZq3rRk21" Location="VL.Skia" Version="2021.4.9-0952-gfd919faf6e" />
-  <NugetDependency Id="LNZWDoxfiUUNKpbrI6uofo" Location="VL.EditingFramework" Version="2021.4.9-0952-gfd919faf6e" />
+  <NugetDependency Id="MSpkhwKpNSeMDipsFtiVmC" Location="VL.CoreLib" Version="2021.4.10" />
+  <NugetDependency Id="Hw5dYDCsRZXPKSE4rA4rrN" Location="VL.Stride" Version="2021.4.10" />
+  <NugetDependency Id="S0CQWN9Xya9OGeZq3rRk21" Location="VL.Skia" Version="2021.4.10" />
+  <NugetDependency Id="LNZWDoxfiUUNKpbrI6uofo" Location="VL.EditingFramework" Version="2021.4.10" />
 </Document>
