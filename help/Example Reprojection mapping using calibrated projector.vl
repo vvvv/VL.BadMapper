@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Document xmlns:p="property" Id="CUIzzMtXbMXL1PSyxhqGoY" LanguageVersion="2021.4.8.947" Version="0.128">
-  <NugetDependency Id="Rq1hxtGm4prLgcbPnzpr1q" Location="VL.CoreLib" Version="2021.4.8" />
+<Document xmlns:p="property" Id="CUIzzMtXbMXL1PSyxhqGoY" LanguageVersion="2021.4.10.1043" Version="0.128">
+  <NugetDependency Id="Rq1hxtGm4prLgcbPnzpr1q" Location="VL.CoreLib" Version="2021.4.10" />
   <Patch Id="EflKC5Ddi2BN1mZWLv60qK">
     <Canvas Id="NBB3K3ClmntMsyQxzUGU5L" DefaultCategory="Main" CanvasType="FullCategory">
       <!--
@@ -780,7 +780,7 @@
             </Pin>
             <Pin Id="JRmJbtQgmtoOmM3wl4a5mH" Name="Output" Kind="OutputPin" />
           </Node>
-          <Node Bounds="513,334,52,19" Id="Gg18ooP6Q5YMQMS97IQy87">
+          <Node Bounds="536,327,52,19" Id="Gg18ooP6Q5YMQMS97IQy87">
             <p:NodeReference LastCategoryFullName="Main" LastSymbolSource="HowTo Calibrate a projector and reproject.vl">
               <Choice Kind="ProcessNode" Name="Content" />
             </p:NodeReference>
@@ -1001,6 +1001,42 @@
             <Pin Id="Ewa632QljUNQNECiBf7aku" Name="Simulate" Kind="InputPin" />
             <Pin Id="Vpmyz1i5dmgNwXWWUvBdQp" Name="Output" Kind="OutputPin" />
           </Node>
+          <Pad Id="JiChd4gEVJeNHntRJZaIQR" Bounds="431,508,35,35" ShowValueBox="true" isIOBox="true" Value="1) ">
+            <p:TypeAnnotation>
+              <Choice Kind="TypeFlag" Name="String" />
+            </p:TypeAnnotation>
+            <p:ValueBoxSettings>
+              <p:fontsize p:Type="Int32">17</p:fontsize>
+              <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
+            </p:ValueBoxSettings>
+          </Pad>
+          <Pad Id="IoPe2QKaoWAMdkzhwNKINe" Bounds="-47,50,281,114" ShowValueBox="true" isIOBox="true" Value="1) Render the scene from the perspective of the Spectator&#xD;&#xA;2) Project the result from back onto the 3d model of the physical screen&#xD;&#xA;3) Render the scene from the perspective of the calibrated projector">
+            <p:TypeAnnotation>
+              <Choice Kind="TypeFlag" Name="String" />
+            </p:TypeAnnotation>
+            <p:ValueBoxSettings>
+              <p:fontsize p:Type="Int32">9</p:fontsize>
+              <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
+            </p:ValueBoxSettings>
+          </Pad>
+          <Pad Id="ToCnvyulU62PElYyLArfXJ" Bounds="255,602,35,35" ShowValueBox="true" isIOBox="true" Value="2)">
+            <p:TypeAnnotation>
+              <Choice Kind="TypeFlag" Name="String" />
+            </p:TypeAnnotation>
+            <p:ValueBoxSettings>
+              <p:fontsize p:Type="Int32">17</p:fontsize>
+              <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
+            </p:ValueBoxSettings>
+          </Pad>
+          <Pad Id="Rjt5DYLbGIhPamewcsaowk" Bounds="226,846,35,35" ShowValueBox="true" isIOBox="true" Value="3)">
+            <p:TypeAnnotation>
+              <Choice Kind="TypeFlag" Name="String" />
+            </p:TypeAnnotation>
+            <p:ValueBoxSettings>
+              <p:fontsize p:Type="Int32">17</p:fontsize>
+              <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
+            </p:ValueBoxSettings>
+          </Pad>
         </Canvas>
         <Patch Id="MlJDEAkmWSCNFrBbC1wcnK" Name="Create" />
         <Patch Id="FH0PMPoKAjCPHHW3NlP1Bj" Name="Update" />
@@ -1039,10 +1075,10 @@
         <Link Id="O0GXdjsoYteOCAosiTGnOM" Ids="GDbzgl5Qy39LMfcXRoK3Fd,PDQJ0FouyGVOZq4tn7f88i" />
         <Link Id="U8NPK4GmK1cOZgvgCIWWej" Ids="PlxnLSBOPvML3L9shlgBnq,CGmlqqBOylrLACE0E2GDIJ" />
         <Link Id="Be62C3BH3gvMs6v1gTMQia" Ids="Vpmyz1i5dmgNwXWWUvBdQp,HLoYoN5ufePN8XuXiD5fBH" />
-        <Link Id="OtDY2xRJxaQLAHfmSuOaFR" Ids="HDeuVbmhvaMP3PseLblWuo,BdENzINUfeSQDwfMEHTJat" />
+        <Link Id="FzZXMH7XZNpQTb6PSGTrZu" Ids="HDeuVbmhvaMP3PseLblWuo,BdENzINUfeSQDwfMEHTJat" />
       </Patch>
     </Node>
   </Patch>
-  <NugetDependency Id="O4cakjMGDhTLmzD7Q9aWkK" Location="VL.Stride" Version="2021.4.8" />
+  <NugetDependency Id="O4cakjMGDhTLmzD7Q9aWkK" Location="VL.Stride" Version="2021.4.10" />
   <NugetDependency Id="JAZARdmakraNwOvliUUur7" Location="VL.BadMapper" Version="0.0.0.0" />
 </Document>
