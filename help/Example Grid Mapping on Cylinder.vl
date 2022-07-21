@@ -73,7 +73,7 @@
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="SceneWindow" />
             </p:NodeReference>
-            <Pin Id="NBntzMgO2p2OWwz3nm30nd" Name="Bounds" Kind="InputPin" DefaultValue="1056, 721, 675, 130">
+            <Pin Id="NBntzMgO2p2OWwz3nm30nd" Name="Bounds" Kind="InputPin" DefaultValue="1103, 742, 779, 196">
               <p:TypeAnnotation LastCategoryFullName="2D" LastSymbolSource="CoreLibBasics.vl">
                 <Choice Kind="TypeFlag" Name="Rectangle" />
               </p:TypeAnnotation>
@@ -708,7 +708,7 @@
             <Pin Id="GJBQ6Q0KM8iNULsbuTmvFh" Name="Nested" Kind="OutputPin" />
             <Pin Id="P5UnB3NuOoYLEqdyvFE7q4" Name="Output" Kind="OutputPin" />
           </Node>
-          <Pad Id="C2dylI82PTbMLB9aQkFgb1" Comment="Count" Bounds="653,470,35,28" ShowValueBox="true" isIOBox="true" Value="25, 2">
+          <Pad Id="C2dylI82PTbMLB9aQkFgb1" Comment="Count" Bounds="653,470,35,28" ShowValueBox="true" isIOBox="true" Value="33, 2">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
               <Choice Kind="TypeFlag" Name="Int2" />
             </p:TypeAnnotation>
@@ -936,7 +936,7 @@
             <Pin Id="DxssTmAGqLqMXfpapstg10" Name="Width" Kind="InputPin" DefaultValue="0.5" />
             <Pin Id="CTgUiKtHJqlLidEl9oh9Kb" Name="Output" Kind="StateOutputPin" />
           </Node>
-          <Pad Id="O5H9iXNtyc3O5X93yQKYla" Comment="Zoom Ratio" Bounds="650,359,35,15" ShowValueBox="true" isIOBox="true" Value="1.45">
+          <Pad Id="O5H9iXNtyc3O5X93yQKYla" Comment="Zoom Ratio" Bounds="650,359,35,15" ShowValueBox="true" isIOBox="true" Value="1.36">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
               <Choice Kind="TypeFlag" Name="Float32" />
             </p:TypeAnnotation>
@@ -946,12 +946,12 @@
               <Choice Kind="TypeFlag" Name="Int2" />
             </p:TypeAnnotation>
           </Pad>
-          <Pad Id="DiNDljW8g9kPKho8Ijtjcs" Comment="Z" Bounds="651,281,35,15" ShowValueBox="true" isIOBox="true" Value="5.31">
+          <Pad Id="DiNDljW8g9kPKho8Ijtjcs" Comment="Z" Bounds="651,281,35,15" ShowValueBox="true" isIOBox="true" Value="5.36">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
               <Choice Kind="TypeFlag" Name="Float32" />
             </p:TypeAnnotation>
           </Pad>
-          <Pad Id="U8qjaj2McRYP48bQPQ2fyw" Comment="Shift Y" Bounds="649,336,35,15" ShowValueBox="true" isIOBox="true" Value="-0.33">
+          <Pad Id="U8qjaj2McRYP48bQPQ2fyw" Comment="Shift Y" Bounds="649,336,35,15" ShowValueBox="true" isIOBox="true" Value="-0.3">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
               <Choice Kind="TypeFlag" Name="Float32" />
             </p:TypeAnnotation>
@@ -965,6 +965,15 @@
             <Pin Id="OIW49uUOfCBO9gYQ6PhuyG" Name="Input" Kind="InputPin" />
             <Pin Id="ManLJONt61dPGilK06ZQmq" Name="Result" Kind="OutputPin" />
           </Node>
+          <Pad Id="ClnDWY0My8cPZ8HMxscLRF" Bounds="766,145,281,114" ShowValueBox="true" isIOBox="true" Value="1) Render the scene from the perspective of the Spectator&#xD;&#xA;2) Project the result from back onto the 3d model of the physical screen&#xD;&#xA;3) Render the scene from the perspective of the calibrated projector">
+            <p:TypeAnnotation>
+              <Choice Kind="TypeFlag" Name="String" />
+            </p:TypeAnnotation>
+            <p:ValueBoxSettings>
+              <p:fontsize p:Type="Int32">9</p:fontsize>
+              <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
+            </p:ValueBoxSettings>
+          </Pad>
         </Canvas>
         <ProcessDefinition Id="F9ruwS6h1t7L1BMykV7oEU">
           <Fragment Id="DMwInPIu9vANK94nHUzcQd" Patch="FkdIltBlOfHNvfPTOpv0x1" Enabled="true" />

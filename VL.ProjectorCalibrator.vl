@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Document xmlns:p="property" Id="EeQBtmQOsEJPBG4x80V4ET" LanguageVersion="2021.4.8.947" Version="0.128">
+<Document xmlns:p="property" Id="EeQBtmQOsEJPBG4x80V4ET" LanguageVersion="2021.4.10.1043" Version="0.128">
   <Patch Id="DloFmM9aMz8LxqoWhqGooK">
     <Canvas Id="JFE3xmzoV96Padr6f7hRDL" DefaultCategory="Mapping" CanvasType="FullCategory">
       <!--
@@ -3597,9 +3597,9 @@
       </Patch>
     </Node>
   </Patch>
-  <NugetDependency Id="NDubhmtX0vAMCIe5m7OfFs" Location="VL.CoreLib" Version="2021.4.8" />
+  <NugetDependency Id="NDubhmtX0vAMCIe5m7OfFs" Location="VL.CoreLib" Version="2021.4.10" />
   <PlatformDependency Id="N78V0bkHhGlLrPXaCDElwM" Location="../../vvvv/public-vl/VL.Stride/packages/VL.Stride.Runtime/src/bin/Release/net472/Stride.Rendering.dll" />
-  <NugetDependency Id="Jcx0EKfbMyoLcRNIKOIDhB" Location="VL.Stride" Version="2021.4.8" />
-  <NugetDependency Id="Rf36mH429YUNbNbsI6ItzF" Location="VL.Skia" Version="2021.4.8" />
+  <NugetDependency Id="Jcx0EKfbMyoLcRNIKOIDhB" Location="VL.Stride" Version="2021.4.10" />
+  <NugetDependency Id="Rf36mH429YUNbNbsI6ItzF" Location="VL.Skia" Version="2021.4.10" />
   <NugetDependency Id="LvUmlvn1h8UQWuWRIYqTGf" Location="VL.OpenCV" Version="0.0.0.0" />
 </Document>
