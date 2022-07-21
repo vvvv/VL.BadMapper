@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Document xmlns:p="property" Id="BzdAU5f4gTZPjBW6gaaBZu" LanguageVersion="2021.4.8.947" Version="0.128">
+<Document xmlns:p="property" Id="BzdAU5f4gTZPjBW6gaaBZu" LanguageVersion="2021.4.10.1043" Version="0.128">
   <Patch Id="GUSIUYpgQaoPWjVwEkT0LM">
     <Canvas Id="J2Nx3Ec4ixiOZVxU4xEbAe" DefaultCategory="Main" CanvasType="FullCategory" />
     <!--
@@ -256,13 +256,12 @@
             <Pin Id="VjhM78yYk2EMSGRbdpknJw" Name="Enabled" Kind="InputPin" />
             <Pin Id="T4iPW0StJo2OR1MNXjq3jD" Name="Output" Kind="OutputPin" />
           </Node>
-          <Node Bounds="448,727,101,19" Id="Fpw4fyjP16oMZnM0VE4JsB">
+          <Node Bounds="422,745,101,19" Id="Fpw4fyjP16oMZnM0VE4JsB">
             <p:NodeReference LastCategoryFullName="Mapping" LastSymbolSource="VL.BadMapper.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="ProjectionMapping" />
             </p:NodeReference>
             <Pin Id="Jogg5SOqtY2MXSZwytsUKA" Name="Input" Kind="InputPin" />
-            <Pin Id="Oz19ENM1UMUK9uwl67l14p" Name="Input 2" Kind="InputPin" />
             <Pin Id="N4MY1sg4V5tLiNrI88774R" Name="Outputs" Kind="OutputPin" />
             <Pin Id="KFGrUqeEBVsLvGS66rHBqb" Name="Cameras" Kind="OutputPin" />
             <Pin Id="AGupcl1O4foM9ALRyFAPrG" Name="Screen Helpers" Kind="OutputPin" />
@@ -307,7 +306,7 @@
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="Attractor" />
             </p:NodeReference>
-            <Pin Id="NR4PeXMGVNhN3VqKfZBdZy" Name="Position" Kind="InputPin" DefaultValue="-0.21, 0, 0" />
+            <Pin Id="NR4PeXMGVNhN3VqKfZBdZy" Name="Position" Kind="InputPin" DefaultValue="-0.37, 0, 0" />
             <Pin Id="SSnaM18ggCpM7ldoZpfPqN" Name="Strength" Kind="InputPin" DefaultValue="0.69" />
             <Pin Id="McrwMrlNppzNNbsbjO714U" Name="Power" Kind="InputPin" DefaultValue="0.48" />
             <Pin Id="FtthtTyrScKL3u3KtEQZyB" Name="Radius" Kind="InputPin" DefaultValue="1.4" />
@@ -424,6 +423,16 @@
             <Pin Id="E0l3BdZTYP1MZWC1iqCnq7" Name="Screen Space Points" Kind="InputPin" />
             <Pin Id="C6EPY95NzWgLszJqc0PuEh" Name="Output" Kind="StateOutputPin" />
           </Node>
+          <Node Bounds="440,709,39,19" Id="IQXxBLbJNZ7NsvFYu9iyMf">
+            <p:NodeReference LastCategoryFullName="Collections.Spread" LastSymbolSource="VL.Collections.vl">
+              <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+              <Choice Kind="OperationCallFlag" Name="Cons" />
+              <CategoryReference Kind="RecordType" Name="Spread" NeedsToBeDirectParent="true" />
+            </p:NodeReference>
+            <Pin Id="P4wnYWCcqwBLHYHmm3kswz" Name="Input" Kind="InputPin" />
+            <Pin Id="K1qqewbqMRaQCMeqEfpKPM" Name="Input 2" Kind="InputPin" />
+            <Pin Id="V0Gd5QgnsAONnYke0nc9mW" Name="Result" Kind="OutputPin" />
+          </Node>
         </Canvas>
         <ProcessDefinition Id="F9ruwS6h1t7L1BMykV7oEU">
           <Fragment Id="DMwInPIu9vANK94nHUzcQd" Patch="FkdIltBlOfHNvfPTOpv0x1" Enabled="true" />
@@ -441,7 +450,6 @@
         <Link Id="UGSHG7kmp1YP0gelmqCzIK" Ids="NmpjMumu4LIMXDZNiYfNtC,Ja9e9MWdu3EO4mEN12Umel" />
         <Link Id="MrUTws3vINHMNxxVE4VsoV" Ids="T4iPW0StJo2OR1MNXjq3jD,STrpC2Jl5kCQUZgTQXxgXY" />
         <Link Id="B0rOgUyiBHINtD4fsewcAm" Ids="AycA2FgJ6DGLwMFQpnklwI,SwmY3OY5at8OQBD84TBhad" />
-        <Link Id="AWVUIKc4XhqNgSuYUTEP2e" Ids="Ke0yaJ4PgSDLBY21JYBPrb,Oz19ENM1UMUK9uwl67l14p" />
         <Link Id="SPyPkRdC17KQUYzJSmfT7m" Ids="SiaE9thOLcTQbw5d5jlTvt,CZ1DdtYcX2SMhm22sj3R89" />
         <Link Id="Jo5lR6COYPUO8xJXVyX9YB" Ids="Up6q5J5ehhHPg1pYX77WTY,Bya4FFuCR4ELzl2Fxq7hpn" />
         <Link Id="AVGOPLII7TnOQL8fsA2Is1" Ids="Mzth8mDyO4gQVg2gzLPvjC,FFSrp4aahNVLJB2ETnclOH" />
@@ -451,7 +459,6 @@
         <Link Id="Kk65HAvEdf6OsIhcFe4mmQ" Ids="FEAN8SbpMvTL7OaLeGUzI6,R0LlaHsrRWsLvJonX21imw" />
         <Link Id="EfXQCGZ0PzJLOc6gwJ7t4x" Ids="VDNS2avRPOFNyjlzz8gVWd,LG8GMZcLyygOYBk1HoHrMO" />
         <Link Id="LlDLQ46XxZMMDftOBzbhEQ" Ids="KFGrUqeEBVsLvGS66rHBqb,OGF7rAn35SXLjWVMrEHUac" />
-        <Link Id="UTpdmsi2U59PbVKT8RvU7p" Ids="T9cEoy4sC7WNsajpqxfbOl,Jogg5SOqtY2MXSZwytsUKA" />
         <Link Id="OX2818aMJp7PJJrGiCihyC" Ids="UiUBfh5TBAnNQvxQohfQMt,TCiUtKL6xbcNdwnQdQCpfI" />
         <Link Id="D1ILWFN7oFbPA2ASO0C9YA" Ids="TCiUtKL6xbcNdwnQdQCpfI,P2RhTy3VHBtO7TgpaqVTMA" />
         <Link Id="N1p5e9ZNrhPNvdCw01ZqXa" Ids="HLCpRjSwyjHLqEqM8upXWp,IP8yEqZsXIHNfwjTjeEN2I" />
@@ -462,12 +469,15 @@
         <Link Id="D0u7oPcQwfoNmH5zXPGWCc" Ids="KAVBEDp7yjqM7Dl1hRVfDZ,E0l3BdZTYP1MZWC1iqCnq7" />
         <Link Id="KxV5EAeBp3BMiHm02463ig" Ids="C6EPY95NzWgLszJqc0PuEh,LAIRkcAPOWuP2AYz2c16ve" />
         <Link Id="IDidkzNQGkGPP7g4eByZEv" Ids="N4MY1sg4V5tLiNrI88774R,Jxa3GbyO1yKLuKLJslfU7u" />
+        <Link Id="IHMFt2u9T1rM2waiADWYnX" Ids="V0Gd5QgnsAONnYke0nc9mW,Jogg5SOqtY2MXSZwytsUKA" />
+        <Link Id="K2ASpdtAdJ8Qc1mY9ettDj" Ids="Ke0yaJ4PgSDLBY21JYBPrb,K1qqewbqMRaQCMeqEfpKPM" />
+        <Link Id="Jdzhlw0342SQBQQiQKwqG5" Ids="T9cEoy4sC7WNsajpqxfbOl,P4wnYWCcqwBLHYHmm3kswz" />
       </Patch>
     </Node>
   </Patch>
-  <NugetDependency Id="VZi3c0ShNtTOpaJ5Ysdd7W" Location="VL.CoreLib" Version="2021.4.8" />
-  <NugetDependency Id="UtqabdEzFm0QMbOw8kyAgV" Location="VL.Skia" Version="2021.4.8" />
-  <NugetDependency Id="Qj390DY9cdeMezAh0oNlDV" Location="VL.Stride" Version="2021.4.8" />
+  <NugetDependency Id="VZi3c0ShNtTOpaJ5Ysdd7W" Location="VL.CoreLib" Version="2021.4.10" />
+  <NugetDependency Id="UtqabdEzFm0QMbOw8kyAgV" Location="VL.Skia" Version="2021.4.10" />
+  <NugetDependency Id="Qj390DY9cdeMezAh0oNlDV" Location="VL.Stride" Version="2021.4.10" />
   <DocumentDependency Id="Iko9yNJyOoHOUEIa2fv7fb" Location="../B-Spline.vl" />
   <NugetDependency Id="Vja1LfxtXchO0fVpSDiixr" Location="VL.BadMapper" Version="0.0.0.0" />
 </Document>

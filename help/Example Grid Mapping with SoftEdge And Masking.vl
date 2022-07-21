@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Document xmlns:p="property" Id="PtU8FCupLa8L8ImdAYenqF" LanguageVersion="2021.4.8.947" Version="0.128">
+<Document xmlns:p="property" Id="PtU8FCupLa8L8ImdAYenqF" LanguageVersion="2021.4.10.1043" Version="0.128">
   <Patch Id="GUSIUYpgQaoPWjVwEkT0LM">
     <Canvas Id="J2Nx3Ec4ixiOZVxU4xEbAe" DefaultCategory="Main" CanvasType="FullCategory" />
     <!--
@@ -384,6 +384,15 @@
               <Item>-0.89, -0.63</Item>
             </p:Value>
           </Pad>
+          <Node Bounds="411,619" Id="CgvfsfUOEcAOoCmeW4Cvso">
+            <p:NodeReference LastCategoryFullName="Collections.Spread" LastSymbolSource="VL.Collections.vl">
+              <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+              <Choice Kind="OperationCallFlag" Name="FromValue" />
+              <CategoryReference Kind="RecordType" Name="Spread" NeedsToBeDirectParent="true" />
+            </p:NodeReference>
+            <Pin Id="CxkN6AezZnpNreWJql3qYV" Name="Input" Kind="InputPin" />
+            <Pin Id="CMBGgoBnQVcNLB7WRN9OtQ" Name="Result" Kind="OutputPin" />
+          </Node>
         </Canvas>
         <ProcessDefinition Id="F9ruwS6h1t7L1BMykV7oEU">
           <Fragment Id="DMwInPIu9vANK94nHUzcQd" Patch="FkdIltBlOfHNvfPTOpv0x1" Enabled="true" />
@@ -405,7 +414,7 @@
         <Link Id="KPKVCWvjGM0NgNu97m4TWV" Ids="KdtbivIl0IKLgDJn2yaLUu,KKTzcau5V0BMg7Tqj8l6Fb" />
         <Link Id="MNDF5impzL9NtE4j0PfBBj" Ids="PUkFqiHnGVkPDG0REsilqU,ESjvzONuE3JNRUfIqBVqkL" />
         <Link Id="S3Bikaxkft2NQeS1EhyLbM" Ids="Gg5czdKaNVRMKJXsBcs767,A2ygsnZEpdMLV7IPsuHgb7" />
-        <Link Id="OJEWHaJkPyEM5eIODtKgZt" Ids="EvPj5881yRELo6zGa8RJst,TGKaYm0NjXTQNXTQeamF3I" />
+        <Link Id="OJEWHaJkPyEM5eIODtKgZt" Ids="EvPj5881yRELo6zGa8RJst,CxkN6AezZnpNreWJql3qYV" />
         <Link Id="OBxvmDytCgpQHrDcH6ePEa" Ids="O2bysBKKdfdLIHDjrsIo4I,LvKLJD6tldSLNOQLwNEQeQ" />
         <Link Id="EJtp6CyC7S2M3Y07loAf4B" Ids="KgljsskLQEvNBxZOJMoo9b,U0Fetf0vLcoP6Ipu0MazPA" />
         <Link Id="IHxFfM3ha0ZL0kIXZOThfy" Ids="SpgN8hDPTYZNmb1GTc5N3O,Bm8gZ6uernyLMvmuS6wvjt" />
@@ -417,12 +426,13 @@
         <Link Id="JamK3Kqv88oOjLDPqCe91D" Ids="IplhBhynHLBNdhEu7Co5Md,CZdLfnq4paYPS9Usvt4lnP" />
         <Link Id="VgUG8ImPx8ZLrnC2mcg6A7" Ids="JNzTWafnGTXNvjPSYdr77d,B0oaVloYaB8OxAC2TiTOtT" />
         <Link Id="VMZWUaLNYkpN2VJozSJQr8" Ids="JNzTWafnGTXNvjPSYdr77d,HR13ZASS8MaPiVvCtaQXuJ" />
+        <Link Id="J0jejT4kDWsNFbI2cdLJtr" Ids="CMBGgoBnQVcNLB7WRN9OtQ,TGKaYm0NjXTQNXTQeamF3I" />
       </Patch>
     </Node>
   </Patch>
-  <NugetDependency Id="VZi3c0ShNtTOpaJ5Ysdd7W" Location="VL.CoreLib" Version="2021.4.8" />
-  <NugetDependency Id="UtqabdEzFm0QMbOw8kyAgV" Location="VL.Skia" Version="2021.4.8" />
-  <NugetDependency Id="Qj390DY9cdeMezAh0oNlDV" Location="VL.Stride" Version="2021.4.8" />
+  <NugetDependency Id="VZi3c0ShNtTOpaJ5Ysdd7W" Location="VL.CoreLib" Version="2021.4.10" />
+  <NugetDependency Id="UtqabdEzFm0QMbOw8kyAgV" Location="VL.Skia" Version="2021.4.10" />
+  <NugetDependency Id="Qj390DY9cdeMezAh0oNlDV" Location="VL.Stride" Version="2021.4.10" />
   <DocumentDependency Id="Iko9yNJyOoHOUEIa2fv7fb" Location="../B-Spline.vl" />
   <NugetDependency Id="QojlupWLdk2MRLt0E3K1tg" Location="VL.BadMapper" Version="0.0.0.0" />
 </Document>
