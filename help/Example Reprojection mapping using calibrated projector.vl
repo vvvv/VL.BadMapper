@@ -886,59 +886,6 @@
               <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
             </p:ValueBoxSettings>
           </Pad>
-          <Node Bounds="598,753,101,19" Id="BUDrRYsSV1vOh0kGAxzedD">
-            <p:NodeReference LastCategoryFullName="Mapping" LastSymbolSource="VL.BadMapper.vl">
-              <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
-              <Choice Kind="ProcessAppFlag" Name="ProjectionMapping" />
-            </p:NodeReference>
-            <Pin Id="NfJm6LHdGa9NvEg2lTOj1h" Name="Input" Kind="InputPin" />
-            <Pin Id="SvKSS7gJf5hMvBUrHuJ2Bq" Name="Outputs" Kind="OutputPin" />
-            <Pin Id="Kog3OY7t8AQPeVcBh9cija" Name="Cameras" Kind="OutputPin" />
-            <Pin Id="FrsLHWN5deNL0YFiBwjKIq" Name="Screen Helpers" Kind="OutputPin" />
-          </Node>
-          <Node Bounds="623,793" Id="JLmFbtul4QvOlRV2zaHlah">
-            <p:NodeReference LastCategoryFullName="Stride.Rendering.Compositing" LastSymbolSource="VL.Stride.Engine.vl">
-              <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
-              <Choice Kind="ProcessAppFlag" Name="ViewportGrid" />
-            </p:NodeReference>
-            <Pin Id="UmrjBeY0t0fMohxVKqf6FL" Name="Viewport Grid Resolution" Kind="InputPin" DefaultValue="1, 1" />
-            <Pin Id="ImcsCe1fO1fOBkexg51Ldd" Name="Renderers" Kind="InputPin" />
-            <Pin Id="LkTkz3DgDEtPYdoFiEvem2" Name="Cameras" Kind="InputPin" />
-            <Pin Id="Fb4lDnkiY7UNgK2wYkyHem" Name="Viewport Settings" Kind="OutputPin" />
-          </Node>
-          <Node Bounds="246,727,97,107" Id="OOZZo1xbjbVPBTYs6jAF99">
-            <p:NodeReference>
-              <Choice Kind="ProcessAppFlag" Name="Comment" />
-              <Choice Kind="StatefulRegion" Name="Region (Stateful)" Fixed="true" />
-              <FullNameCategoryReference ID="Control" />
-            </p:NodeReference>
-            <Patch Id="CbSMeKITaXmNoq0Rwaicmj" ManuallySortedPins="true">
-              <Patch Id="F8tAcwG825hPF4bepRlzEr" Name="Create" ManuallySortedPins="true" />
-              <Patch Id="VIbW6hv0C4BL4OkXQHM5Ll" Name="Update" ManuallySortedPins="true" />
-              <Node Bounds="258,795,63,19" Id="Jge4femmifQNGAPaA8850f">
-                <p:NodeReference LastCategoryFullName="Stride" LastSymbolSource="VL.Stride.Engine.vl">
-                  <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
-                  <CategoryReference Kind="Category" Name="Stride" NeedsToBeDirectParent="true" />
-                  <Choice Kind="ProcessAppFlag" Name="RootScene" />
-                </p:NodeReference>
-                <Pin Id="EIAFUWPTUP2LVch24V9h51" Name="Child" Kind="InputPin" />
-                <Pin Id="APx1hD6QsyAPqFgI1iCyAI" Name="Enabled" Kind="InputPin" DefaultValue="True">
-                  <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
-                    <Choice Kind="TypeFlag" Name="Boolean" />
-                  </p:TypeAnnotation>
-                </Pin>
-                <Pin Id="EMf9x2mWuUDPauGLb6lrls" Name="Output" Kind="OutputPin" />
-              </Node>
-              <Node Bounds="258,750,73,19" Id="RARktkBNF88OXk0nMq3pqX">
-                <p:NodeReference LastCategoryFullName="Mapping.BadMapper" LastSymbolSource="VL.BadMapper.vl">
-                  <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
-                  <Choice Kind="ProcessAppFlag" Name="BadMapper2" />
-                </p:NodeReference>
-                <Pin Id="B8mYYW24ikmM8ajO1TjkNl" Name="Input" Kind="InputPin" />
-                <Pin Id="VQEXVrKxEbuO5urlQ1wQqD" Name="Output" Kind="OutputPin" />
-              </Node>
-            </Patch>
-          </Node>
           <Node Bounds="88,394,85,19" Id="QBbDmqtOA2ZOiYMfrusscN">
             <p:NodeReference LastCategoryFullName="Stride" LastSymbolSource="VL.Stride.Engine.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
@@ -981,6 +928,28 @@
               <Choice Kind="TypeFlag" Name="Int2" />
             </p:TypeAnnotation>
           </Pad>
+          <Node Bounds="428,781,63,19" Id="Jge4femmifQNGAPaA8850f">
+            <p:NodeReference LastCategoryFullName="Stride" LastSymbolSource="VL.Stride.Engine.vl">
+              <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+              <CategoryReference Kind="Category" Name="Stride" NeedsToBeDirectParent="true" />
+              <Choice Kind="ProcessAppFlag" Name="RootScene" />
+            </p:NodeReference>
+            <Pin Id="EIAFUWPTUP2LVch24V9h51" Name="Child" Kind="InputPin" />
+            <Pin Id="APx1hD6QsyAPqFgI1iCyAI" Name="Enabled" Kind="InputPin" DefaultValue="True">
+              <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
+                <Choice Kind="TypeFlag" Name="Boolean" />
+              </p:TypeAnnotation>
+            </Pin>
+            <Pin Id="EMf9x2mWuUDPauGLb6lrls" Name="Output" Kind="OutputPin" />
+          </Node>
+          <Node Bounds="428,736,73,19" Id="RARktkBNF88OXk0nMq3pqX">
+            <p:NodeReference LastCategoryFullName="Mapping.BadMapper" LastSymbolSource="VL.BadMapper.vl">
+              <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+              <Choice Kind="ProcessAppFlag" Name="BadMapper2" />
+            </p:NodeReference>
+            <Pin Id="B8mYYW24ikmM8ajO1TjkNl" Name="Input" Kind="InputPin" />
+            <Pin Id="VQEXVrKxEbuO5urlQ1wQqD" Name="Output" Kind="OutputPin" />
+          </Node>
         </Canvas>
         <Patch Id="MlJDEAkmWSCNFrBbC1wcnK" Name="Create" />
         <Patch Id="FH0PMPoKAjCPHHW3NlP1Bj" Name="Update" />
@@ -1005,10 +974,6 @@
         <Link Id="TOIS97daUEZMV66lRskZKD" Ids="KsDLozMkic4PgY9Y3pPsAq,QxqYLekAlB2O0PfGHCt4nI" />
         <Link Id="SP3rrluRp4UQao9nxiN46O" Ids="An9pPsDEg90LGOnZzwJM5n,UuOz9qAukTLNuGQCRjCn0V" />
         <Link Id="UQwyEyzHs1DL7SOFX8mW1l" Ids="D13YpIycP78OYF2LkQGiqv,Aldx1cmxdHHPC6WEi60XND" />
-        <Link Id="Rov3MnlmvgHPhEnWuYg1Uo" Ids="G6yMhFcpN5rNKKmfabasmK,NfJm6LHdGa9NvEg2lTOj1h" />
-        <Link Id="Ni5hNuLQ2JUMMkXbL0prOs" Ids="SvKSS7gJf5hMvBUrHuJ2Bq,ImcsCe1fO1fOBkexg51Ldd" />
-        <Link Id="UDeLRu5Y3fdLdhurxJYqUi" Ids="Kog3OY7t8AQPeVcBh9cija,LkTkz3DgDEtPYdoFiEvem2" />
-        <Link Id="M5tR0uC6NUyNcFpLYhDYbt" Ids="Fb4lDnkiY7UNgK2wYkyHem,I58f4KJqwEVMIvfQ8SwuDk" />
         <Link Id="F2TCxQs4HceNPtIZXv4DPH" Ids="QUJjf8gDwYNNnsilwj8QUM,FohLaOIW03aPiO19KxlNQB" />
         <Link Id="VZJBwUn9gygMqA4lCx8YFb" Ids="Q3n67mgD5e6LFQyDFMtQEY,DV2SOdPdb1jLcn25ZHhMkP" />
         <Link Id="KwjzWAYHcbINujUFNRA95j" Ids="Mg6VqNQjs23NQyxcmOtZCB,HYRHQPo1ql4Pq1wArFTtyo" />
@@ -1016,6 +981,7 @@
         <Link Id="FKnbqQOsEj9NO1bdnfT7UV" Ids="SokZ5isPAGFMw7X02IFhod,CzV8uNO6tn1LzkfAfuKHHD" />
         <Link Id="P6ydrNNIqvHQSqfLlzIQJL" Ids="SHTq6RWLNjuL04f5i0bEyA,CHB0R2XutMzP0DXScO3kkq" />
         <Link Id="KGLVvAai8vfMZMXD7TcVI3" Ids="VQEXVrKxEbuO5urlQ1wQqD,EIAFUWPTUP2LVch24V9h51" />
+        <Link Id="USy9POUUmfMQT4ntGs4aBa" Ids="EMf9x2mWuUDPauGLb6lrls,IuJZqEMnMQoMrHhmjoBRM0" />
       </Patch>
     </Node>
   </Patch>

@@ -26,7 +26,7 @@
             <Pin Id="N3EHeA9yULGPswnUt7UQ5N" Name="Show Calibration" Kind="InputPin" DefaultValue="True" />
             <Pin Id="MTOj5fyE8B1MHCuZJrRjV1" Name="Use Debug Backdrop" Kind="InputPin" DefaultValue="False" />
             <Pin Id="Q4gdTVNcuMVN0BEIDEjhma" Name="Masks" Kind="InputPin" />
-            <Pin Id="KTZ3vbHGJEEOBivsbjTOSn" Name="Bounds" Kind="InputPin" DefaultValue="1279, 104, 579, 320" />
+            <Pin Id="KTZ3vbHGJEEOBivsbjTOSn" Name="Bounds" Kind="InputPin" DefaultValue="1278.857, 104, 578.8571, 320" />
             <Pin Id="SiaE9thOLcTQbw5d5jlTvt" Name="Output" Kind="OutputPin" />
           </Node>
           <Node Bounds="263,87,125,19" Id="QdKHSlqMQmwPq7lG5tTxoX">
@@ -130,8 +130,7 @@
             <Pin Id="F0h4bF8YkbGLjxWbttPgBH" Name="Cropping" Kind="InputPin" />
             <Pin Id="TObyEPphUmVLVmmpmUiwmR" Name="Debug Enabled" Kind="InputPin" DefaultValue="True" />
             <Pin Id="LaywVF4PCOuQJzBdAha3cp" Name="Color" Kind="InputPin" DefaultValue="0.8199998, 0.07380027, 0.7453795, 1" />
-            <Pin Id="ITmJjljoBoAPEn29ivGhsk" Name="Name" Kind="InputPin" DefaultValue="ds" />
-            <Pin Id="AVbkHIwf6S5MdoWNxTPpbs" Name="Mesh" Kind="InputPin" />
+            <Pin Id="ITmJjljoBoAPEn29ivGhsk" Name="Name" Kind="InputPin" DefaultValue="A" />
             <Pin Id="G0JLQPtyyr3ONd2whitp2m" Name="Camera" Kind="InputPin" />
             <Pin Id="ToAhKbH4y6nNry5pA3LGms" Name="Output" Kind="StateOutputPin" />
           </Node>
@@ -146,7 +145,7 @@
             <Pin Id="NnIUwzlW8IsNJGK3Kc9Dks" Name="Input" Kind="InputPin" />
             <Pin Id="DuJ7QA7XDHNN6MfXZOvtTK" Name="Scaling" Kind="InputPin" DefaultValue="0.52, 0.29" />
             <Pin Id="MWxYoziqvItPg825Pzkdt3" Name="Rotation" Kind="InputPin" />
-            <Pin Id="JtYpbz4avUeLyA17NceEI8" Name="Translation" Kind="InputPin" DefaultValue="0.21, 0.45" />
+            <Pin Id="JtYpbz4avUeLyA17NceEI8" Name="Translation" Kind="InputPin" DefaultValue="0.08, 0.13" />
             <Pin Id="EA8bBlNeDVsLY7e9S22UF4" Name="Output" Kind="OutputPin" />
           </Node>
           <Node Bounds="383,305,109,19" Id="LXQBzEezy3jP3ac8VSykF3">
@@ -168,7 +167,7 @@
               </p:TypeArguments>
             </p:TypeAnnotation>
             <p:Value>
-              <Item>-0.79, 0.58</Item>
+              <Item>-0.81, 0.58</Item>
               <Item>0.74, 0.77</Item>
               <Item>0.4, -0.75</Item>
               <Item>-0.79, -0.63</Item>
@@ -184,8 +183,7 @@
             <Pin Id="NDxvBiRidibNDuar0x1bwc" Name="Cropping" Kind="InputPin" />
             <Pin Id="LjEU5v5gFVzNATsKpaibK3" Name="Debug Enabled" Kind="InputPin" DefaultValue="True" />
             <Pin Id="Gu5va1XejQAK9brEKBoLWK" Name="Color" Kind="InputPin" DefaultValue="0, 0.5019608, 0, 1" />
-            <Pin Id="KiXhs0LHMGyPVhOuT6lyUX" Name="Name" Kind="InputPin" DefaultValue="ds" />
-            <Pin Id="Jlhz6N1jgRQLYyCEfUJml2" Name="Mesh" Kind="InputPin" />
+            <Pin Id="KiXhs0LHMGyPVhOuT6lyUX" Name="Name" Kind="InputPin" DefaultValue="B" />
             <Pin Id="T4iOV7XQ1TGLeHqiOHPi4g" Name="Camera" Kind="InputPin" />
             <Pin Id="E8op7zJPf9INZV4MEVtfUk" Name="Output" Kind="StateOutputPin" />
           </Node>
@@ -228,12 +226,12 @@
               <Item>-0.4, -0.63</Item>
             </p:Value>
           </Pad>
-          <Node Bounds="156,662,225,19" Id="NhHroxFdokkMnPiXBd7fjT">
+          <Node Bounds="266,643,225,19" Id="NhHroxFdokkMnPiXBd7fjT">
             <p:NodeReference LastCategoryFullName="Stride" LastSymbolSource="VL.Stride.Engine.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="SceneWindow" />
             </p:NodeReference>
-            <Pin Id="MbNct8nH9uxPRgNYvovnm4" Name="Bounds" Kind="InputPin" DefaultValue="1017, 496, 786, 432" />
+            <Pin Id="MbNct8nH9uxPRgNYvovnm4" Name="Bounds" Kind="InputPin" DefaultValue="1016.571, 496, 785.7143, 432" />
             <Pin Id="K2O74WbOkLLNunb0Dky1pd" Name="Input" Kind="InputPin" />
             <Pin Id="DNIa54RrLI4MyD0g6SIdTQ" Name="Camera" Kind="InputPin" />
             <Pin Id="H4YV8GVpu0oLYt1SddrE9i" Name="Enable Default Camera" Kind="InputPin" DefaultValue="False" />
@@ -259,24 +257,6 @@
             <Pin Id="DBTnxMcLuYWPz9cwkBwqOz" Name="Cameras" Kind="InputPin" />
             <Pin Id="J0AwyJ3ZiwSN2iIaV2y6Xz" Name="Viewport Settings" Kind="OutputPin" />
           </Node>
-          <Node Bounds="68,548,73,19" Id="Lv27BTP2YmMLeVLeRTKJAA">
-            <p:NodeReference LastCategoryFullName="Mapping.BadMapper" LastSymbolSource="VL.BadMapper.vl">
-              <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
-              <Choice Kind="ProcessAppFlag" Name="BadMapper2" />
-            </p:NodeReference>
-            <Pin Id="Kmd9UV26v2PLXMjxknZdBC" Name="Input" Kind="InputPin" />
-            <Pin Id="FgvROvqeFikNnH5spcVDAT" Name="Output" Kind="OutputPin" />
-          </Node>
-          <Node Bounds="175,594,63,19" Id="TxKiUOyk5ZVMQwjpejXHta">
-            <p:NodeReference LastCategoryFullName="Stride" LastSymbolSource="VL.Stride.Engine.vl">
-              <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
-              <Choice Kind="ProcessAppFlag" Name="RootScene" />
-            </p:NodeReference>
-            <Pin Id="MrHmVIKOTvlL2I5JSqajnW" Name="Child" Kind="InputPin" />
-            <Pin Id="BHbpxBRk7gHLlB5tDN7Zdc" Name="Child 2" Kind="InputPin" />
-            <Pin Id="Ap3dPtDxMX7LUEgbUJ60Js" Name="Enabled" Kind="InputPin" />
-            <Pin Id="GbwEHe5nAUQOzFVdBaR8uX" Name="Output" Kind="OutputPin" />
-          </Node>
           <Node Bounds="269,403,39,19" Id="J9GvTy3d8DSP2OrW5isw0g">
             <p:NodeReference LastCategoryFullName="Collections.Spread" LastSymbolSource="VL.Collections.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
@@ -288,24 +268,6 @@
             <Pin Id="O5QBbqcXOlTOyrGTb4dtrw" Name="Input" Kind="InputPin" />
             <Pin Id="VDxT4iwCKk7LtM3AfEbAd1" Name="Input 2" Kind="InputPin" />
             <Pin Id="HMAMjPWs6jGOrsEqUpG64a" Name="Result" Kind="OutputPin" />
-          </Node>
-          <Node Bounds="626,424,205,19" Id="RD12KSO4kFcMGdp5zisUOl">
-            <p:NodeReference LastCategoryFullName="Mapping" LastSymbolSource="VL.BadMapper.vl">
-              <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
-              <Choice Kind="ProcessAppFlag" Name="GridMapping" />
-            </p:NodeReference>
-            <Pin Id="ILmvGTnNhx8LTCaI8SDxv8" Name="Source" Kind="InputPin" />
-            <Pin Id="SuWxPjFPF3tLD7KvyFGq8f" Name="Screen Count" Kind="InputPin" />
-            <Pin Id="Nyqqo6VfY01OxoCpvoFMD8" Name="Names" Kind="InputPin" />
-            <Pin Id="ErN5ZBt2cx1NsVntnDub5X" Name="Color" Kind="InputPin" />
-            <Pin Id="K0uaeITxK5lOzXftVuUBbY" Name="SoftEdge Parameters" Kind="InputPin" />
-            <Pin Id="P3ThMFF99trPIw7FcqanRs" Name="Opacity" Kind="InputPin" />
-            <Pin Id="PIBkH82BO3iObsETM5LaNj" Name="Compensate Light Falloff" Kind="InputPin" />
-            <Pin Id="ELLTT6hbRLmLWjJZUNEARc" Name="Global Light Compensation" Kind="InputPin" />
-            <Pin Id="JuSmnFcesbjLFQ7ikeD9ma" Name="Content Cropping" Kind="InputPin" />
-            <Pin Id="BvuPQc5Tp4iP3iVUVJHWRh" Name="Cameras" Kind="InputPin" />
-            <Pin Id="EOX4rR1NPCNQPm3muhozK3" Name="Meshes" Kind="InputPin" />
-            <Pin Id="InJ537MOaj8M7eDfFzjNAN" Name="Output" Kind="StateOutputPin" />
           </Node>
         </Canvas>
         <ProcessDefinition Id="F9ruwS6h1t7L1BMykV7oEU">
@@ -328,13 +290,10 @@
         <Link Id="Ls3jZmPzXz3NrRSqJngZo0" Ids="EIZV1abMsDLOq3Wc5NvDcm,IuhjVPm2llqMxmmcByykId" />
         <Link Id="SDJl967KXIbNYuJsiJ0FFL" Ids="IHVAwBYn0qrNTvzR8HtOtu,T4iOV7XQ1TGLeHqiOHPi4g" />
         <Link Id="TGcu9PhVXIsNQezzUpkOQq" Ids="SiaE9thOLcTQbw5d5jlTvt,RqrOmvOUSllOO6Mg8lTrWi" />
-        <Link Id="OdAHyf6IeJdMsz3MtURga1" Ids="HMAMjPWs6jGOrsEqUpG64a,Kmd9UV26v2PLXMjxknZdBC" />
         <Link Id="Tp9QxDtZb9rPr2JQXKJDQL" Ids="ToAhKbH4y6nNry5pA3LGms,O5QBbqcXOlTOyrGTb4dtrw" />
-        <Link Id="EGVvabZ2faCOkOX9HCOGP0" Ids="FgvROvqeFikNnH5spcVDAT,MrHmVIKOTvlL2I5JSqajnW" />
         <Link Id="QkkCiWZHmjZMRgyeUbSL4L" Ids="HMAMjPWs6jGOrsEqUpG64a,Jogg5SOqtY2MXSZwytsUKA" />
         <Link Id="Sp54OtKUS2SLsW9P0F7elV" Ids="N4MY1sg4V5tLiNrI88774R,JpvTSdGgAW1Nat0nHWOXzS" />
         <Link Id="Sb7mOOkD3veMrEDSe2iiWL" Ids="E8op7zJPf9INZV4MEVtfUk,VDxT4iwCKk7LtM3AfEbAd1" />
-        <Link Id="IgbGGm0ZrOALjJEFDqOapn" Ids="GbwEHe5nAUQOzFVdBaR8uX,K2O74WbOkLLNunb0Dky1pd" />
         <Link Id="Fs2DdhkxlNxML3JMBjipS5" Ids="KFGrUqeEBVsLvGS66rHBqb,DBTnxMcLuYWPz9cwkBwqOz" />
         <Link Id="CfC3ZU8FTVGMd4ofNGCHl0" Ids="J0AwyJ3ZiwSN2iIaV2y6Xz,UAZRGHQiNIUOVcf5Tt3vCV" />
       </Patch>
