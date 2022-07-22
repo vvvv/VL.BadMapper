@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Document xmlns:p="property" Id="C6PwghiFZtsMGBfNc3AKun" LanguageVersion="2021.4.9.951" Version="0.128">
-  <NugetDependency Id="GzbYazjJ5WNMiNJES4peBP" Location="VL.CoreLib" Version="2021.4.9-0951-gadd98db1ec" />
+<Document xmlns:p="property" Id="C6PwghiFZtsMGBfNc3AKun" LanguageVersion="2021.4.10.1043" Version="0.128">
+  <NugetDependency Id="GzbYazjJ5WNMiNJES4peBP" Location="VL.CoreLib" Version="2021.4.10" />
   <Patch Id="GwoJFsZ1pWmMtcj5qIbVPp">
     <Canvas Id="EYBdsYtxsX8MqjOqPOi7Uy" DefaultCategory="Main" CanvasType="FullCategory" />
     <!--
@@ -30,7 +30,7 @@
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="SceneWindow" />
             </p:NodeReference>
-            <Pin Id="HLvHxWm8MXMOn8EAatLpnT" Name="Bounds" Kind="InputPin" DefaultValue="1039, 449, 852, 422" />
+            <Pin Id="HLvHxWm8MXMOn8EAatLpnT" Name="Bounds" Kind="InputPin" DefaultValue="1038.857, 448.5714, 852, 421.7143" />
             <Pin Id="Ajpz3Vk5OpKMBHWJebxHEH" Name="Input" Kind="InputPin" />
             <Pin Id="GwyAWjrFw1ENg0SqHMXT3k" Name="Camera" Kind="InputPin" />
             <Pin Id="RS8dsY5pTl8OijX9UIFjtH" Name="Enable Default Camera" Kind="InputPin" />
@@ -46,16 +46,16 @@
             <Pin Id="FCWaQgsZHl9PhPcNqr0sRy" Name="Input Source" Kind="OutputPin" />
           </Node>
           <Node Bounds="138,541,105,19" Id="PunoJ3zaAjULmXRhid3zJq">
-            <p:NodeReference LastCategoryFullName="Mapping" LastSymbolSource="VL.BadMapper.vl">
+            <p:NodeReference LastCategoryFullName="Mapping.BadMapper" LastSymbolSource="VL.BadMapper.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
-              <Choice Kind="ProcessAppFlag" Name="BadMapper" />
+              <Choice Kind="ProcessAppFlag" Name="BadMapper (Interactive)" />
             </p:NodeReference>
-            <Pin Id="VuL7vzeM692PjcLimxztN4" Name="Background" Kind="InputPin" />
+            <Pin Id="DaVWvUecApbLWSFMr8XnCL" Name="Background" Kind="InputPin" />
             <Pin Id="UZKhN1S64IFMF93U9wI8bb" Name="Mappings" Kind="InputPin" />
             <Pin Id="Vq1uzMoqBoeLil48k161kq" Name="Masks" Kind="InputPin" />
             <Pin Id="DRNFWVaa1VrLnkxbVEwpNl" Name="Show Background" Kind="InputPin" DefaultValue="False" />
-            <Pin Id="UYwzBqfjrufORh9bMBjMGC" Name="Show Cursor" Kind="InputPin" />
-            <Pin Id="TGxvlKaS7kZOkHKgmo2w0A" Name="Show Cropper" Kind="InputPin" />
+            <Pin Id="I9R7s1tuK1LOgo900zA5GE" Name="Show Cursor" Kind="InputPin" />
+            <Pin Id="VehsNUObXZZPxOl1SxvlTz" Name="Show Cropper" Kind="InputPin" />
             <Pin Id="DoeZRb8FZIAOhWSKZ67CfY" Name="Projector Output" Kind="OutputPin" />
             <Pin Id="U4UZ5epUHJNOkUsBwWQk5Z" Name="Projector Camera" Kind="OutputPin" />
           </Node>
@@ -237,8 +237,8 @@
       </Patch>
     </Node>
   </Patch>
-  <NugetDependency Id="JKgSg3DJV5hOvXHrZ4IT63" Location="VL.CoreLib" Version="2021.4.9-0951-gadd98db1ec" />
-  <NugetDependency Id="C0BsGvMjxA4OMRkU585rmS" Location="VL.Stride" Version="2021.4.9-0951-gadd98db1ec" />
-  <NugetDependency Id="BQmMRJqWlnwQVVllVL0Iln" Location="VL.Video.MediaFoundation" Version="1.0.10" />
+  <NugetDependency Id="JKgSg3DJV5hOvXHrZ4IT63" Location="VL.CoreLib" Version="2021.4.10" />
+  <NugetDependency Id="C0BsGvMjxA4OMRkU585rmS" Location="VL.Stride" Version="2021.4.10" />
+  <NugetDependency Id="BQmMRJqWlnwQVVllVL0Iln" Location="VL.Video.MediaFoundation" Version="1.0.12" />
   <NugetDependency Id="MCAY2P47PHSOO0MidFd7pa" Location="VL.BadMapper" Version="0.0.0.0" />
 </Document>

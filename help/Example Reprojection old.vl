@@ -673,7 +673,7 @@
       </p:NodeReference>
       <Patch Id="Vj25sLBZxhZPwNAg67Fwvh">
         <Canvas Id="NWbLQWqcfy2P7zZPeYFfDI" CanvasType="Group">
-          <Node Bounds="705,504,225,19" Id="Ds39SvCc2pcOktcXsXCmpA">
+          <Node Bounds="759,553,225,19" Id="Ds39SvCc2pcOktcXsXCmpA">
             <p:NodeReference LastCategoryFullName="Stride" LastSymbolSource="VL.Stride.Engine.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="SceneWindow" />
@@ -716,7 +716,7 @@
             <Pin Id="JeIdS2VzpwEOeU0sHBTJN5" Name="Back Buffer" Kind="OutputPin" />
             <Pin Id="VXv2SFfcEFKO47dkDyVFzu" Name="Depth Buffer" Kind="OutputPin" />
           </Node>
-          <Pad Id="MyKGDXXNk07PcRaejNOgPT" Comment="Read" Bounds="140,345,47,48" ShowValueBox="true" isIOBox="true" Value="False">
+          <Pad Id="MyKGDXXNk07PcRaejNOgPT" Comment="Read" Bounds="194,394,47,48" ShowValueBox="true" isIOBox="true" Value="False">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
               <Choice Kind="TypeFlag" Name="Boolean" />
             </p:TypeAnnotation>
@@ -724,7 +724,7 @@
               <p:buttonmode p:Assembly="VL.UI.Forms" p:Type="VL.HDE.PatchEditor.Editors.ButtonModeEnum">Bang</p:buttonmode>
             </p:ValueBoxSettings>
           </Pad>
-          <Node Bounds="-3,846,225,19" Id="JOfY8POJVudNkDW6H8tpKe">
+          <Node Bounds="51,895,225,19" Id="JOfY8POJVudNkDW6H8tpKe">
             <p:NodeReference LastCategoryFullName="Stride" LastSymbolSource="VL.Stride.Engine.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="SceneWindow" />
@@ -763,7 +763,7 @@
             <Pin Id="GiznP5NPBLaM7ioTMCYCNH" Name="Back Buffer" Kind="OutputPin" />
             <Pin Id="Rdc6V31wNgiMSeY1rocf7I" Name="Depth Buffer" Kind="OutputPin" />
           </Node>
-          <Node Bounds="37,787,85,19" Id="Jq7cC97kcBvLbnbkJYt6j8">
+          <Node Bounds="91,836,85,19" Id="Jq7cC97kcBvLbnbkJYt6j8">
             <p:NodeReference LastCategoryFullName="Stride" LastSymbolSource="VL.Stride.Engine.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <CategoryReference Kind="Category" Name="Stride" NeedsToBeDirectParent="true" />
@@ -780,28 +780,28 @@
             </Pin>
             <Pin Id="JRmJbtQgmtoOmM3wl4a5mH" Name="Output" Kind="OutputPin" />
           </Node>
-          <Node Bounds="536,327,52,19" Id="Gg18ooP6Q5YMQMS97IQy87">
+          <Node Bounds="590,376,52,19" Id="Gg18ooP6Q5YMQMS97IQy87">
             <p:NodeReference LastCategoryFullName="Main" LastSymbolSource="HowTo Calibrate a projector and reproject.vl">
               <Choice Kind="ProcessNode" Name="Content" />
             </p:NodeReference>
             <Pin Id="QUJjf8gDwYNNnsilwj8QUM" Name="Output" Kind="OutputPin" />
           </Node>
-          <Pad Id="VBjhGETc7z3L1OgppwAUMt" Comment="" Bounds="807,480,193,15" ShowValueBox="true" isIOBox="true" Value="Content from spectator's view">
+          <Pad Id="VBjhGETc7z3L1OgppwAUMt" Comment="" Bounds="861,529,193,15" ShowValueBox="true" isIOBox="true" Value="Content from spectator's view">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
               <Choice Kind="TypeFlag" Name="String" />
             </p:TypeAnnotation>
           </Pad>
-          <Pad Id="KsDLozMkic4PgY9Y3pPsAq" Comment="Spectator Eye Position" Bounds="318,73,35,43" ShowValueBox="true" isIOBox="true" Value="-1.18, 1.25, 0.61">
+          <Pad Id="KsDLozMkic4PgY9Y3pPsAq" Comment="Spectator Eye Position" Bounds="372,122,35,43" ShowValueBox="true" isIOBox="true" Value="-1.18, 1.25, 0.61">
             <p:TypeAnnotation LastCategoryFullName="3D" LastSymbolSource="CoreLibBasics.vl">
               <Choice Kind="TypeFlag" Name="Vector3" />
             </p:TypeAnnotation>
           </Pad>
-          <Pad Id="An9pPsDEg90LGOnZzwJM5n" Comment="Spectator Target" Bounds="338,144,35,43" ShowValueBox="true" isIOBox="true" Value="0, 0.35, 0">
+          <Pad Id="An9pPsDEg90LGOnZzwJM5n" Comment="Spectator Target" Bounds="392,193,35,43" ShowValueBox="true" isIOBox="true" Value="0, 0.35, 0">
             <p:TypeAnnotation LastCategoryFullName="3D" LastSymbolSource="CoreLibBasics.vl">
               <Choice Kind="TypeFlag" Name="Vector3" />
             </p:TypeAnnotation>
           </Pad>
-          <Node Bounds="-42,724,145,19" Id="U99wL0LQuM7LRvWbX6wq3I">
+          <Node Bounds="12,773,145,19" Id="U99wL0LQuM7LRvWbX6wq3I">
             <p:NodeReference LastCategoryFullName="Stride.Models" LastSymbolSource="VL.Stride.Engine.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="ModelEntity" />
@@ -816,7 +816,7 @@
             <Pin Id="NdB7HBGOBuJPMwnbGzLZI0" Name="Enabled" Kind="InputPin" />
             <Pin Id="B2h5H8JV8beM4riR0p9TYA" Name="Entity" Kind="OutputPin" />
           </Node>
-          <Node Bounds="484,379,63,19" Id="DhAoAUMSm51L2KAB8GHycH">
+          <Node Bounds="538,428,85,19" Id="DhAoAUMSm51L2KAB8GHycH">
             <p:NodeReference LastCategoryFullName="Stride" LastSymbolSource="VL.Stride.Engine.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="RootScene" />
@@ -828,7 +828,7 @@
             <Pin Id="JXnSPuPh4azOa4SR9kTrVm" Name="Enabled" Kind="InputPin" />
             <Pin Id="L83DOS9X1ntPDziHgE8nMb" Name="Output" Kind="OutputPin" />
           </Node>
-          <Node Bounds="304,602,405,19" Id="PGDa7EQXH4NNjY1jZ2olbf">
+          <Node Bounds="358,651,405,19" Id="PGDa7EQXH4NNjY1jZ2olbf">
             <p:NodeReference LastCategoryFullName="Stride.Lights" LastSymbolSource="VL.Stride.Engine.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="ProjectorLight" />
@@ -872,12 +872,12 @@
             </Pin>
             <Pin Id="CHHqcnkawlHMuZCdVhAQOd" Name="Entity" Kind="OutputPin" />
           </Node>
-          <Pad Id="D13YpIycP78OYF2LkQGiqv" Comment="Aspect Ratio" Bounds="897,210,35,15" ShowValueBox="true" isIOBox="true" Value="1.78">
+          <Pad Id="D13YpIycP78OYF2LkQGiqv" Comment="Aspect Ratio" Bounds="951,259,35,15" ShowValueBox="true" isIOBox="true" Value="1.78">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
               <Choice Kind="TypeFlag" Name="Float32" />
             </p:TypeAnnotation>
           </Pad>
-          <Node Bounds="484,504,205,19" Id="Un4N4gcahR9LoUt4Dq3jM1">
+          <Node Bounds="538,553,205,19" Id="Un4N4gcahR9LoUt4Dq3jM1">
             <p:NodeReference LastCategoryFullName="Stride" LastSymbolSource="VL.Stride.Engine.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="SceneTexture" />
@@ -899,12 +899,12 @@
             <Pin Id="PLbBS3agwsnNZR3W2M3cl8" Name="Output" Kind="OutputPin" />
             <Pin Id="Rf1sPXHQCvUOTJQVpcmAJZ" Name="Depth" Kind="OutputPin" />
           </Node>
-          <Pad Id="Hr2ehlBFhRWOAHsSkWZrUd" Comment="Size" Bounds="509,462,35,28" ShowValueBox="true" isIOBox="true" Value="2048, 2048">
+          <Pad Id="Hr2ehlBFhRWOAHsSkWZrUd" Comment="Size" Bounds="563,511,35,28" ShowValueBox="true" isIOBox="true" Value="2048, 2048">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
               <Choice Kind="TypeFlag" Name="Int2" />
             </p:TypeAnnotation>
           </Pad>
-          <Pad Id="Qy83pXmJ6J2OnDnHONtP4y" Comment="Enabled" Bounds="100,680,35,35" ShowValueBox="true" isIOBox="true" Value="True">
+          <Pad Id="Qy83pXmJ6J2OnDnHONtP4y" Comment="Enabled" Bounds="154,729,35,35" ShowValueBox="true" isIOBox="true" Value="True">
             <p:TypeAnnotation>
               <Choice Kind="ImmutableTypeFlag" Name="Boolean" />
               <FullNameCategoryReference ID="Primitive" />
@@ -913,7 +913,7 @@
               <p:buttonmode p:Assembly="VL.UI.Forms" p:Type="VL.HDE.PatchEditor.Editors.ButtonModeEnum">Toggle</p:buttonmode>
             </p:ValueBoxSettings>
           </Pad>
-          <Node Bounds="393,292,145,19" Id="IKAFIjkoQglO41jwkx5vAt">
+          <Node Bounds="447,341,145,19" Id="IKAFIjkoQglO41jwkx5vAt">
             <p:NodeReference LastCategoryFullName="Stride.Models" LastSymbolSource="VL.Stride.Engine.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="ModelEntity" />
@@ -928,7 +928,7 @@
             <Pin Id="U1XCh42ZgxYK9zUeRedbuv" Name="Enabled" Kind="InputPin" />
             <Pin Id="UxWnm0hy4zJMr8wgjIV3Aw" Name="Entity" Kind="OutputPin" />
           </Node>
-          <Pad Id="M47HyH8BNZuOhoezTKNn01" Comment="Enabled" Bounds="537,248,35,35" ShowValueBox="true" isIOBox="true" Value="True">
+          <Pad Id="M47HyH8BNZuOhoezTKNn01" Comment="Enabled" Bounds="591,297,35,35" ShowValueBox="true" isIOBox="true" Value="True">
             <p:TypeAnnotation>
               <Choice Kind="ImmutableTypeFlag" Name="Boolean" />
               <FullNameCategoryReference ID="Primitive" />
@@ -937,7 +937,7 @@
               <p:buttonmode p:Assembly="VL.UI.Forms" p:Type="VL.HDE.PatchEditor.Editors.ButtonModeEnum">Toggle</p:buttonmode>
             </p:ValueBoxSettings>
           </Pad>
-          <Node Bounds="61,432,78,19" Id="V5KNSdhCcaxMnMCeqOoKgz">
+          <Node Bounds="115,481,78,19" Id="V5KNSdhCcaxMnMCeqOoKgz">
             <p:NodeReference>
               <Choice Kind="ProcessNode" Name="ProjectorView" />
             </p:NodeReference>
@@ -945,8 +945,8 @@
             <Pin Id="HLoYoN5ufePN8XuXiD5fBH" Name="Read" Kind="InputPin" />
             <Pin Id="HDeuVbmhvaMP3PseLblWuo" Name="Output" Kind="OutputPin" />
           </Node>
-          <Pad Id="FW5cpPOjBEcP96nDt3Djbl" Comment="" Bounds="730,582,190,132" ShowValueBox="true" isIOBox="true" />
-          <Node Bounds="771,245,80,19" Id="FGyXrXgeBsxNdG1A5rQpBV">
+          <Pad Id="FW5cpPOjBEcP96nDt3Djbl" Comment="" Bounds="784,631,190,132" ShowValueBox="true" isIOBox="true" />
+          <Node Bounds="825,294,80,19" Id="FGyXrXgeBsxNdG1A5rQpBV">
             <p:NodeReference>
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessNode" Name="SpectatorView" />
@@ -956,7 +956,7 @@
             <Pin Id="AE8gbDTTDRgLJaR0fxTKoz" Name="Aspect" Kind="InputPin" />
             <Pin Id="N0kiNDsJLX4NJHYF7VpG1R" Name="Output" Kind="OutputPin" />
           </Node>
-          <Node Bounds="-20,244,65,19" Id="F35cuAOzPd4Nreby4liwpO">
+          <Node Bounds="34,293,65,19" Id="F35cuAOzPd4Nreby4liwpO">
             <p:NodeReference LastCategoryFullName="Stride.Assets" LastSymbolSource="VL.Stride.Assets.Windows.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="FileModel" />
@@ -969,12 +969,12 @@
             <Pin Id="PtkSi8wkGiaL2dYbla7QWk" Name="Is Loading" Kind="OutputPin" />
             <Pin Id="MP4XmVXKB4xMFx4uKhawtn" Name="Already Loaded" Kind="OutputPin" />
           </Node>
-          <Pad Id="BxFpJCLECdiLhk060LGHHK" Comment="Path" Bounds="-35,190,140,15" ShowValueBox="true" isIOBox="true" Value="boxes.dae">
+          <Pad Id="BxFpJCLECdiLhk060LGHHK" Comment="Path" Bounds="19,239,140,15" ShowValueBox="true" isIOBox="true" Value="boxes.dae">
             <p:TypeAnnotation LastCategoryFullName="IO" LastSymbolSource="CoreLibBasics.vl">
               <Choice Kind="TypeFlag" Name="Path" />
             </p:TypeAnnotation>
           </Pad>
-          <Node Bounds="-37,337,57,19" Id="IbZiw5ImP5ILdmtAijf0vY">
+          <Node Bounds="17,386,57,19" Id="IbZiw5ImP5ILdmtAijf0vY">
             <p:NodeReference LastCategoryFullName="IO.Path" LastSymbolSource="CoreLibBasics.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="OperationCallFlag" Name="Filename (Split)" />
@@ -984,7 +984,7 @@
             <Pin Id="PlxnLSBOPvML3L9shlgBnq" Name="Filename" Kind="OutputPin" />
             <Pin Id="IZflvDYyJy4MmuzPaE1DAN" Name="Extension" Kind="OutputPin" />
           </Node>
-          <Node Bounds="-37,388,57,19" Id="Iyro1ULTo06NdXbd6rfHVb">
+          <Node Bounds="17,437,57,19" Id="Iyro1ULTo06NdXbd6rfHVb">
             <p:NodeReference LastCategoryFullName="IO" LastSymbolSource="CoreLibBasics.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="OperationCallFlag" Name="Filename (Join)" />
@@ -994,7 +994,7 @@
             <Pin Id="I6xTi9Do5ANNJR8IVUQfLG" Name="Extension" Kind="InputPin" DefaultValue="pcb" />
             <Pin Id="GDbzgl5Qy39LMfcXRoK3Fd" Name="Result" Kind="OutputPin" />
           </Node>
-          <Node Bounds="135,395,54,19" Id="BjYsZ10bprqMN0MhJYVoQc">
+          <Node Bounds="189,444,54,19" Id="BjYsZ10bprqMN0MhJYVoQc">
             <p:NodeReference LastCategoryFullName="Control" LastSymbolSource="CoreLibBasics.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="OnOpen" />
@@ -1002,7 +1002,7 @@
             <Pin Id="Ewa632QljUNQNECiBf7aku" Name="Simulate" Kind="InputPin" />
             <Pin Id="Vpmyz1i5dmgNwXWWUvBdQp" Name="Output" Kind="OutputPin" />
           </Node>
-          <Pad Id="JiChd4gEVJeNHntRJZaIQR" Bounds="431,508,35,35" ShowValueBox="true" isIOBox="true" Value="1) ">
+          <Pad Id="JiChd4gEVJeNHntRJZaIQR" Bounds="485,557,35,35" ShowValueBox="true" isIOBox="true" Value="1) ">
             <p:TypeAnnotation>
               <Choice Kind="TypeFlag" Name="String" />
             </p:TypeAnnotation>
@@ -1011,7 +1011,7 @@
               <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
             </p:ValueBoxSettings>
           </Pad>
-          <Pad Id="IoPe2QKaoWAMdkzhwNKINe" Bounds="-47,50,281,114" ShowValueBox="true" isIOBox="true" Value="1) Render the scene from the perspective of the Spectator&#xD;&#xA;2) Project the result from back onto the 3d model of the physical screen&#xD;&#xA;3) Render the scene from the perspective of the calibrated projector">
+          <Pad Id="IoPe2QKaoWAMdkzhwNKINe" Bounds="7,99,281,114" ShowValueBox="true" isIOBox="true" Value="1) Render the scene from the perspective of the Spectator&#xD;&#xA;2) Project the result from back onto the 3d model of the physical screen&#xD;&#xA;3) Render the scene from the perspective of the calibrated projector">
             <p:TypeAnnotation>
               <Choice Kind="TypeFlag" Name="String" />
             </p:TypeAnnotation>
@@ -1020,7 +1020,7 @@
               <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
             </p:ValueBoxSettings>
           </Pad>
-          <Pad Id="ToCnvyulU62PElYyLArfXJ" Bounds="255,602,35,35" ShowValueBox="true" isIOBox="true" Value="2)">
+          <Pad Id="ToCnvyulU62PElYyLArfXJ" Bounds="309,651,35,35" ShowValueBox="true" isIOBox="true" Value="2)">
             <p:TypeAnnotation>
               <Choice Kind="TypeFlag" Name="String" />
             </p:TypeAnnotation>
@@ -1029,7 +1029,7 @@
               <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
             </p:ValueBoxSettings>
           </Pad>
-          <Pad Id="Rjt5DYLbGIhPamewcsaowk" Bounds="226,846,35,35" ShowValueBox="true" isIOBox="true" Value="3)">
+          <Pad Id="Rjt5DYLbGIhPamewcsaowk" Bounds="280,895,35,35" ShowValueBox="true" isIOBox="true" Value="3)">
             <p:TypeAnnotation>
               <Choice Kind="TypeFlag" Name="String" />
             </p:TypeAnnotation>

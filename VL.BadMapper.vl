@@ -7352,10 +7352,10 @@
         </Node>
         <!--
 
-    ************************ BadMapper ************************
+    ************************ BadMapper (Interactive) ************************
 
 -->
-        <Node Name="BadMapper" Bounds="405,474" Id="KN1BN0kQFE7MPhpXjMyuyi">
+        <Node Name="BadMapper (Interactive)" Bounds="405,474" Id="KN1BN0kQFE7MPhpXjMyuyi">
           <p:NodeReference>
             <Choice Kind="ContainerDefinition" Name="Process" />
             <FullNameCategoryReference ID="Primitive" />
@@ -9249,7 +9249,7 @@
                   <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                   <Choice Kind="ProcessAppFlag" Name="SceneWindow" />
                 </p:NodeReference>
-                <Pin Id="NCB1QskQt1FOyZq4lpv2tr" Name="Bounds" Kind="InputPin" DefaultValue="769, 56, 372, 296" />
+                <Pin Id="NCB1QskQt1FOyZq4lpv2tr" Name="Bounds" Kind="InputPin" DefaultValue="768.5714, 56, 372, 296" />
                 <Pin Id="FWXvCcvBAcdQWaB0sxiM9Y" Name="Input" Kind="InputPin" />
                 <Pin Id="T1TmLkmesYVM9ec772DAa7" Name="Camera" Kind="InputPin" />
                 <Pin Id="MO5ZuTp1dVyOa2zsw0eoEH" Name="Enable Default Camera" Kind="InputPin" DefaultValue="False" />
@@ -14716,10 +14716,10 @@
         </Node>
         <!--
 
-    ************************ BadMapper2 ************************
+    ************************ BadMapper ************************
 
 -->
-        <Node Name="BadMapper2" Bounds="378,651" Id="Bww2S89aekWNy189h8ooWW">
+        <Node Name="BadMapper" Bounds="378,651" Id="Bww2S89aekWNy189h8ooWW">
           <p:NodeReference>
             <Choice Kind="ContainerDefinition" Name="Process" />
             <FullNameCategoryReference ID="Primitive" />
@@ -14807,8 +14807,22 @@
                 <Pin Id="RDR1KCiyTn3LhLG9dy5YXd" Name="Enabled" Kind="InputPin" />
                 <Pin Id="HaaOGge4l16L8sWEt1W1p6" Name="Output" Kind="OutputPin" />
               </Node>
-              <ControlPoint Id="LXOyuM30IJwL1fmTGe5mBZ" Bounds="290,707" />
+              <ControlPoint Id="LXOyuM30IJwL1fmTGe5mBZ" Bounds="291,759" />
               <ControlPoint Id="BxGq7dBnKRPM9g7xrtaoMf" Bounds="329,189" />
+              <Node Bounds="287,700,63,19" Id="DQVSwrXaia7OhI7Di5u7q4">
+                <p:NodeReference LastCategoryFullName="Stride" LastSymbolSource="VL.Stride.Engine.vl">
+                  <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+                  <CategoryReference Kind="Category" Name="Stride" NeedsToBeDirectParent="true" />
+                  <Choice Kind="ProcessAppFlag" Name="RootScene" />
+                </p:NodeReference>
+                <Pin Id="VSi9gIpBZs6PEqmSoEDo8I" Name="Child" Kind="InputPin" />
+                <Pin Id="RzD81qmom4BQIerw94Wlgd" Name="Enabled" Kind="InputPin" DefaultValue="True">
+                  <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
+                    <Choice Kind="TypeFlag" Name="Boolean" />
+                  </p:TypeAnnotation>
+                </Pin>
+                <Pin Id="BOQts5zDkVtP2CoaZ3pBMz" Name="Output" Kind="OutputPin" />
+              </Node>
             </Canvas>
             <Patch Id="Ks3se2amvifNuiTxARPp0X" Name="Create" />
             <Patch Id="TLpHTlLLM2IOh3hqDWF51L" Name="Update">
@@ -14827,11 +14841,12 @@
             <Link Id="HR9AQXjNfUMNOKD2NkiXoG" Ids="MKApF97cJVcMYa0G9Izbyj,HgVJQG9504gMjfTxmR3plc" />
             <Link Id="Max0G0Vxi9wNRAkaFdOEsJ" Ids="G9e4JQq2i4FPDfggIxz1VV,OG41AibiZ5zNOgJxozdONN" />
             <Link Id="DGna2lRfdDnMQzVhT2IqMD" Ids="R6wKwNg7aBYPNC0Z6lGitj,PmrPuuaOey9LwonjurQDDB" />
-            <Link Id="NAXDLkfx7mFPnFpfvNntOd" Ids="HaaOGge4l16L8sWEt1W1p6,LXOyuM30IJwL1fmTGe5mBZ" />
             <Link Id="VBsGqEagViTPdETIMeye2Y" Ids="LXOyuM30IJwL1fmTGe5mBZ,VfG3pbp4TcKOUQc1oYV9MK" IsHidden="true" />
             <Link Id="KEJSP9m7XJROjy04uFTH5x" Ids="BxGq7dBnKRPM9g7xrtaoMf,AALkRaGARn0MWTT1lqncec" />
             <Link Id="G6RBFDdO14oOhvLPTNDLzL" Ids="IBO7sLITWo4LN3CXMVd9CT,BxGq7dBnKRPM9g7xrtaoMf" IsHidden="true" />
             <Link Id="TWIzaF3JrVENCOzDtluZfa" Ids="DjfKSlG5lNULMC1meihFFk,UNDS2sOsqdUQK4A1C50boP" />
+            <Link Id="BQ6pwsvE1XXNjshBIRRO5y" Ids="HaaOGge4l16L8sWEt1W1p6,VSi9gIpBZs6PEqmSoEDo8I" />
+            <Link Id="BPNxG4uhDFpQUjUQr346GV" Ids="BOQts5zDkVtP2CoaZ3pBMz,LXOyuM30IJwL1fmTGe5mBZ" />
           </Patch>
         </Node>
       </Canvas>

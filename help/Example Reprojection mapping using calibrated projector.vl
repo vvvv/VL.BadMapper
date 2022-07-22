@@ -729,7 +729,7 @@
               <p:buttonmode p:Assembly="VL.UI.Forms" p:Type="VL.HDE.PatchEditor.Editors.ButtonModeEnum">Bang</p:buttonmode>
             </p:ValueBoxSettings>
           </Pad>
-          <Node Bounds="388,845,225,19" Id="Spp30fcV4blOEz5d5cjIsO">
+          <Node Bounds="388,830,245,19" Id="Spp30fcV4blOEz5d5cjIsO">
             <p:NodeReference LastCategoryFullName="Stride" LastSymbolSource="VL.Stride.Engine.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="SceneWindow" />
@@ -928,24 +928,10 @@
               <Choice Kind="TypeFlag" Name="Int2" />
             </p:TypeAnnotation>
           </Pad>
-          <Node Bounds="428,781,63,19" Id="Jge4femmifQNGAPaA8850f">
-            <p:NodeReference LastCategoryFullName="Stride" LastSymbolSource="VL.Stride.Engine.vl">
-              <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
-              <CategoryReference Kind="Category" Name="Stride" NeedsToBeDirectParent="true" />
-              <Choice Kind="ProcessAppFlag" Name="RootScene" />
-            </p:NodeReference>
-            <Pin Id="EIAFUWPTUP2LVch24V9h51" Name="Child" Kind="InputPin" />
-            <Pin Id="APx1hD6QsyAPqFgI1iCyAI" Name="Enabled" Kind="InputPin" DefaultValue="True">
-              <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
-                <Choice Kind="TypeFlag" Name="Boolean" />
-              </p:TypeAnnotation>
-            </Pin>
-            <Pin Id="EMf9x2mWuUDPauGLb6lrls" Name="Output" Kind="OutputPin" />
-          </Node>
-          <Node Bounds="428,736,73,19" Id="RARktkBNF88OXk0nMq3pqX">
+          <Node Bounds="428,766,73,19" Id="RARktkBNF88OXk0nMq3pqX">
             <p:NodeReference LastCategoryFullName="Mapping.BadMapper" LastSymbolSource="VL.BadMapper.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
-              <Choice Kind="ProcessAppFlag" Name="BadMapper2" />
+              <Choice Kind="ProcessAppFlag" Name="BadMapper" />
             </p:NodeReference>
             <Pin Id="B8mYYW24ikmM8ajO1TjkNl" Name="Input" Kind="InputPin" />
             <Pin Id="VQEXVrKxEbuO5urlQ1wQqD" Name="Output" Kind="OutputPin" />
@@ -980,8 +966,7 @@
         <Link Id="E7SGZJApGqvMHKIQLfMSol" Ids="AX3CDyN1XFINF7HkK6iOSv,AGsE9KFuLZrPj70IV8PNiD" />
         <Link Id="FKnbqQOsEj9NO1bdnfT7UV" Ids="SokZ5isPAGFMw7X02IFhod,CzV8uNO6tn1LzkfAfuKHHD" />
         <Link Id="P6ydrNNIqvHQSqfLlzIQJL" Ids="SHTq6RWLNjuL04f5i0bEyA,CHB0R2XutMzP0DXScO3kkq" />
-        <Link Id="KGLVvAai8vfMZMXD7TcVI3" Ids="VQEXVrKxEbuO5urlQ1wQqD,EIAFUWPTUP2LVch24V9h51" />
-        <Link Id="USy9POUUmfMQT4ntGs4aBa" Ids="EMf9x2mWuUDPauGLb6lrls,IuJZqEMnMQoMrHhmjoBRM0" />
+        <Link Id="Nv79KFvQmozO2Sehnp3X80" Ids="VQEXVrKxEbuO5urlQ1wQqD,IuJZqEMnMQoMrHhmjoBRM0" />
       </Patch>
     </Node>
   </Patch>
