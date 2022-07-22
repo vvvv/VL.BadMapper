@@ -88,11 +88,12 @@
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="SceneWindow" />
             </p:NodeReference>
-            <Pin Id="NBntzMgO2p2OWwz3nm30nd" Name="Bounds" Kind="InputPin" DefaultValue="1016, 520, 737, 186">
+            <Pin Id="NBntzMgO2p2OWwz3nm30nd" Name="Bounds" Kind="InputPin" DefaultValue="1016, 520, 736.5714, 185.7143">
               <p:TypeAnnotation LastCategoryFullName="2D" LastSymbolSource="CoreLibBasics.vl">
                 <Choice Kind="TypeFlag" Name="Rectangle" />
               </p:TypeAnnotation>
             </Pin>
+            <Pin Id="ABfBfqd0RsmL3uFJiOHsKZ" Name="Bound to Document" Kind="InputPin" DefaultValue="True" />
             <Pin Id="Tq8EkEz8dpaN0aypubFani" Name="Input" Kind="InputPin" />
             <Pin Id="Ag8FzprKrhaLR5VfDlayfA" Name="Camera" Kind="InputPin" />
             <Pin Id="UJApSXW5BWwOpaqYT86yn5" Name="Enable Default Camera" Kind="InputPin" DefaultValue="False">

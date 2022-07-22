@@ -73,11 +73,12 @@
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="SceneWindow" />
             </p:NodeReference>
-            <Pin Id="NBntzMgO2p2OWwz3nm30nd" Name="Bounds" Kind="InputPin" DefaultValue="1040, 712.5714, 694.8571, 194.8571">
+            <Pin Id="NBntzMgO2p2OWwz3nm30nd" Name="Bounds" Kind="InputPin" DefaultValue="1040, 712.5714, 694.8571, 194.2857">
               <p:TypeAnnotation LastCategoryFullName="2D" LastSymbolSource="CoreLibBasics.vl">
                 <Choice Kind="TypeFlag" Name="Rectangle" />
               </p:TypeAnnotation>
             </Pin>
+            <Pin Id="KOAX86jmJgeMUSeBLXoFwt" Name="Bound to Document" Kind="InputPin" DefaultValue="True" />
             <Pin Id="Tq8EkEz8dpaN0aypubFani" Name="Input" Kind="InputPin" />
             <Pin Id="Ag8FzprKrhaLR5VfDlayfA" Name="Camera" Kind="InputPin" />
             <Pin Id="UJApSXW5BWwOpaqYT86yn5" Name="Enable Default Camera" Kind="InputPin" DefaultValue="True">
@@ -208,6 +209,7 @@
                 <Choice Kind="TypeFlag" Name="Rectangle" />
               </p:TypeAnnotation>
             </Pin>
+            <Pin Id="S1KSXwUVQwNMWn7MfhBP4o" Name="Bound to Document" Kind="InputPin" DefaultValue="True" />
             <Pin Id="GLuEXlbuvh0NON37epuZLk" Name="Back Buffer Format" Kind="InputPin" />
             <Pin Id="RGMmkE3KHjVNDS23P7xQJq" Name="Depth Buffer Format" Kind="InputPin" />
             <Pin Id="N2mQR4xRcdFOSJXeMIGDiJ" Name="Input" Kind="InputPin" />
