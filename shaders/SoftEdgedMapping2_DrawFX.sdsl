@@ -2,7 +2,6 @@
 shader SoftEdgedMapping2_DrawFX : VS_PS_Base, Texturing, TextureUtils, Camera
 {
     float4x4 TextureTransformation;
-    float4x4 SoftEdgeTransformation;
 
     float LeftSoftSize = 0.1f;
     float RightSoftSize = 0.1f;
@@ -21,7 +20,6 @@ shader SoftEdgedMapping2_DrawFX : VS_PS_Base, Texturing, TextureUtils, Camera
     uint InterpolationMode = 0;
 
     stream float4 TransformedTextureCoord;
-    stream float4 TransformedSoftEdgeTextureCoord;
 
     float2 ViewportSize = ViewSize;
     bool CompensateLightFalloff;
@@ -32,7 +30,6 @@ shader SoftEdgedMapping2_DrawFX : VS_PS_Base, Texturing, TextureUtils, Camera
     {
         streams.ShadingPosition = mul(streams.Position, WorldViewProjection);
         streams.TransformedTextureCoord = mul(float4(streams.TexCoord.xy, 0, 1.0f), TextureTransformation);        
-        streams.TransformedSoftEdgeTextureCoord = mul(float4(streams.TexCoord.xy, 0, 1.0f), SoftEdgeTransformation);
     }
 
     override stage void PSMain() 
@@ -41,26 +38,26 @@ shader SoftEdgedMapping2_DrawFX : VS_PS_Base, Texturing, TextureUtils, Camera
        
         if (LeftSoftSize > 0.0f)
         {
-            float u = saturate((streams.TransformedSoftEdgeTextureCoord.x - LeftSoftStart) / LeftSoftSize); 
+            float u = saturate((streams.TexCoord.x - LeftSoftStart) / LeftSoftSize); 
             alpha *= u;        
         }
 
         if (RightSoftSize > 0.0f)
         {
-            float u = saturate((1.0f - streams.TransformedSoftEdgeTextureCoord.x - RightSoftStart) / RightSoftSize); 
-            alpha *= u;        
+            float u_ = 1.0f - saturate((streams.TexCoord.x - RightSoftStart) / RightSoftSize); 
+            alpha *= u_;        
         }
 
         if (TopSoftSize > 0.0f)
         {
-            float v = saturate((streams.TransformedSoftEdgeTextureCoord.y - TopSoftStart) / TopSoftSize);  
+            float v = saturate((streams.TexCoord.y - TopSoftStart) / TopSoftSize);  
             alpha *= v;        
         }
 
         if (BottomSoftSize > 0.0f)
         {
-            float v = saturate((1.0f - streams.TransformedSoftEdgeTextureCoord.y - BottomSoftStart) / BottomSoftSize);  
-            alpha *= v;        
+            float v_ = 1.0f - saturate((streams.TexCoord.y - BottomSoftStart) / BottomSoftSize);  
+            alpha *= v_;        
         }
 
         if (CompensateLightFalloff)
