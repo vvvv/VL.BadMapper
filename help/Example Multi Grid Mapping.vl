@@ -44,7 +44,9 @@
             <Pin Id="CYKLwgR32GjPVhTZn4ca0G" Name="Show Calibration" Kind="InputPin" DefaultValue="True" />
             <Pin Id="IGtL4IEesHdMiJS2Y2Iwu8" Name="Use Debug Backdrop" Kind="InputPin" DefaultValue="False" />
             <Pin Id="SJZEVbj7cwBP3PGIejODvE" Name="Masks" Kind="InputPin" />
-            <Pin Id="KW4eaCQ7OTONm1YIOV3Hhb" Name="Bounds" Kind="InputPin" DefaultValue="1132, 87, 228, 670" />
+            <Pin Id="KW4eaCQ7OTONm1YIOV3Hhb" Name="Bounds" Kind="InputPin" DefaultValue="1132, 86.85714, 228, 669.7143" />
+            <Pin Id="TyyXQtw4WLlNAzS8JWMqsE" Name="Grid Color" Kind="InputPin" DefaultValue="0.6624006, 0.6399999, 0.8, 0.19" />
+            <Pin Id="GNHqADSrqZxNX890mFzrtw" Name="Background Color" Kind="InputPin" />
             <Pin Id="Pk0bAh2Sc0LQKBwRzORTqq" Name="Output" Kind="OutputPin" />
           </Node>
           <Node Bounds="381,559,205,19" Id="PeLywblbjGyNQvu5AQUJSl">
@@ -57,7 +59,7 @@
             <Pin Id="Fw2XzjgdpbiOnl1QhEoSHo" Name="Names" Kind="InputPin">
               <p:DefaultValue />
             </Pin>
-            <Pin Id="KgYQajCwQqeP1NzSR3stX2" Name="Color" Kind="InputPin" DefaultValue="1, 0.6599974, 0, 1" />
+            <Pin Id="KgYQajCwQqeP1NzSR3stX2" Name="Color" Kind="InputPin" DefaultValue="0, 0.7600002, 0.7599984, 1" />
             <Pin Id="FDCfm38PQjiN9GX0yzxfU1" Name="SoftEdge Parameters" Kind="InputPin" />
             <Pin Id="BEOqB8btua8QQlozPZY9zm" Name="Opacity" Kind="InputPin" />
             <Pin Id="GvZNUIrHx8DOo10mKeSE6h" Name="Compensate Light Falloff" Kind="InputPin" />

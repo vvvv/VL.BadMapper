@@ -40,12 +40,14 @@
               <CategoryReference Kind="Category" Name="Mapping" NeedsToBeDirectParent="true" />
             </p:NodeReference>
             <Pin Id="Rorgb8WNPHdOH4DLAId33Y" Name="Content Texture" Kind="InputPin" />
-            <Pin Id="RzdRmr1djfxN7fQhdpcCHs" Name="Content Dimensions" Kind="InputPin" DefaultValue="14.87, 7.66" />
+            <Pin Id="RzdRmr1djfxN7fQhdpcCHs" Name="Content Dimensions" Kind="InputPin" DefaultValue="10, 3" />
             <Pin Id="LTGqlbt6PRTLEViPqvcoBH" Name="Show Cropping" Kind="InputPin" DefaultValue="True" />
             <Pin Id="CYKLwgR32GjPVhTZn4ca0G" Name="Show Calibration" Kind="InputPin" DefaultValue="True" />
             <Pin Id="IGtL4IEesHdMiJS2Y2Iwu8" Name="Use Debug Backdrop" Kind="InputPin" DefaultValue="False" />
             <Pin Id="SJZEVbj7cwBP3PGIejODvE" Name="Masks" Kind="InputPin" />
-            <Pin Id="KW4eaCQ7OTONm1YIOV3Hhb" Name="Bounds" Kind="InputPin" DefaultValue="1057.714, 40.57143, 688.5714, 196" />
+            <Pin Id="KW4eaCQ7OTONm1YIOV3Hhb" Name="Bounds" Kind="InputPin" DefaultValue="1057.143, 40.57143, 688.5714, 196" />
+            <Pin Id="Cc7e1oDNs4GMKsC282SSMN" Name="Grid Color" Kind="InputPin" />
+            <Pin Id="HvNImqM53qKOS6vvaHaA0o" Name="Background Color" Kind="InputPin" />
             <Pin Id="AycA2FgJ6DGLwMFQpnklwI" Name="Output" Kind="OutputPin" />
           </Node>
           <Node Bounds="71,670,225,19" Id="PeLywblbjGyNQvu5AQUJSl">
@@ -234,12 +236,14 @@
               <CategoryReference Kind="Category" Name="Mapping" NeedsToBeDirectParent="true" />
             </p:NodeReference>
             <Pin Id="STrpC2Jl5kCQUZgTQXxgXY" Name="Content Texture" Kind="InputPin" />
-            <Pin Id="F1R4zXvkIvOO1LebAioixa" Name="Content Dimensions" Kind="InputPin" DefaultValue="14.87, 7.66" />
+            <Pin Id="F1R4zXvkIvOO1LebAioixa" Name="Content Dimensions" Kind="InputPin" DefaultValue="1.6, 1" />
             <Pin Id="VpjJbNUIqpTNeNCIl7QcuZ" Name="Show Cropping" Kind="InputPin" DefaultValue="True" />
             <Pin Id="N3EHeA9yULGPswnUt7UQ5N" Name="Show Calibration" Kind="InputPin" DefaultValue="True" />
             <Pin Id="MTOj5fyE8B1MHCuZJrRjV1" Name="Use Debug Backdrop" Kind="InputPin" DefaultValue="False" />
             <Pin Id="Q4gdTVNcuMVN0BEIDEjhma" Name="Masks" Kind="InputPin" />
             <Pin Id="KTZ3vbHGJEEOBivsbjTOSn" Name="Bounds" Kind="InputPin" DefaultValue="1352, 281.7143, 309.7143, 196" />
+            <Pin Id="AXid1WYD4QcLDUmliV9zTo" Name="Grid Color" Kind="InputPin" />
+            <Pin Id="Nzel9awAuMvNXZOQG8ngxt" Name="Background Color" Kind="InputPin" />
             <Pin Id="SiaE9thOLcTQbw5d5jlTvt" Name="Output" Kind="OutputPin" />
           </Node>
           <Node Bounds="567,184,125,19" Id="QdKHSlqMQmwPq7lG5tTxoX">

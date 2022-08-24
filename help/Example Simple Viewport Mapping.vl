@@ -27,6 +27,8 @@
             <Pin Id="MTOj5fyE8B1MHCuZJrRjV1" Name="Use Debug Backdrop" Kind="InputPin" DefaultValue="False" />
             <Pin Id="Q4gdTVNcuMVN0BEIDEjhma" Name="Masks" Kind="InputPin" />
             <Pin Id="KTZ3vbHGJEEOBivsbjTOSn" Name="Bounds" Kind="InputPin" DefaultValue="1278.857, 104, 578.8571, 320" />
+            <Pin Id="Qk49le19YSmLCyncLn3unk" Name="Grid Color" Kind="InputPin" DefaultValue="1, 0.99, 0.9942, 0.06999999" />
+            <Pin Id="BPnIXG13ntoMRXFtIp3KH8" Name="Background Color" Kind="InputPin" />
             <Pin Id="SiaE9thOLcTQbw5d5jlTvt" Name="Output" Kind="OutputPin" />
           </Node>
           <Node Bounds="507,167,125,19" Id="QdKHSlqMQmwPq7lG5tTxoX">
@@ -40,7 +42,7 @@
             <Pin Id="Pq4qiF38GLXLqekxd2bCa4" Name="Color A" Kind="InputPin" DefaultValue="0.7500002, 0.1725, 0.4843498, 1" />
             <Pin Id="QxX6ZycCWmKLm0tBzg7zPU" Name="Color B" Kind="InputPin" DefaultValue="0, 0.8200009, 1, 1" />
             <Pin Id="BuLAG0CppHSMDxNI3jkrtv" Name="Color C" Kind="InputPin" DefaultValue="1, 0.8400014, 0, 1" />
-            <Pin Id="IcdJa5ywKr4OGPwsowFf4E" Name="Output Size" Kind="InputPin" />
+            <Pin Id="IcdJa5ywKr4OGPwsowFf4E" Name="Output Size" Kind="InputPin" DefaultValue="1024, 512" />
             <Pin Id="VjhM78yYk2EMSGRbdpknJw" Name="Enabled" Kind="InputPin" />
             <Pin Id="T4iPW0StJo2OR1MNXjq3jD" Name="Output" Kind="OutputPin" />
           </Node>

@@ -5169,7 +5169,7 @@
             <Pin Id="B7x1P1ZLi9eM8OrN6oRCs3" MergeId="322020" Name="Use Debug Backdrop" Kind="InputPin" Bounds="545,241" />
             <Pin Id="GvgPaZHrqXRN3yf52EgYNh" MergeId="322028" Name="Masks" Kind="InputPin" />
             <Pin Id="GABJkX9xGBGLbxfSp1Quoo" MergeId="322027" Name="Bounds" Kind="InputPin" />
-            <Pin Id="PthImIi0jDAPfLV6YMYZ8N" Name="Grid Color" Kind="InputPin" />
+            <Pin Id="PthImIi0jDAPfLV6YMYZ8N" Name="Grid Color" Kind="InputPin" DefaultValue="1, 0.99, 0.9942, 0.4999998" />
             <Pin Id="A5onW0F1LUjPl8jNo38HBQ" Name="Background Color" Kind="InputPin" DefaultValue="0, 0, 0, 0.4999999" />
           </Patch>
           <Link Id="KYqWZuJNjU1Mf3JbPbT9la" Ids="SkBg3GbGNbRQccHCf4X8d1,OO3QZQmsRTlMmrAxIAxgAA" />

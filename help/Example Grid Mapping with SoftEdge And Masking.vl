@@ -296,10 +296,12 @@
             <Pin Id="OYqjg7RzTN8MypOY3UkiLe" Name="Show Calibration" Kind="InputPin" DefaultValue="True" />
             <Pin Id="U1DkYuiF66jQInZWSXGByT" Name="Use Debug Backdrop" Kind="InputPin" DefaultValue="False" />
             <Pin Id="A2ygsnZEpdMLV7IPsuHgb7" Name="Masks" Kind="InputPin" />
-            <Pin Id="J5ic1aeQ5MfNEbnwMy33TU" Name="Bounds" Kind="InputPin" DefaultValue="1053.714, 80, 701.7143, 177.7143" />
+            <Pin Id="J5ic1aeQ5MfNEbnwMy33TU" Name="Bounds" Kind="InputPin" DefaultValue="1053.143, 80, 701.7143, 177.7143" />
+            <Pin Id="MNHtvBlN2ikLfjrgayLzyv" Name="Grid Color" Kind="InputPin" DefaultValue="0.5330001, 0.8200001, 0.5961408, 0.2200002" />
+            <Pin Id="SVV86aCzuX0LDjWhsq5g8z" Name="Background Color" Kind="InputPin" />
             <Pin Id="O2bysBKKdfdLIHDjrsIo4I" Name="Output" Kind="StateOutputPin" />
           </Node>
-          <Pad Id="KdtbivIl0IKLgDJn2yaLUu" Comment="Content Dimensions" Bounds="347,206,35,28" ShowValueBox="true" isIOBox="true" Value="18, 4">
+          <Pad Id="KdtbivIl0IKLgDJn2yaLUu" Comment="Content Dimensions" Bounds="347,206,35,28" ShowValueBox="true" isIOBox="true" Value="16, 4">
             <p:TypeAnnotation LastCategoryFullName="2D" LastSymbolSource="CoreLibBasics.vl">
               <Choice Kind="TypeFlag" Name="Vector2" />
             </p:TypeAnnotation>
