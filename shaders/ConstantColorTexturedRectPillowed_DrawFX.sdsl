@@ -14,7 +14,7 @@
         float4 color = Texture0.Sample(LinearSampler, uv) * ColorInput;
         float d = 0.7071; //distance center to corner 
         float f = d-abs(sdBox(uv-0.5, float2(0.5f, 0.5f)));
-        color.a = smoothstep(1, 1-Pillow, f*1/d);
+        color.a = color.a * smoothstep(1, 1-Pillow, f*1/d);
         streams.ColorTarget = color;
     }
 };

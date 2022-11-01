@@ -1,7 +1,6 @@
 ﻿shader ConstantColorTexturedPillowed_DrawFX : ConstantColor_DrawFX, Texturing
 {
     float Pillow = 0.5f;
-    float Gamma = 0.5f;
 
     override stage void PSMain() 
     {
@@ -9,7 +8,7 @@
         float2 uv = streams.TexCoord;
         float d = distance(uv, c);
         float4 color = Texture0.Sample(LinearSampler, uv) * ColorInput;
-        color.a = smoothstep(1, 1-Pillow, d*2);
+        color.a = color.a * smoothstep(1, 1-Pillow, d*2);
         streams.ColorTarget = color;
     }
 };
