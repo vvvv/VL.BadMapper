@@ -395,12 +395,13 @@
             </p:NodeReference>
             <Pin Id="KYzwpHP0m53NLpy8g5MoTQ" Name="Names" Kind="InputPin" />
             <Pin Id="Pn0JKvXnSwNNqGHS5K5by3" Name="Cameras" Kind="InputPin" />
-            <Pin Id="D9dbxZvwQg9QNPO050KGbZ" Name="Content Cropping" Kind="InputPin" DefaultValue="1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1" />
+            <Pin Id="D9dbxZvwQg9QNPO050KGbZ" Name="Content Cropping" Kind="InputPin" />
             <Pin Id="Dqrb3V9TywEPmYoxcfew6U" Name="Compensate Light Falloff" Kind="InputPin" />
             <Pin Id="JbGbI9AjhtYOL9zmdNS8Eg" Name="Global Light Compensation" Kind="InputPin" />
             <Pin Id="SObpkRZB8BxMKlBQUr7Yhx" Name="Opacity" Kind="InputPin" />
             <Pin Id="QjkKycGC2ElNzdHs1c31UC" Name="Colors" Kind="InputPin" />
             <Pin Id="R0Oxp4mfZsTOFB9oZnbFwF" Name="Visualize Cells" Kind="InputPin" DefaultValue="True" />
+            <Pin Id="Bz4BQUJoSLIM0H0C4GYxeV" Name="Interpolation Mode" Kind="InputPin" />
             <Pin Id="CosHaADIbUbMZfds4jLyrm" Name="Output" Kind="StateOutputPin" />
           </Node>
         </Canvas>

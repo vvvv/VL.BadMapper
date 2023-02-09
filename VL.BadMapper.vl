@@ -18380,7 +18380,7 @@
               <p:DefaultValue />
             </Pin>
             <Pin Id="V8VUgnhexBJLvZIzBGIh3v" MergeId="321745" Name="Cameras" Kind="InputPin" Bounds="854,519" />
-            <Pin Id="P44DWACLcIaNLECXPZFBRK" Name="Content Cropping" Kind="InputPin">
+            <Pin Id="P44DWACLcIaNLECXPZFBRK" Name="Content Cropping" Kind="InputPin" DefaultValue="1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1">
               <p:TypeAnnotation>
                 <Choice Kind="TypeFlag" Name="Matrix" />
               </p:TypeAnnotation>
