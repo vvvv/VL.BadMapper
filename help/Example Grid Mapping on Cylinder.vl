@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Document xmlns:p="property" Id="BzdAU5f4gTZPjBW6gaaBZu" LanguageVersion="2021.4.10.1043" Version="0.128">
+<Document xmlns:p="property" Id="VHlTr1jlihZMKnhjtE3tgy" LanguageVersion="2021.4.10.1042" Version="0.128">
   <Patch Id="GUSIUYpgQaoPWjVwEkT0LM">
     <Canvas Id="J2Nx3Ec4ixiOZVxU4xEbAe" DefaultCategory="Main" CanvasType="FullCategory" />
     <!--
@@ -33,27 +33,19 @@
             </Pin>
             <Pin Id="PS1HsMKyui9M18ew8l3Xlw" Name="Output" Kind="StateOutputPin" />
           </Node>
-          <Node Bounds="274,559,205,19" Id="PeLywblbjGyNQvu5AQUJSl">
+          <Node Bounds="274,589,93,19" Id="PeLywblbjGyNQvu5AQUJSl">
             <p:NodeReference>
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="GridMapping (Single Mesh)" />
             </p:NodeReference>
             <Pin Id="SwmY3OY5at8OQBD84TBhad" Name="Source" Kind="InputPin" />
             <Pin Id="BcaUS7SdNwXL3FhHfak3tk" Name="Screen Count" Kind="InputPin" DefaultValue="3, 1" />
-            <Pin Id="Fw2XzjgdpbiOnl1QhEoSHo" Name="Names" Kind="InputPin">
-              <p:DefaultValue />
-            </Pin>
-            <Pin Id="KgYQajCwQqeP1NzSR3stX2" Name="Color" Kind="InputPin" DefaultValue="1, 0.6599974, 0, 1" />
             <Pin Id="FDCfm38PQjiN9GX0yzxfU1" Name="SoftEdge Parameters" Kind="InputPin" />
-            <Pin Id="GQIDmPzObc2Pn2GZO9mfJh" Name="Opacity" Kind="InputPin" />
-            <Pin Id="JhkDP51bSFxNgkOUgW5Yco" Name="Compensate Light Falloff" Kind="InputPin" />
-            <Pin Id="Ajhf9GDJD7POBCA2Mh1zPi" Name="Global Light Compensation" Kind="InputPin" />
-            <Pin Id="MflHWiqzUyOPjBNp7QU3FY" Name="Content Cropping" Kind="InputPin" DefaultValue="1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1" />
-            <Pin Id="VebhNOvuoVTPlWDQ1rq7NA" Name="Cameras" Kind="InputPin" />
             <Pin Id="VDdMyrrm7b3PuoISWTqotA" Name="Meshes" Kind="InputPin" />
+            <Pin Id="IF3jezQPDxyPbBStzOXFTc" Name="Shading" Kind="InputPin" />
             <Pin Id="T9cEoy4sC7WNsajpqxfbOl" Name="Output" Kind="OutputPin" />
           </Node>
-          <Pad Id="JvPfpcNxNvrM9D4Y4EOE30" Comment="" Bounds="239,468,35,65" ShowValueBox="true" isIOBox="true">
+          <Pad Id="JvPfpcNxNvrM9D4Y4EOE30" Comment="" Bounds="444,412,35,65" ShowValueBox="true" isIOBox="true">
             <p:TypeAnnotation LastCategoryFullName="Collections" LastSymbolSource="VL.Collections.vl">
               <Choice Kind="TypeFlag" Name="Spread" />
               <p:TypeArguments>
@@ -145,7 +137,7 @@
             <Pin Id="MTOj5fyE8B1MHCuZJrRjV1" Name="Use Debug Backdrop" Kind="InputPin" DefaultValue="False" />
             <Pin Id="Q4gdTVNcuMVN0BEIDEjhma" Name="Masks" Kind="InputPin" />
             <Pin Id="KTZ3vbHGJEEOBivsbjTOSn" Name="Bounds" Kind="InputPin" DefaultValue="1049.143, 97.71429, 676, 161.7143" />
-            <Pin Id="O3bgV7Y1CriPOvT7HLQNxm" Name="Grid Color" Kind="InputPin" DefaultValue="0.4400002, 0.4227528, 0.00880003, 0.55" />
+            <Pin Id="O3bgV7Y1CriPOvT7HLQNxm" Name="Grid Color" Kind="InputPin" DefaultValue="0, 0.37, 0.2146005, 0.4999998" />
             <Pin Id="Tz4T8L4PDQtLViVdEobYd1" Name="Background Color" Kind="InputPin" />
             <Pin Id="SiaE9thOLcTQbw5d5jlTvt" Name="Output" Kind="OutputPin" />
           </Node>
@@ -895,7 +887,7 @@
               <Choice Kind="TypeFlag" Name="Float32" />
             </p:TypeAnnotation>
           </Pad>
-          <Node Bounds="274,592,65,19" Id="JfCKn3KDuyJMozbDT5eXmM">
+          <Node Bounds="274,622,65,19" Id="JfCKn3KDuyJMozbDT5eXmM">
             <p:NodeReference LastCategoryFullName="Collections.Spread" LastSymbolSource="VL.Collections.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="OperationCallFlag" Name="FromValue" />
@@ -955,7 +947,7 @@
             <p:ColorIndex p:Type="Int32">5</p:ColorIndex>
           </Overlay>
           <Overlay Id="KcUX14UXOX0MevEm0IqcqM" Name="SoftEdges " Bounds="54,24,225,227" />
-          <Node Bounds="351,356,45,19" Id="BQCetRSUkt4MD9hxtHVhVT">
+          <Node Bounds="319,374,45,19" Id="BQCetRSUkt4MD9hxtHVhVT">
             <p:NodeReference LastCategoryFullName="Control" LastSymbolSource="CoreLibBasics.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <CategoryReference Kind="Category" Name="Control" NeedsToBeDirectParent="true" />
@@ -1106,6 +1098,24 @@
               <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
             </p:ValueBoxSettings>
           </Pad>
+          <Node Bounds="441,498,145,19" Id="Ps4mPtMnYJVN3V8Eua6K4H">
+            <p:NodeReference LastCategoryFullName="Mapping" LastSymbolSource="VL.BadMapper.vl">
+              <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+              <Choice Kind="ProcessAppFlag" Name="ShadingParameters (Grid)" />
+            </p:NodeReference>
+            <Pin Id="A3pG7U7eiDGOgg33nISZaE" Name="Names" Kind="InputPin">
+              <p:DefaultValue />
+            </Pin>
+            <Pin Id="FgFkZno10FRMrJ2vIlOIVK" Name="Cameras" Kind="InputPin" />
+            <Pin Id="QHn3e8VAt9COvWue7PZzGE" Name="Content Cropping" Kind="InputPin" DefaultValue="1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1" />
+            <Pin Id="UWeqbizfsYLLgZiUsHxqv2" Name="Compensate Light Falloff" Kind="InputPin" />
+            <Pin Id="VTrs8q5DeroP59tOILoIh3" Name="Global Light Compensation" Kind="InputPin" />
+            <Pin Id="Ay86Yen2ERcQA3bzXRH1SS" Name="Opacity" Kind="InputPin" />
+            <Pin Id="FpehZSIV2prP9uPXWLI8M7" Name="Colors" Kind="InputPin" />
+            <Pin Id="PMpZzWYgGNFNi0ksdD3s99" Name="Visualize Cells" Kind="InputPin" DefaultValue="True" />
+            <Pin Id="AJFY0nqOI04L0yrf4qGkfp" Name="Interpolation Mode" Kind="InputPin" DefaultValue="2" />
+            <Pin Id="PLJhmKKC9QkMFnl9ZX8jm0" Name="Output" Kind="OutputPin" />
+          </Node>
         </Canvas>
         <ProcessDefinition Id="F9ruwS6h1t7L1BMykV7oEU">
           <Fragment Id="DMwInPIu9vANK94nHUzcQd" Patch="FkdIltBlOfHNvfPTOpv0x1" Enabled="true" />
@@ -1113,7 +1123,6 @@
         </ProcessDefinition>
         <Patch Id="FkdIltBlOfHNvfPTOpv0x1" Name="Create" />
         <Patch Id="PkQBot0KssaNSIO2oeVug2" Name="Update" />
-        <Link Id="C6a43kwrZYsMYuUyWtKD1X" Ids="JvPfpcNxNvrM9D4Y4EOE30,Fw2XzjgdpbiOnl1QhEoSHo" />
         <Link Id="FUVXPDwqVmqNEH2YZdi6b7" Ids="SVSY5CoNrStMy6IeOrfJpY,Rwd2AGtA6BMOBmtSLnRoOQ" />
         <Link Id="Aj0xpcOSJKkOPneCg3Vt63" Ids="Nws6Lyk3sjUOoxQKlBLYFS,IyL5XKoGda2MT32FYQifcq" />
         <Link Id="MrUTws3vINHMNxxVE4VsoV" Ids="T4iPW0StJo2OR1MNXjq3jD,STrpC2Jl5kCQUZgTQXxgXY" />
@@ -1138,7 +1147,6 @@
         <Link Id="Lfzz5ssPDCyMk0uasb70QA" Ids="VvZeOJxplnaLqJbGgMUpvi,SBh0Zg1EvyGNNGRyU75mSx" />
         <Link Id="QBDSwbOxcoqLEhhNLxD4vE" Ids="KHajc3h9ZhjMZPwlW77ktt,MHULdk2X3jCQOfH3VwRDt8" />
         <Link Id="CMnQdfCE2AVP4XhHkKrkUh" Ids="QtmpYANnvzbM6sFbOjX3F3,G7AoF4tWQ8lNUnYoHlLMfi" />
-        <Link Id="OieppQwFkRIMBKac6gjgyv" Ids="D1p7FjcjBFMPFAoZoZ5pdA,VebhNOvuoVTPlWDQ1rq7NA" />
         <Link Id="J1XXAtFZRvyPKzEo0CDO35" Ids="CTgUiKtHJqlLidEl9oh9Kb,KO0bxG1LTY4OnlgfbUcNci" />
         <Link Id="TqA8bu0pHqEQFAur0HyIje" Ids="IckOzitgR4pMalFBOV3lf4,T15jwzV03bSLJJ6sKcpPRn" />
         <Link Id="HJrlcCRzrxBMzl3yf6z9gG" Ids="O5H9iXNtyc3O5X93yQKYla,SU7XSWUmRbvNAOuFjkX0UJ" />
@@ -1157,12 +1165,15 @@
         <Link Id="GwSKr111zkAMrnCI7Xrubf" Ids="P5UnB3NuOoYLEqdyvFE7q4,E833lsrBp0fLJ3LlSEPsqT" />
         <Link Id="UCNWv8E1fYmLUzbG6lpy1M" Ids="NGVH3r9Xya3Pjhhwi5Qo0J,F1l0CXpqubnMsZSNzu4YaF" />
         <Link Id="HamRVV6wkWkL2afcgtnlzo" Ids="IoSkov1HVoNQFUGBqKCA5m,VDdMyrrm7b3PuoISWTqotA" />
+        <Link Id="Dik5WAiVD4wPHX0hrSTCzF" Ids="JvPfpcNxNvrM9D4Y4EOE30,A3pG7U7eiDGOgg33nISZaE" />
+        <Link Id="HA4SsieEEbzM7XAf1dIAnS" Ids="D1p7FjcjBFMPFAoZoZ5pdA,FgFkZno10FRMrJ2vIlOIVK" />
+        <Link Id="LDdLWs0TreuPTIS4MkKI2h" Ids="PLJhmKKC9QkMFnl9ZX8jm0,IF3jezQPDxyPbBStzOXFTc" />
       </Patch>
     </Node>
   </Patch>
-  <NugetDependency Id="VZi3c0ShNtTOpaJ5Ysdd7W" Location="VL.CoreLib" Version="2021.4.10" />
-  <NugetDependency Id="UtqabdEzFm0QMbOw8kyAgV" Location="VL.Skia" Version="2021.4.10" />
-  <NugetDependency Id="Qj390DY9cdeMezAh0oNlDV" Location="VL.Stride" Version="2021.4.10" />
+  <NugetDependency Id="VZi3c0ShNtTOpaJ5Ysdd7W" Location="VL.CoreLib" Version="2021.4.10-1042-g0ee2288128" />
+  <NugetDependency Id="UtqabdEzFm0QMbOw8kyAgV" Location="VL.Skia" Version="2021.4.10-1042-g0ee2288128" />
+  <NugetDependency Id="Qj390DY9cdeMezAh0oNlDV" Location="VL.Stride" Version="2021.4.10-1042-g0ee2288128" />
   <DocumentDependency Id="Iko9yNJyOoHOUEIa2fv7fb" Location="../B-Spline.vl" />
   <NugetDependency Id="Vja1LfxtXchO0fVpSDiixr" Location="VL.BadMapper" Version="0.0.0.0" />
 </Document>

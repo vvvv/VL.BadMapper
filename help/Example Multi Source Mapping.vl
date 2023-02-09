@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Document xmlns:p="property" Id="BzdAU5f4gTZPjBW6gaaBZu" LanguageVersion="2021.4.10.1043" Version="0.128">
+<Document xmlns:p="property" Id="BzdAU5f4gTZPjBW6gaaBZu" LanguageVersion="2021.4.10.1042" Version="0.128">
   <Patch Id="GUSIUYpgQaoPWjVwEkT0LM">
     <Canvas Id="J2Nx3Ec4ixiOZVxU4xEbAe" DefaultCategory="Main" CanvasType="FullCategory" />
     <!--
@@ -14,7 +14,7 @@
       </p:NodeReference>
       <Patch Id="RvYLLBcUHcfO7vzArqoWyW">
         <Canvas Id="VH1UkuWoky3PP7OoCwNufG" CanvasType="Group">
-          <Node Bounds="199,354,89,19" Id="TgIJECA0uMBMV40KHjk2GJ">
+          <Node Bounds="110,408,89,19" Id="TgIJECA0uMBMV40KHjk2GJ">
             <p:NodeReference LastCategoryFullName="Main" LastSymbolSource="MultiScreen.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="SoftEdgeParams" />
@@ -50,27 +50,19 @@
             <Pin Id="HvNImqM53qKOS6vvaHaA0o" Name="Background Color" Kind="InputPin" />
             <Pin Id="AycA2FgJ6DGLwMFQpnklwI" Name="Output" Kind="OutputPin" />
           </Node>
-          <Node Bounds="71,670,225,19" Id="PeLywblbjGyNQvu5AQUJSl">
+          <Node Bounds="71,670,-9,19" Id="PeLywblbjGyNQvu5AQUJSl">
             <p:NodeReference LastCategoryFullName="Mapping" LastSymbolSource="VL.BadMapper.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="GridMapping" />
             </p:NodeReference>
             <Pin Id="SwmY3OY5at8OQBD84TBhad" Name="Source" Kind="InputPin" />
             <Pin Id="BcaUS7SdNwXL3FhHfak3tk" Name="Screen Count" Kind="InputPin" DefaultValue="3, 1" />
-            <Pin Id="Fw2XzjgdpbiOnl1QhEoSHo" Name="Names" Kind="InputPin">
-              <p:DefaultValue />
-            </Pin>
-            <Pin Id="KgYQajCwQqeP1NzSR3stX2" Name="Color" Kind="InputPin" DefaultValue="1, 0.6599974, 0, 1" />
             <Pin Id="FDCfm38PQjiN9GX0yzxfU1" Name="SoftEdge Parameters" Kind="InputPin" />
-            <Pin Id="GQIDmPzObc2Pn2GZO9mfJh" Name="Opacity" Kind="InputPin" />
-            <Pin Id="JhkDP51bSFxNgkOUgW5Yco" Name="Compensate Light Falloff" Kind="InputPin" />
-            <Pin Id="Ajhf9GDJD7POBCA2Mh1zPi" Name="Global Light Compensation" Kind="InputPin" />
-            <Pin Id="MflHWiqzUyOPjBNp7QU3FY" Name="Content Cropping" Kind="InputPin" />
-            <Pin Id="RCwGT9ivq5MN8wMtGgc0jt" Name="Cameras" Kind="InputPin" />
             <Pin Id="TFW5XRi3jyeQFI8hl6jbRh" Name="Meshes" Kind="InputPin" />
+            <Pin Id="MGZtIxXPQXcMwn6sizc7vd" Name="Shading" Kind="InputPin" />
             <Pin Id="T9cEoy4sC7WNsajpqxfbOl" Name="Output" Kind="OutputPin" />
           </Node>
-          <Pad Id="JvPfpcNxNvrM9D4Y4EOE30" Comment="Names" Bounds="96,429,35,65" ShowValueBox="true" isIOBox="true">
+          <Pad Id="JvPfpcNxNvrM9D4Y4EOE30" Comment="Names" Bounds="189,492,35,65" ShowValueBox="true" isIOBox="true">
             <p:TypeAnnotation LastCategoryFullName="Collections" LastSymbolSource="VL.Collections.vl">
               <Choice Kind="TypeFlag" Name="Spread" />
               <p:TypeArguments>
@@ -161,12 +153,12 @@
             <Pin Id="PhVkxeSl9khOk4NazuPFHe" Name="Translation" Kind="InputPin" DefaultValue="-1.89, -0.93" />
             <Pin Id="ICQRRoAQ8IhLRo4Mw0634Q" Name="Output" Kind="OutputPin" />
           </Node>
-          <Pad Id="SVSY5CoNrStMy6IeOrfJpY" Comment="Overlap" Bounds="201,282,35,28" ShowValueBox="true" isIOBox="true" Value="0.14, 0">
+          <Pad Id="SVSY5CoNrStMy6IeOrfJpY" Comment="Overlap" Bounds="112,336,35,28" ShowValueBox="true" isIOBox="true" Value="0.14, 0">
             <p:TypeAnnotation LastCategoryFullName="2D" LastSymbolSource="CoreLibBasics.vl">
               <Choice Kind="TypeFlag" Name="Vector2" />
             </p:TypeAnnotation>
           </Pad>
-          <Pad Id="Nws6Lyk3sjUOoxQKlBLYFS" Comment="Soft Overlap" Bounds="228,322,35,28" ShowValueBox="true" isIOBox="true" Value="0.08, 0">
+          <Pad Id="Nws6Lyk3sjUOoxQKlBLYFS" Comment="Soft Overlap" Bounds="139,376,35,28" ShowValueBox="true" isIOBox="true" Value="0.08, 0">
             <p:TypeAnnotation LastCategoryFullName="2D" LastSymbolSource="CoreLibBasics.vl">
               <Choice Kind="TypeFlag" Name="Vector2" />
             </p:TypeAnnotation>
@@ -337,7 +329,7 @@
             <Pin Id="RZ3ooutaED2OTuzzTd5rGU" Name="Input" Kind="InputPin" />
             <Pin Id="FEAN8SbpMvTL7OaLeGUzI6" Name="Result" Kind="OutputPin" />
           </Node>
-          <Node Bounds="359,540,45,19" Id="So9Db6UdbnYPQIzyvTW1lV">
+          <Node Bounds="390,474,45,19" Id="So9Db6UdbnYPQIzyvTW1lV">
             <p:NodeReference LastCategoryFullName="Collections.Spread" LastSymbolSource="VL.Collections.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <FullNameCategoryReference ID="Collections.Spread" />
@@ -348,18 +340,18 @@
             <Pin Id="NmJuEzNUVVKOiHuX4PLOup" Name="Input 2" Kind="InputPin" />
             <Pin Id="U9YKtCwEZpULPuGjT8shjb" Name="Input 3" Kind="InputPin" />
           </Node>
-          <Node Bounds="259,575,133,65" Id="EjIoTXvo6oaPI1lkXkEzY2">
+          <Node Bounds="290,509,133,66" Id="EjIoTXvo6oaPI1lkXkEzY2">
             <p:NodeReference>
               <Choice Kind="ApplicationStatefulRegion" Name="ForEach" />
               <FullNameCategoryReference ID="Primitive" />
             </p:NodeReference>
             <Pin Id="TlOFOoNzpegOY86jn3HFzs" Name="Break" Kind="OutputPin" />
-            <ControlPoint Id="TCiUtKL6xbcNdwnQdQCpfI" Bounds="363,582" Alignment="Top" />
+            <ControlPoint Id="TCiUtKL6xbcNdwnQdQCpfI" Bounds="394,516" Alignment="Top" />
             <Patch Id="L1WrfIVmwyRPYiwdOubeYL" ManuallySortedPins="true">
               <Patch Id="OLQuC6o13R1MrJxhEfJs7l" Name="Create" ManuallySortedPins="true" />
               <Patch Id="I5afrPFCES1NKpYXuAfN6o" Name="Update" ManuallySortedPins="true" />
               <Patch Id="A7cyaImxdjHOvGGKRAAE0b" Name="Dispose" ManuallySortedPins="true" />
-              <Node Bounds="271,600,109,19" Id="H5IzThdw2tYPRJH5ORYEI3">
+              <Node Bounds="302,534,109,19" Id="H5IzThdw2tYPRJH5ORYEI3">
                 <p:NodeReference LastCategoryFullName="Mapping" LastSymbolSource="VL.BadMapper.vl">
                   <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                   <Choice Kind="ProcessAppFlag" Name="HomographyCamera" />
@@ -369,9 +361,9 @@
                 <Pin Id="HLCpRjSwyjHLqEqM8upXWp" Name="Output" Kind="StateOutputPin" />
               </Node>
             </Patch>
-            <ControlPoint Id="IP8yEqZsXIHNfwjTjeEN2I" Bounds="284,635" Alignment="Bottom" />
+            <ControlPoint Id="IP8yEqZsXIHNfwjTjeEN2I" Bounds="315,569" Alignment="Bottom" />
           </Node>
-          <Pad Id="KXQND0LulbxQUCn7UBFiD8" Comment="" Bounds="274,433,69,80" ShowValueBox="true" isIOBox="true">
+          <Pad Id="KXQND0LulbxQUCn7UBFiD8" Comment="" Bounds="305,367,69,80" ShowValueBox="true" isIOBox="true">
             <p:TypeAnnotation LastCategoryFullName="Collections" LastSymbolSource="VL.Collections.vl">
               <Choice Kind="TypeFlag" Name="Spread" />
               <p:TypeArguments>
@@ -387,7 +379,7 @@
               <Item>-0.89, -0.8</Item>
             </p:Value>
           </Pad>
-          <Pad Id="H0P1fYT77kINkTDxZrTng6" Comment="" Bounds="355,433,69,80" ShowValueBox="true" isIOBox="true">
+          <Pad Id="H0P1fYT77kINkTDxZrTng6" Comment="" Bounds="386,367,69,80" ShowValueBox="true" isIOBox="true">
             <p:TypeAnnotation LastCategoryFullName="Collections" LastSymbolSource="VL.Collections.vl">
               <Choice Kind="TypeFlag" Name="Spread" />
               <p:TypeArguments>
@@ -403,7 +395,7 @@
               <Item>-0.85, -0.63</Item>
             </p:Value>
           </Pad>
-          <Pad Id="TvhVChOQsiYL2uMG0b3ZyU" Comment="" Bounds="436,433,69,80" ShowValueBox="true" isIOBox="true">
+          <Pad Id="TvhVChOQsiYL2uMG0b3ZyU" Comment="" Bounds="467,367,69,80" ShowValueBox="true" isIOBox="true">
             <p:TypeAnnotation LastCategoryFullName="Collections" LastSymbolSource="VL.Collections.vl">
               <Choice Kind="TypeFlag" Name="Spread" />
               <p:TypeArguments>
@@ -438,6 +430,21 @@
             <Pin Id="K1qqewbqMRaQCMeqEfpKPM" Name="Input 2" Kind="InputPin" />
             <Pin Id="V0Gd5QgnsAONnYke0nc9mW" Name="Result" Kind="OutputPin" />
           </Node>
+          <Node Bounds="226,620,145,19" Id="GAOtW4dtjuvN3ELEY0YXP7">
+            <p:NodeReference LastCategoryFullName="Mapping" LastSymbolSource="VL.BadMapper.vl">
+              <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+              <Choice Kind="ProcessAppFlag" Name="ShadingParameters (Grid)" />
+            </p:NodeReference>
+            <Pin Id="GmnVLxuuSrHPkcKna8UsmN" Name="Names" Kind="InputPin" />
+            <Pin Id="Mf0F97R3C34PsPfy0zwYLa" Name="Cameras" Kind="InputPin" />
+            <Pin Id="PqkGBPa0BtBLasIY7WlnQq" Name="Content Cropping" Kind="InputPin" DefaultValue="1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1" />
+            <Pin Id="Ja7Ce4TtYwAPha9JQmRYxe" Name="Compensate Light Falloff" Kind="InputPin" />
+            <Pin Id="IKAVQJIH84fPrHRDa0UA6x" Name="Global Light Compensation" Kind="InputPin" />
+            <Pin Id="Irk1j5DJ57PN7ZENDEcBCv" Name="Opacity" Kind="InputPin" />
+            <Pin Id="G9GMJvlAArsN2b1LHAVGOn" Name="Colors" Kind="InputPin" />
+            <Pin Id="Rthn1BDxLsqMPZ2ixHXsTk" Name="Visualize Cells" Kind="InputPin" />
+            <Pin Id="M37kT7WQGgpMSvZGIn86zC" Name="Output" Kind="StateOutputPin" />
+          </Node>
         </Canvas>
         <ProcessDefinition Id="F9ruwS6h1t7L1BMykV7oEU">
           <Fragment Id="DMwInPIu9vANK94nHUzcQd" Patch="FkdIltBlOfHNvfPTOpv0x1" Enabled="true" />
@@ -446,7 +453,6 @@
         <Patch Id="FkdIltBlOfHNvfPTOpv0x1" Name="Create" />
         <Patch Id="PkQBot0KssaNSIO2oeVug2" Name="Update" />
         <Link Id="KoFBiIB5PHWOuISEc1r4XU" Ids="PS1HsMKyui9M18ew8l3Xlw,FDCfm38PQjiN9GX0yzxfU1" />
-        <Link Id="C6a43kwrZYsMYuUyWtKD1X" Ids="JvPfpcNxNvrM9D4Y4EOE30,Fw2XzjgdpbiOnl1QhEoSHo" />
         <Link Id="LCic5cNyY5WPxmwyhJKUKj" Ids="PUkFqiHnGVkPDG0REsilqU,Rorgb8WNPHdOH4DLAId33Y" />
         <Link Id="L5QlaE6yK39LvBEogm6P1R" Ids="ICQRRoAQ8IhLRo4Mw0634Q,PlgxzoYok2hNZU4iGDCVY7" />
         <Link Id="FUVXPDwqVmqNEH2YZdi6b7" Ids="SVSY5CoNrStMy6IeOrfJpY,Rwd2AGtA6BMOBmtSLnRoOQ" />
@@ -470,19 +476,21 @@
         <Link Id="BGgqIlXlVmfPPhuU9W0u2Z" Ids="KXQND0LulbxQUCn7UBFiD8,UB4PWmlMsBvNwIY39u38qK" />
         <Link Id="M8ibEo4jjopQTPN0Ez6K1p" Ids="H0P1fYT77kINkTDxZrTng6,NmJuEzNUVVKOiHuX4PLOup" />
         <Link Id="Tots3y41fWjNklqUUGykCz" Ids="TvhVChOQsiYL2uMG0b3ZyU,U9YKtCwEZpULPuGjT8shjb" />
-        <Link Id="TFvavzd9cnjMks07MYA2k6" Ids="IP8yEqZsXIHNfwjTjeEN2I,RCwGT9ivq5MN8wMtGgc0jt" />
         <Link Id="D0u7oPcQwfoNmH5zXPGWCc" Ids="KAVBEDp7yjqM7Dl1hRVfDZ,E0l3BdZTYP1MZWC1iqCnq7" />
         <Link Id="KxV5EAeBp3BMiHm02463ig" Ids="C6EPY95NzWgLszJqc0PuEh,LAIRkcAPOWuP2AYz2c16ve" />
         <Link Id="IDidkzNQGkGPP7g4eByZEv" Ids="N4MY1sg4V5tLiNrI88774R,Jxa3GbyO1yKLuKLJslfU7u" />
         <Link Id="IHMFt2u9T1rM2waiADWYnX" Ids="V0Gd5QgnsAONnYke0nc9mW,Jogg5SOqtY2MXSZwytsUKA" />
         <Link Id="K2ASpdtAdJ8Qc1mY9ettDj" Ids="Ke0yaJ4PgSDLBY21JYBPrb,K1qqewbqMRaQCMeqEfpKPM" />
         <Link Id="Jdzhlw0342SQBQQiQKwqG5" Ids="T9cEoy4sC7WNsajpqxfbOl,P4wnYWCcqwBLHYHmm3kswz" />
+        <Link Id="TgkTh2OgrLWLf3NprwzLfl" Ids="M37kT7WQGgpMSvZGIn86zC,MGZtIxXPQXcMwn6sizc7vd" />
+        <Link Id="HoFHt9ly6WrNuKoxlKsJXh" Ids="JvPfpcNxNvrM9D4Y4EOE30,GmnVLxuuSrHPkcKna8UsmN" />
+        <Link Id="T8DSwv67Y5uLIpsmjkzm8X" Ids="IP8yEqZsXIHNfwjTjeEN2I,Mf0F97R3C34PsPfy0zwYLa" />
       </Patch>
     </Node>
   </Patch>
-  <NugetDependency Id="VZi3c0ShNtTOpaJ5Ysdd7W" Location="VL.CoreLib" Version="2021.4.10" />
-  <NugetDependency Id="UtqabdEzFm0QMbOw8kyAgV" Location="VL.Skia" Version="2021.4.10" />
-  <NugetDependency Id="Qj390DY9cdeMezAh0oNlDV" Location="VL.Stride" Version="2021.4.10" />
+  <NugetDependency Id="VZi3c0ShNtTOpaJ5Ysdd7W" Location="VL.CoreLib" Version="2021.4.10-1042-g0ee2288128" />
+  <NugetDependency Id="UtqabdEzFm0QMbOw8kyAgV" Location="VL.Skia" Version="2021.4.10-1042-g0ee2288128" />
+  <NugetDependency Id="Qj390DY9cdeMezAh0oNlDV" Location="VL.Stride" Version="2021.4.10-1042-g0ee2288128" />
   <DocumentDependency Id="Iko9yNJyOoHOUEIa2fv7fb" Location="../B-Spline.vl" />
   <NugetDependency Id="Vja1LfxtXchO0fVpSDiixr" Location="VL.BadMapper" Version="0.0.0.0" />
 </Document>
