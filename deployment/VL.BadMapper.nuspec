@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2011/10/nuspec.xsd">
   <metadata>
     <id>VL.BadMapper</id>
-    <version>0.0.17-alpha</version>
+    <version>0.0.18-alpha</version>
     <title>VL.BadMapper</title>
     <authors>vvvv</authors>
     <owners>vvvv</owners>
@@ -12,7 +12,7 @@
     <description>Projection mapping tools for VL</description>
     <tags>VL, projection, mapping</tags>
 	<dependencies>
-	  <dependency id="VL.OpenCV" version="2.1.0" />
+	  <dependency id="VL.OpenCV" version="2.5.1" />
     </dependencies>
 	<icon>icon\nugeticon.png</icon>
   </metadata>
