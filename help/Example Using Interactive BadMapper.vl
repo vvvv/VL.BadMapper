@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Document xmlns:p="property" Id="C6PwghiFZtsMGBfNc3AKun" LanguageVersion="2021.4.10.1043" Version="0.128">
+<Document xmlns:p="property" Id="C6PwghiFZtsMGBfNc3AKun" LanguageVersion="2022.5.0-0633-g5ed1cd7651" Version="0.128">
   <NugetDependency Id="GzbYazjJ5WNMiNJES4peBP" Location="VL.CoreLib" Version="2021.4.10" />
   <Patch Id="GwoJFsZ1pWmMtcj5qIbVPp">
     <Canvas Id="EYBdsYtxsX8MqjOqPOi7Uy" DefaultCategory="Main" CanvasType="FullCategory" />
@@ -16,7 +16,7 @@
       <Patch Id="CINtmijPBcBNK2TaQPwNCo">
         <Canvas Id="H3gxCKxXpa4NB5SeXHYHr6" CanvasType="Group">
           <Node Bounds="138,585,63,19" Id="BvXABSZefI7NHjSz8yGXp9">
-            <p:NodeReference LastCategoryFullName="Stride" LastSymbolSource="VL.Stride.Engine.vl">
+            <p:NodeReference LastCategoryFullName="Stride" LastDependency="VL.Stride.Engine.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="RootScene" />
             </p:NodeReference>
@@ -26,11 +26,11 @@
             <Pin Id="R2euREtwtCOQCMGUQFHQX5" Name="Output" Kind="OutputPin" />
           </Node>
           <Node Bounds="118,648,205,19" Id="MoeVlVWRNdSN3cLbyLUJcF">
-            <p:NodeReference LastCategoryFullName="Stride" LastSymbolSource="VL.Stride.Engine.vl">
+            <p:NodeReference LastCategoryFullName="Stride" LastDependency="VL.Stride.Engine.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="SceneWindow" />
             </p:NodeReference>
-            <Pin Id="HLvHxWm8MXMOn8EAatLpnT" Name="Bounds" Kind="InputPin" DefaultValue="1038.857, 448.5714, 852, 421.7143" />
+            <Pin Id="HLvHxWm8MXMOn8EAatLpnT" Name="Bounds" Kind="InputPin" DefaultValue="1038, 448, 852, 421" />
             <Pin Id="Ajpz3Vk5OpKMBHWJebxHEH" Name="Input" Kind="InputPin" />
             <Pin Id="GwyAWjrFw1ENg0SqHMXT3k" Name="Camera" Kind="InputPin" />
             <Pin Id="RS8dsY5pTl8OijX9UIFjtH" Name="Enable Default Camera" Kind="InputPin" />
@@ -41,12 +41,13 @@
             <Pin Id="MQgzCJRcnjkLtCO0uAVzgr" Name="Enable Default Post Effects" Kind="InputPin" />
             <Pin Id="JL3XPP6vTvXO860wtrLWMi" Name="Enable Keyboard Shortcuts" Kind="InputPin" />
             <Pin Id="K18VFN8OyZFPz2hhohFfEU" Name="Enabled" Kind="InputPin" />
+            <Pin Id="O2f4VDilz0TOzTV3NGX9hF" Name="Present Interval" Kind="InputPin" />
             <Pin Id="NJPV7RHznwRMwQw4nhaUxE" Name="Output" Kind="OutputPin" />
             <Pin Id="MuQ8hZApEikL0K3OZg1vEO" Name="Client Bounds" Kind="OutputPin" />
             <Pin Id="FCWaQgsZHl9PhPcNqr0sRy" Name="Input Source" Kind="OutputPin" />
           </Node>
           <Node Bounds="138,541,105,19" Id="PunoJ3zaAjULmXRhid3zJq">
-            <p:NodeReference LastCategoryFullName="Mapping.BadMapper" LastSymbolSource="VL.BadMapper.vl">
+            <p:NodeReference LastCategoryFullName="Mapping.BadMapper" LastDependency="VL.BadMapper.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="BadMapper (Interactive)" />
             </p:NodeReference>
@@ -54,13 +55,14 @@
             <Pin Id="UZKhN1S64IFMF93U9wI8bb" Name="Mappings" Kind="InputPin" />
             <Pin Id="Vq1uzMoqBoeLil48k161kq" Name="Masks" Kind="InputPin" />
             <Pin Id="DRNFWVaa1VrLnkxbVEwpNl" Name="Show Background" Kind="InputPin" DefaultValue="False" />
+            <Pin Id="K6lZgiZ4bwtOmAltJt4qO8" Name="Snap" Kind="InputPin" />
             <Pin Id="I9R7s1tuK1LOgo900zA5GE" Name="Show Cursor" Kind="InputPin" />
             <Pin Id="VehsNUObXZZPxOl1SxvlTz" Name="Show Cropper" Kind="InputPin" />
             <Pin Id="DoeZRb8FZIAOhWSKZ67CfY" Name="Projector Output" Kind="OutputPin" />
             <Pin Id="U4UZ5epUHJNOkUsBwWQk5Z" Name="Projector Camera" Kind="OutputPin" />
           </Node>
           <Node Bounds="158,428,45,19" Id="L8I8hFixoGBObnABbFQ0OB">
-            <p:NodeReference LastCategoryFullName="Collections.Spread" LastSymbolSource="VL.Collections.vl">
+            <p:NodeReference LastCategoryFullName="Collections.Spread" LastDependency="VL.Collections.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="OperationCallFlag" Name="Cons" />
               <CategoryReference Kind="RecordType" Name="Spread" NeedsToBeDirectParent="true" />
@@ -71,17 +73,17 @@
             <Pin Id="SMb3ToW5bxnOVxh9f7uuCF" Name="Input 3" Kind="InputPin" />
           </Node>
           <Node Bounds="112,382,85,19" Id="DPId6AqgAn6O35oPgo5NCp">
-            <p:NodeReference LastCategoryFullName="Mapping" LastSymbolSource="VL.BadMapper.vl">
+            <p:NodeReference LastCategoryFullName="Mapping" LastDependency="VL.BadMapper.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="QuadMapping (Interactive)" />
             </p:NodeReference>
-            <Pin Id="OPzCnRMcbzCLb7WqHGrsoX" Name="Initial Crop" Kind="InputPin" />
+            <Pin Id="OPzCnRMcbzCLb7WqHGrsoX" Name="Initial Crop" Kind="InputPin" DefaultValue="-0.5337837, -0.13513517, 0.77027017, 0.5" />
             <Pin Id="VSMMdkZSP21LJlnA3pDcvx" Name="Initial Screen Points" Kind="InputPin">
               <p:DefaultValue>
-                <Item>-1.893365, -0.4241705</Item>
-                <Item>-0.8838862, -0.400474</Item>
-                <Item>-1.059242, 0.3222749</Item>
-                <Item>-1.760664, 0.3222749</Item>
+                <Item>-1.3375456, -0.6617001</Item>
+                <Item>-0.51306415, -0.53919244</Item>
+                <Item>-0.5034226, 0.08474526</Item>
+                <Item>-1.2048445, 0.08474526</Item>
               </p:DefaultValue>
             </Pin>
             <Pin Id="G81n7ZWfInzLhX8xtDHLPy" Name="Texture" Kind="InputPin" />
@@ -90,17 +92,17 @@
             <Pin Id="HXDe4bRNuaBQLZIOckVLYB" Name="Output" Kind="StateOutputPin" />
           </Node>
           <Node Bounds="233,382,125,19" Id="Bnnl6oVm7ufNYdFbpi9J8I">
-            <p:NodeReference LastCategoryFullName="Mapping" LastSymbolSource="VL.BadMapper.vl">
+            <p:NodeReference LastCategoryFullName="Mapping" LastDependency="VL.BadMapper.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="CircleMapping (Interactive)" />
             </p:NodeReference>
             <Pin Id="CRg7jPFTSxGLsnCcbxiIAv" Name="Initial Crop" Kind="InputPin" DefaultValue="-0.6228958, -0.5084174, 1.151515, 1.117845" />
             <Pin Id="STlKot0rVG1NBoytuNar6x" Name="Initial Screen Points" Kind="InputPin">
               <p:DefaultValue>
-                <Item>-1.967187, -0.5019858</Item>
-                <Item>-0.5122116, -0.421417</Item>
-                <Item>-0.7586569, 0.4221852</Item>
-                <Item>-1.938751, 0.4837965</Item>
+                <Item>-0.74636775, 0.05242771</Item>
+                <Item>0.5567365, 0.16254222</Item>
+                <Item>0.31029123, 1.0061444</Item>
+                <Item>-0.8698029, 1.0677557</Item>
               </p:DefaultValue>
             </Pin>
             <Pin Id="QpOeZshgKJiM6lPAxUmESZ" Name="Texture" Kind="InputPin" />
@@ -111,25 +113,26 @@
             <Pin Id="ORaNo0WghisNxkBEzGuMz3" Name="Output" Kind="StateOutputPin" />
           </Node>
           <Node Bounds="178,471,85,19" Id="Bx43OxG6pJHPxsfRs3ZMlh">
-            <p:NodeReference LastCategoryFullName="Mapping" LastSymbolSource="VL.BadMapper.vl">
+            <p:NodeReference LastCategoryFullName="Mapping" LastDependency="VL.BadMapper.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="Mask (Interactive)" />
             </p:NodeReference>
             <Pin Id="BDh7ZkzBXvlODQOL5efmvH" Name="Knots" Kind="InputPin">
               <p:DefaultValue>
-                <Item Control1="1.592448, 0.5471265" Control2="1.592448, 0.5471265" Point="1.592448, 0.5471265" />
-                <Item Control1="1.611371, 0.169694" Control2="1.34743, 0.1577799" Mode="2" Point="1.483193, 0.1639082" />
-                <Item Control1="1.267069, 0.4900002" Control2="1.267069, 0.4900002" Point="1.267069, 0.4900002" />
+                <Item Control1="1.982448, 0.76712644" Control2="1.982448, 0.76712644" Point="1.982448, 0.76712644" />
+                <Item Control1="1.8419347, -0.21747632" Control2="1.0857223, -0.1667417" Mode="2" Point="1.523193, -0.1960918" />
+                <Item Control1="0.86706895, 0.6900002" Control2="0.86706895, 0.6900002" Point="0.86706895, 0.6900002" />
               </p:DefaultValue>
             </Pin>
             <Pin Id="NloImweKaLrM72DRzenEvH" Name="Color" Kind="InputPin" DefaultValue="1, 0, 0, 1" />
             <Pin Id="NjGXiTT4ln0Mkl9DJeStyH" Name="Invert" Kind="InputPin" DefaultValue="False" />
             <Pin Id="HWgJlqqB0aMM7DB3SQFWVS" Name="Blur" Kind="InputPin" DefaultValue="0" />
+            <Pin Id="D7J3nfks86GNY2rRDlQKRd" Name="Edit" Kind="InputPin" DefaultValue="False" />
             <Pin Id="JXKcV7VakWKQC0NhvQ6CXT" Name="Enabled" Kind="InputPin" DefaultValue="True" />
             <Pin Id="Hz8uBjMkuhKLaKtf8EridC" Name="Output" Kind="StateOutputPin" />
           </Node>
           <Node Bounds="178,507,39,19" Id="RwGdF7qRcJqPoMlUto9BHi">
-            <p:NodeReference LastCategoryFullName="Collections.Spread" LastSymbolSource="VL.Collections.vl">
+            <p:NodeReference LastCategoryFullName="Collections.Spread" LastDependency="VL.Collections.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="OperationCallFlag" Name="Cons" />
               <CategoryReference Kind="RecordType" Name="Spread" NeedsToBeDirectParent="true" />
@@ -138,12 +141,12 @@
             <Pin Id="N3qH4DlZDv3MmqB42CY9ia" Name="Result" Kind="OutputPin" />
           </Node>
           <Pad Id="ETBXUQ2VwFfLRFBcKdLwPK" Comment="Pillow" Bounds="315,339,35,15" ShowValueBox="true" isIOBox="true" Value="0.08">
-            <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="CoreLibBasics.vl">
               <Choice Kind="TypeFlag" Name="Float32" />
             </p:TypeAnnotation>
           </Pad>
           <Node Bounds="152,304,85,19" Id="M50zioOlx9HLjZrgpmGWx9">
-            <p:NodeReference LastCategoryFullName="Stride.Textures.Source" LastSymbolSource="VL.Stride.Rendering.EffectShaderNodes">
+            <p:NodeReference LastCategoryFullName="Stride.Textures.Source" LastDependency="VL.Stride.Rendering.EffectShaderNodes">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessNode" Name="Checkerboard" />
             </p:NodeReference>
@@ -155,7 +158,7 @@
             <Pin Id="LKOEb7GtIDUPdbEnn5vUYK" Name="Output" Kind="OutputPin" />
           </Node>
           <Node Bounds="395,649,205,19" Id="EZ9SLb7zDwlPriVscIxB9P">
-            <p:NodeReference LastCategoryFullName="Stride" LastSymbolSource="VL.Stride.Engine.vl">
+            <p:NodeReference LastCategoryFullName="Stride" LastDependency="VL.Stride.Engine.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="SceneWindow" />
             </p:NodeReference>
@@ -170,22 +173,23 @@
             <Pin Id="GWwvmRXQv0mLwHnY5894Rq" Name="Enable Default Post Effects" Kind="InputPin" />
             <Pin Id="UZ4iccgeulHOQRZ7CBhtUI" Name="Enable Keyboard Shortcuts" Kind="InputPin" />
             <Pin Id="Tcok7V0535BMHDxMG7bGXD" Name="Enabled" Kind="InputPin" />
+            <Pin Id="LwaB4ehxOHYLqpPTFMOSID" Name="Present Interval" Kind="InputPin" />
             <Pin Id="MjuNGioFOYpMi54oqQMRCS" Name="Output" Kind="OutputPin" />
             <Pin Id="CdwoHE1Nu7aMM6OTd7b9xg" Name="Client Bounds" Kind="OutputPin" />
             <Pin Id="DhNUjiBhJS9Pj4CMvtODpr" Name="Input Source" Kind="OutputPin" />
           </Node>
           <Node Bounds="381,382,93,19" Id="IBMQJwJ9tC1P7DQTRZc4nH">
-            <p:NodeReference LastCategoryFullName="Mapping" LastSymbolSource="VL.BadMapper.vl">
+            <p:NodeReference LastCategoryFullName="Mapping" LastDependency="VL.BadMapper.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="TriangleMapping (Interactive)" />
             </p:NodeReference>
             <Pin Id="NOdwnfGXK4POTePv5TcJJl" Name="Initial Crop" Kind="InputPin" />
             <Pin Id="LNxK9dM9zQcOjBDXuYbF3W" Name="Initial Screen Points" Kind="InputPin">
               <p:DefaultValue>
-                <Item>-0.2610268, -0.3692843</Item>
-                <Item>0.6066351, -0.2180096</Item>
-                <Item>0.6587679, 0.4597157</Item>
-                <Item>-0.2039405, 0.2304342</Item>
+                <Item>0.21171184, -0.47747755</Item>
+                <Item>1.1111398, -0.4071988</Item>
+                <Item>1.1632724, 0.2705265</Item>
+                <Item>0.3005643, 0.041245</Item>
               </p:DefaultValue>
             </Pin>
             <Pin Id="VfVD0C5ii5sOjTfCEaojGm" Name="Texture" Kind="InputPin" />
@@ -193,23 +197,15 @@
             <Pin Id="BMvoWJrk3KJOQsoqblDUPv" Name="Enabled" Kind="InputPin" />
             <Pin Id="F4Zy4rQk1g1PMGoQEjLCHY" Name="Output" Kind="StateOutputPin" />
           </Node>
-          <Node Bounds="264,265" Id="QsuYlZf6PocOD6foyRkOm3">
-            <p:NodeReference LastCategoryFullName="Stride.Textures.Source" LastSymbolSource="VL.Stride.Windows.vl">
+          <Node Bounds="277,266,54,19" Id="UreEPX145D0NegWHQwXEsR">
+            <p:NodeReference LastCategoryFullName="Stride.Textures.Source" LastDependency="VL.Stride.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
-              <CategoryReference Kind="Category" Name="Source" />
-              <Choice Kind="ProcessAppFlag" Name="Circle" />
+              <Choice Kind="ProcessNode" Name="Neurons" />
             </p:NodeReference>
-            <Pin Id="BnrMGELeuLrOjzjqjGxMMJ" Name="Position" Kind="InputPin" />
-            <Pin Id="HeBHcnRMD5aMDBtOsESQZZ" Name="Radius" Kind="InputPin" DefaultValue="0.35" />
-            <Pin Id="OXp4dplzTZcM4FYy1XtJPT" Name="Background Color" Kind="InputPin" />
-            <Pin Id="Bq4Q0jrArVuMRm6EJZzYVo" Name="Fill Color" Kind="InputPin" />
-            <Pin Id="MxLqm2QobqxPCtM0jZvb8B" Name="Fill Enabled" Kind="InputPin" />
-            <Pin Id="F7reVth8rDOPffoXLD9En1" Name="Stroke Color" Kind="InputPin" />
-            <Pin Id="M0ew0IrfqDyPuxwkpZY7bh" Name="Stroke Width" Kind="InputPin" />
-            <Pin Id="Q0gaw6roa4ePaUbUIDDWeb" Name="Stroke Offset" Kind="InputPin" />
-            <Pin Id="OIyWJJ0kie3M41Fh9zOhMY" Name="Stroke Enabled" Kind="InputPin" />
-            <Pin Id="AEGyTmBdg8aPzaWIL6HCZK" Name="Output Size" Kind="InputPin" />
-            <Pin Id="I0JRl75RP4QLyH8FVriple" Name="Output" Kind="OutputPin" />
+            <Pin Id="OgCH2tDX6W0MrcbzyDNW12" Name="Time" Kind="InputPin" />
+            <Pin Id="Sl1Edj9PEMWO2qwkceTE2k" Name="Output Size" Kind="InputPin" />
+            <Pin Id="Q2OYvcZqXzSNgTpjj6G5wU" Name="Enabled" Kind="InputPin" />
+            <Pin Id="Vfa5yJDCD2mMsInGlNDWx5" Name="Output" Kind="OutputPin" />
           </Node>
         </Canvas>
         <Patch Id="JGk4J3vPMufM6HKm7vUCVd" Name="Create" />
@@ -233,7 +229,7 @@
         <Link Id="VbktYv38fnmLitSoees3j8" Ids="U4UZ5epUHJNOkUsBwWQk5Z,B1ctsgHXpKGOw5YeGoa9Dk" />
         <Link Id="JtExcF4dqNAOaKTxgySEW4" Ids="F4Zy4rQk1g1PMGoQEjLCHY,SMb3ToW5bxnOVxh9f7uuCF" />
         <Link Id="EKmt6gYaa6kN7b2v8t8KAQ" Ids="LKOEb7GtIDUPdbEnn5vUYK,VfVD0C5ii5sOjTfCEaojGm" />
-        <Link Id="Lyy4xtmup17QICWw7b1rcB" Ids="I0JRl75RP4QLyH8FVriple,QpOeZshgKJiM6lPAxUmESZ" />
+        <Link Id="Qh9lmmNRau5NI5KeUBGO4d" Ids="Vfa5yJDCD2mMsInGlNDWx5,QpOeZshgKJiM6lPAxUmESZ" />
       </Patch>
     </Node>
   </Patch>
